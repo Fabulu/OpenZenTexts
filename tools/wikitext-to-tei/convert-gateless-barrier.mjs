@@ -268,7 +268,16 @@ function buildTei(parsed) {
     out.push('  <text>');
     out.push('    <body>');
 
-    // Top-level head
+    // Every <head> must be preceded by an <lb> that owns its bucket.
+    // Without this, the parser's current line-id is whatever the previous
+    // section's last <lb> set, and the heading text bleeds into that
+    // bucket (e.g. case 2's title appearing as a tail on case 1's last
+    // verse line). The leading <lb> creates a fresh empty bucket which
+    // the heading text fills, and which the headings array references
+    // by lineId so deep links to a section land at the heading itself.
+
+    // Top-level work title
+    out.push('      <lb n="wm.title"/>');
     out.push('      <head>禪宗無門關</head>');
 
     // Preface
@@ -285,6 +294,9 @@ function buildTei(parsed) {
     // Cases
     for (const c of parsed.cases) {
         const caseKey = `case${pad(c.number)}`;
+
+        // Case heading: e.g. "1. 趙州狗子"
+        out.push(`      <lb n="wm.${caseKey}.head"/>`);
         out.push(`      <head>${escapeXml(c.number + '. ' + c.title)}</head>`);
 
         if (c.body.length > 0) {
@@ -298,6 +310,8 @@ function buildTei(parsed) {
         }
 
         if (c.wumen.length > 0) {
+            // 無門曰 sub-heading
+            out.push(`      <lb n="wm.${caseKey}.wumen.head"/>`);
             out.push('      <head>無門曰</head>');
             const wumenLines = paragraphsToLines(c.wumen);
             out.push('      <p>');
@@ -309,6 +323,8 @@ function buildTei(parsed) {
         }
 
         if (c.verse.length > 0) {
+            // 頌曰 sub-heading
+            out.push(`      <lb n="wm.${caseKey}.verse.head"/>`);
             out.push('      <head>頌曰</head>');
             const verseLines = paragraphsToLines(c.verse);
             out.push('      <p>');
