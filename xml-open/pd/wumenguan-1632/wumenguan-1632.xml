@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh-Hant">無門關（一六三二年和刻本，国立国会図書館本・編訂讀本）</title>
+        <title xml:lang="en">The Gateless Barrier — 1632 NDL Woodblock Reading Edition</title>
+        <title type="alt" xml:lang="zh-Hant">無門關（1632 NDL 和刻本）</title>
+        <title type="alt" xml:lang="ja">無門関 — 1632年国会図書館本 読本版</title>
+        <title type="alt" xml:lang="en">Wumenguan / Mumonkan — 1632 NDL block, Read Zen reading edition</title>
+        <author>無門慧開 (Wumen Huikai, 1183–1260)</author>
+        <editor role="compiler">宗紹 (Zongshao, fl. 1228)</editor>
+        <editor role="reading-edition">Read Zen — OpenZenTexts curation</editor>
+        <respStmt>
+          <resp>Witness sourcing, OCR, image adjudication, editorial rebuild, and TEI conversion</resp>
+          <name>Read Zen — OpenZenTexts curation</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Read Zen — OpenZenTexts</publisher>
+        <pubPlace>https://github.com/Fabulu/OpenZenTexts</pubPlace>
+        <date when="1228">Composed 1228 (Shaoding 1) — base witness printed 1632</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">
+            <p><label>Reading-edition license:</label> Creative Commons CC0 1.0 Universal (public domain dedication). The editor dedicates this reading edition — including the line-ID scheme, segmentation, case ordering, and small editorial repairs — to the public domain. You may use, copy, modify, redistribute, translate, sell, or build commercial products from this file without any obligation to attribute, share-alike, or notify anyone.</p>
+          </licence>
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">
+            <p><label>Underlying work license:</label> Public domain (PD-old). The author Wumen Huikai died in 1260, more than 760 years ago, well beyond any plausible copyright term in any jurisdiction. The 1632 Japanese woodblock witness is a mechanical reproduction of a public-domain original.</p>
+          </licence>
+          <p><label>Base witness:</label> NDL 12865429 無門關 1卷 (Japan, 1632 woodblock imprint). Hosted on Wikimedia Commons as a public-domain mechanical scan.</p>
+          <p><label>Base witness URL:</label> https://commons.wikimedia.org/wiki/File:NDL12865429_%E7%84%A1%E9%96%80%E9%97%9C_1%E5%8D%B7.pdf</p>
+          <p><label>Base witness local PDF:</label> C:\woodblocks\Wumenguan_1632_NDL_Commons\NDL12865429_wumenguan_1juan.pdf (188,151,699 bytes, SHA-256 64D5CB03D60C70E94DE5BAC514BE6BEF3956892E51011CE5F80A163252B50026)</p>
+          <p><label>Corroborating witness (secondary):</label> Waseda University Library bunko31 e1102 無門關 1卷 (Japan, 1752 woodblock imprint), hosted on Wikimedia Commons as a public-domain mechanical scan. URL: https://commons.wikimedia.org/wiki/File:WUL-bunko31_e1102_%E7%84%A1%E9%96%80%E9%96%A2.pdf — local PDF: C:\woodblocks\Mumonkan_1752_Waseda_Commons\WUL-bunko31_e1102_mumonkan.pdf (47,017,686 bytes, SHA-256 A88B551B9C168D6FC946E27130EB0012A8F562815E85E5E8305DD6F9ECCD0C5F). Confidence: medium-high (Commons-hosted PD-old).</p>
+          <p><label>Corroborating witness (context, incomplete rights memo):</label> NDL 2537788 無門慧開禪師語錄 (the Wumen-Huikai Record — a collected sayings-record of the same master). Local PDF: C:\woodblocks\Wumen_Huikai_NDL_Commons\NDL2537788_wumen_kai_record.pdf (218,588,120 bytes, SHA-256 518A4F450325B2E3CB707AC2D657C71E33EC3BDF7F855D1B24D1CB4489C674D4). The rights memo for this witness is still marked incomplete in the local source ledger (C:\woodblocks\Wumen_Huikai_NDL_Commons\README.md) — it is cited here as an editorial corroborant for Huikai's own voice only, not as a primary authority, and downstream users should independently confirm its provenance before leaning on it.</p>
+          <p><label>Rights basis:</label> All three witnesses are PD by age (Song-era core work; 1632/1752 Japanese woodblock imprints; mechanical scans by Wikimedia Commons and/or the NDL). The editorial reading-edition layer — the segmentation, line-ID scheme, case ordering, small repairs — is the editor's own creative work and is released under CC0 1.0. No attribution is required.</p>
+          <p><label>Provenance check:</label> The captured source package shows no CBETA marker. This file is independent of CBETA-encoded material and uses a synthetic "wm32.*" line-ID namespace that cannot collide with CBETA woodblock notation.</p>
+          <p><label>Curator:</label> Read Zen — OpenZenTexts curation, 2026-04-12</p>
+          <p><label>Conversion:</label> Generated from the editorial reading-edition markdown (C:\woodblocks\Transcriptions\Wumenguan_1632_NDL_Commons\architect\WUMENGUAN_1632_READING_EDITION.md, 30,903 bytes, SHA-256 6ECC0B148D4CC82C1CF18B60C193D6C5BE24298875140A89869FE67288C6E742) via tools/woodblock-to-tei/convert-wumenguan-1632.mjs in this repository. The conversion is deterministic and idempotent — same input, same output.</p>
+          <p><label>Commercial use:</label> Fully permitted. No obligations of any kind. CC0 1.0 Universal dedicates the editorial layer to the public domain.</p>
+          <p><label>Required attribution:</label> None. Attribution is welcome but not required. If you want to credit the source anyway, a suggested short form is: "無門關 — 1632 NDL Woodblock Reading Edition, Read Zen OpenZenTexts (CC0)."</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>無門慧開 (Wumen Huikai), 禪宗無門關 (Chánzōng Wúménguān / "The Gateless Barrier of the Chan School"), composed Shaoding 1 (1228), compiled by 宗紹 (Zongshao). Forty-eight kōan cases with the master's commentary (無門曰) and verses (頌), plus a later-appended 49th-case addendum by 安晚 (Anwan). This file presents the 1632 Japanese woodblock witness as an editorial reading edition — not a diplomatic transcript, not a full critical edition.</bibl>
+        <bibl type="witness-base">NDL 12865429 無門關 1卷 (Japan, 1632 woodblock imprint). Wikimedia Commons file: https://commons.wikimedia.org/wiki/File:NDL12865429_%E7%84%A1%E9%96%80%E9%97%9C_1%E5%8D%B7.pdf — local PDF: NDL12865429_wumenguan_1juan.pdf (188,151,699 bytes).</bibl>
+        <bibl type="witness-secondary">Waseda University Library bunko31 e1102 無門關 1卷 (Japan, 1752 woodblock imprint). Wikimedia Commons file: https://commons.wikimedia.org/wiki/File:WUL-bunko31_e1102_%E7%84%A1%E9%96%80%E9%96%A2.pdf — local PDF: WUL-bunko31_e1102_mumonkan.pdf (47,017,686 bytes).</bibl>
+        <bibl type="witness-context">NDL 2537788 無門慧開禪師語錄 (Wumen Huikai Recorded Sayings; rights-memo status: incomplete). Local PDF: NDL2537788_wumen_kai_record.pdf (218,588,120 bytes). Used as a tertiary corroborant for Huikai's voice only.</bibl>
+        <bibl type="digitalSource">Editorial reading-edition markdown rebuilt from the three witnesses above via OCR-first comparison (tesseract, RapidOCR, PaddleOCR, selective EasyOCR), image adjudication, and selective manual repair. Captured 2026-04-12 from C:\woodblocks\Transcriptions\Wumenguan_1632_NDL_Commons\architect\WUMENGUAN_1632_READING_EDITION.md.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file is part of the OpenZenTexts collection — Chinese Chan/Zen primary texts curated by the Read Zen project for commercial reusability. Each text in the collection is sourced from a public-domain or freely-licensed witness, with provenance, rights basis, and vetting confidence recorded in this TEI header. The collection deliberately excludes CBETA-derived material so it can be redistributed and built upon without inheriting CBETA non-commercial restrictions.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p><label>Edition kind:</label> This is an <hi rend="italic">editorial reading edition</hi>. It is neither a diplomatic transcript of the 1632 NDL woodblock witness nor a full critical edition. It is a readable editorial text rebuilt from the 1632 base witness, tightened by local OCR comparison, image adjudication, and selective corroboration from two additional PD woodblock witnesses (Waseda 1752 and the NDL Wumen-Huikai Record). Apparatus (variant readings, per-leaf witness notes) is deliberately kept out of this body for v1; the witness-level notes live separately in C:\woodblocks\Transcriptions\Wumenguan_1632_NDL_Commons\architect\WUMENGUAN_1632.md and THREE_WITNESS_VERIFICATION.md and may be surfaced in a future version as a <gi>div</gi> of <att>type</att> "apparatus".</p>
+        <p><label>Line addressing:</label> This file uses synthetic line identifiers in the form "wm32.{section}.{position}" (e.g. wm32.case01.l01, wm32.case01.wumen.l05, wm32.case01.verse.l01, wm32.appendix.case49.verse.l01). The "wm32" prefix is deliberately distinct from the existing OpenZenTexts file ws/gateless-barrier/gateless-barrier.xml, which uses "wm.*" — the two files coexist in the same corpus and any TM or search machinery keyed by line ID must not cross-pollinate them. These identifiers are local to this file, do not reference any external woodblock line notation, and cannot collide with CBETA notation (e.g. T48n2005:0292c22).</p>
+        <p><label>Sentence segmentation:</label> Lines in the source markdown (one logical line per markdown soft break "line  \n" or per blank-line-separated paragraph) are preserved one-to-one as <gi>lb</gi> buckets in the TEI. The source markdown's editorial segmentation is respected and not re-split at sentence-ending punctuation — unlike the ws/gateless-barrier file, which re-splits Wikisource paragraphs at 。！？ boundaries. Keeping the source segmentation here honours the reading-edition's own editorial shape.</p>
+        <p><label>Case 49 and back matter:</label> Cases 1–48 are the structurally complete core sequence. Case 49 (第四十九則語) is late-appended material and is placed outside the core 48-case spine, inside a <gi>div</gi> of <att>type</att> "appendix" with a <gi>head</gi> explicitly naming it as a late addition. Subsequent back-matter sections (跋尾) — the closing address, colophon, 黃龍三關 摘句, 題贊與銜名, 刊記, etc. — each sit in their own <gi>div</gi> of <att>type</att> "appendix" labelled with the source section name.</p>
+        <p><label>Intentionally rough readings:</label> Several passages in the reading edition are witness-backed but locally rough. They are retained verbatim from the reading-edition markdown and are not silently normalized here: (1) "說道有門，無阿師分" in the prefatory material; (2) "請續一向" in case 20; (3) the case 31 無門曰 wording, which is a witness-derived form rather than the familiar received version. These are intentional editorial choices, not OCR errors.</p>
+        <p><label>Editorial repairs baked into the reading edition:</label> The received prefatory opening beginning "佛語心為宗" has been restored. Case 10 reads in the standard order 公案 → 無門曰 → 頌. Case 17 received a coherence pass. Cases 27 and 28 are in the received order (27 = 不是心佛, 28 = 久響龍潭). Case 31 no longer carries imported 龍潭 material. Case 32 uses the expected 阿難乃佛弟子 / 劍刃上行 commentary and verse set. These are noted here so a future editor cannot accidentally "fix" them back to a witness-raw form.</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="preface" xml:id="wm32.preface">
+        <lb n="wm32.preface.head"/>
+        <head>序</head>
+        <p>
+          <lb n="wm32.preface.l001"/>禪宗無門關
+        </p>
+        <p>
+          <lb n="wm32.preface.l002"/>宋 宗紹 編
+        </p>
+        <p>
+          <lb n="wm32.preface.l003"/>說道無門，盡大地人得入。
+          <lb n="wm32.preface.l004"/>說道有門，無阿師分。
+          <lb n="wm32.preface.l005"/>第一強添幾箇注腳，
+          <lb n="wm32.preface.l006"/>大似笠上頂笠。
+          <lb n="wm32.preface.l007"/>硬要習翁贊揚，
+          <lb n="wm32.preface.l008"/>又是乾竹絞汁。
+          <lb n="wm32.preface.l009"/>著得這些哮本，
+          <lb n="wm32.preface.l010"/>不消習翁一擲。
+          <lb n="wm32.preface.l011"/>一擲莫教一滴落江湖，
+          <lb n="wm32.preface.l012"/>千里烏騅追不得。
+        </p>
+        <p>
+          <lb n="wm32.preface.l013"/>紹定改元七月晦。習菴陳寫。
+        </p>
+        <p>
+          <lb n="wm32.preface.l014"/>紹定二年正月初五日。
+          <lb n="wm32.preface.l015"/>恭遇天基聖節。
+          <lb n="wm32.preface.l016"/>臣僧慧開。
+          <lb n="wm32.preface.l017"/>預於元年十二月初五日。
+          <lb n="wm32.preface.l018"/>印行拈提佛祖機緣四十八則。
+          <lb n="wm32.preface.l019"/>祝延今上皇帝聖躬萬歲萬歲萬萬歲。
+          <lb n="wm32.preface.l020"/>皇帝陛下。
+          <lb n="wm32.preface.l021"/>恭願聖明齊日月。
+          <lb n="wm32.preface.l022"/>叡算等乾坤。
+          <lb n="wm32.preface.l023"/>八方歌有道之君。
+          <lb n="wm32.preface.l024"/>四海樂無為之化。
+          <lb n="wm32.preface.l025"/>慈懿皇后功德報因佑慈禪寺前住持傳法臣僧慧開謹言。
+        </p>
+        <p>
+          <lb n="wm32.preface.l026"/>禪宗無門關
+        </p>
+        <p>
+          <lb n="wm32.preface.l027"/>佛語心為宗。
+          <lb n="wm32.preface.l028"/>無門為法門。
+          <lb n="wm32.preface.l029"/>既是無門，
+          <lb n="wm32.preface.l030"/>且作麼生透。
+          <lb n="wm32.preface.l031"/>豈不見道。
+          <lb n="wm32.preface.l032"/>從門入者，
+          <lb n="wm32.preface.l033"/>不是家珍。
+          <lb n="wm32.preface.l034"/>從緣得者，
+          <lb n="wm32.preface.l035"/>始終成壞。
+          <lb n="wm32.preface.l036"/>恁麼說話，
+          <lb n="wm32.preface.l037"/>大似無風起浪好肉剜瘡。
+          <lb n="wm32.preface.l038"/>何況滯言句，
+          <lb n="wm32.preface.l039"/>覓解會，
+          <lb n="wm32.preface.l040"/>掉棒打月，
+          <lb n="wm32.preface.l041"/>隔靴爬痒，
+          <lb n="wm32.preface.l042"/>有甚交涉。
+          <lb n="wm32.preface.l043"/>慧開紹定戊子夏。
+          <lb n="wm32.preface.l044"/>首眾于東嘉龍翔。
+          <lb n="wm32.preface.l045"/>因衲子請益，
+          <lb n="wm32.preface.l046"/>遂將古人公案，
+          <lb n="wm32.preface.l047"/>作敲門瓦子，
+          <lb n="wm32.preface.l048"/>隨機引導學者，
+          <lb n="wm32.preface.l049"/>竟爾抄錄，
+          <lb n="wm32.preface.l050"/>不覺成集。
+          <lb n="wm32.preface.l051"/>初不以前後敘列，
+          <lb n="wm32.preface.l052"/>共成四十八則，
+          <lb n="wm32.preface.l053"/>通曰無門關。
+          <lb n="wm32.preface.l054"/>若是箇漢不顧危亡，
+          <lb n="wm32.preface.l055"/>單刀直入，
+          <lb n="wm32.preface.l056"/>八臂那吒攔他不住。
+          <lb n="wm32.preface.l057"/>縱使西天四七，
+          <lb n="wm32.preface.l058"/>東土二三，
+          <lb n="wm32.preface.l059"/>只得望風乞命。
+          <lb n="wm32.preface.l060"/>設或躊躇，
+          <lb n="wm32.preface.l061"/>也似隔窗看馬騎，
+          <lb n="wm32.preface.l062"/>貶得眼來，
+          <lb n="wm32.preface.l063"/>早已蹉過。
+        </p>
+      </div>
+      <div type="case" n="1" xml:id="wm32.case01">
+        <lb n="wm32.case01.head"/>
+        <head>1. 趙州狗子</head>
+        <div type="gongan">
+          <lb n="wm32.case01.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case01.l01"/>趙州和尚因僧問：狗子還有佛性也無。
+            <lb n="wm32.case01.l02"/>州云：無。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case01.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case01.wumen.l01"/>師關只者一箇無字，乃宗門一關也。
+            <lb n="wm32.case01.wumen.l02"/>遂目之曰禪宗無門關。
+            <lb n="wm32.case01.wumen.l03"/>透得過者，非但親見趙州，便可與歷代祖師把手共行，
+            <lb n="wm32.case01.wumen.l04"/>眉毛廝結，同一眼見，同一耳聞。
+            <lb n="wm32.case01.wumen.l05"/>豈不慶快。莫有要透關底麼。
+            <lb n="wm32.case01.wumen.l06"/>將三百六十骨節、八萬四千毫竅，通身起箇疑團，參箇無字。
+            <lb n="wm32.case01.wumen.l07"/>晝夜提撕，莫作虛無會，莫作有無會。
+            <lb n="wm32.case01.wumen.l08"/>如吞了箇熱鐵丸，相似吐又吐不出。
+            <lb n="wm32.case01.wumen.l09"/>蕩盡從前惡知惡覺，久久純熟。
+            <lb n="wm32.case01.wumen.l10"/>自然內外打成一片，如啞子得夢，只許自知。
+            <lb n="wm32.case01.wumen.l11"/>驀然打發，驚天動地。
+            <lb n="wm32.case01.wumen.l12"/>如奪得關將軍大刀入手，逢佛殺佛，逢祖殺祖。
+            <lb n="wm32.case01.wumen.l13"/>於生死岸頭得大自在，向六道四生中遊戲三昧。
+            <lb n="wm32.case01.wumen.l14"/>且作麼生提撕。盡平生氣力，舉箇無字。
+            <lb n="wm32.case01.wumen.l15"/>若不間斷，好似法燭一點便著。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case01.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case01.verse.l01"/>狗子佛性，
+            <lb n="wm32.case01.verse.l02"/>全提正令。
+            <lb n="wm32.case01.verse.l03"/>纔涉有無，
+            <lb n="wm32.case01.verse.l04"/>喪身失命。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="2" xml:id="wm32.case02">
+        <lb n="wm32.case02.head"/>
+        <head>2. 百丈野狐</head>
+        <div type="gongan">
+          <lb n="wm32.case02.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case02.l01"/>百丈和尚，凡參次，有一老人常隨眾聽法。
+            <lb n="wm32.case02.l02"/>眾人退，老人亦退。忽一日不退。
+            <lb n="wm32.case02.l03"/>師遂問：面前立者復是何人。
+            <lb n="wm32.case02.l04"/>老人云：諾，某甲非人也。
+          </p>
+          <p>
+            <lb n="wm32.case02.l05"/>老人云：諾，某甲非人也。
+            <lb n="wm32.case02.l06"/>於過去迦葉佛時，曾住此山。
+            <lb n="wm32.case02.l07"/>因學人問：大修行底人，還落因果也無。
+            <lb n="wm32.case02.l08"/>某甲對云：不落因果。五百生墮野狐身。
+            <lb n="wm32.case02.l09"/>今請和尚代一轉語，貴脫野狐。
+            <lb n="wm32.case02.l10"/>遂問：大修行底人，還落因果也無。
+            <lb n="wm32.case02.l11"/>師云：不昧因果。
+            <lb n="wm32.case02.l12"/>老人於言下大悟。
+            <lb n="wm32.case02.l13"/>作禮云：某甲已脫野狐身，住在山後。
+            <lb n="wm32.case02.l14"/>敢告和尚，乞依亡僧事例。
+            <lb n="wm32.case02.l15"/>師令維那白槌告眾：食後送亡僧。
+          </p>
+          <p>
+            <lb n="wm32.case02.l16"/>食後送亡僧。
+            <lb n="wm32.case02.l17"/>大眾言議：一眾皆安涅槃堂，又無人病，何故如是。
+            <lb n="wm32.case02.l18"/>食後只見師領眾至山後巖下，以杖挑出一死野狐，乃依火葬。
+            <lb n="wm32.case02.l19"/>師至晚上堂，舉前因緣。
+            <lb n="wm32.case02.l20"/>黃蘗便問：古人錯祇對一轉語，墮五百生野狐身。
+            <lb n="wm32.case02.l21"/>轉轉不錯，合作箇甚麼。
+            <lb n="wm32.case02.l22"/>師云：近前來與伊道。
+            <lb n="wm32.case02.l23"/>黃蘗遂近前與師一掌。
+            <lb n="wm32.case02.l24"/>師拍手笑云：將謂胡鬚赤，更有赤鬚胡。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case02.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case02.wumen.l01"/>不落因果，為甚墮野狐？
+            <lb n="wm32.case02.wumen.l02"/>不昧因果，為甚脫野狐？
+            <lb n="wm32.case02.wumen.l03"/>若向者裏著得一隻眼，
+            <lb n="wm32.case02.wumen.l04"/>便知得前百丈贏得風流五百生。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case02.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case02.verse.l01"/>不落不昧，
+            <lb n="wm32.case02.verse.l02"/>兩采一賽。
+            <lb n="wm32.case02.verse.l03"/>不昧不落，
+            <lb n="wm32.case02.verse.l04"/>千錯萬錯。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="3" xml:id="wm32.case03">
+        <lb n="wm32.case03.head"/>
+        <head>3. 俱胝豎指</head>
+        <div type="gongan">
+          <lb n="wm32.case03.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case03.l01"/>俱胝和尚，凡有詰問，唯豎一指。
+            <lb n="wm32.case03.l02"/>後有童子，因外人問和尚說何法要，童子亦豎指頭。
+            <lb n="wm32.case03.l03"/>胝聞，遂以刀斷其指。
+            <lb n="wm32.case03.l04"/>童子負痛號哭而去。
+            <lb n="wm32.case03.l05"/>胝復召之。
+            <lb n="wm32.case03.l06"/>童子回首。
+            <lb n="wm32.case03.l07"/>胝卻豎起指。
+            <lb n="wm32.case03.l08"/>童子忽然領悟。
+          </p>
+          <p>
+            <lb n="wm32.case03.l09"/>胝將順世，謂眾曰：
+            <lb n="wm32.case03.l10"/>吾得天龍一指頭禪，一生受用不盡。
+            <lb n="wm32.case03.l11"/>言訖示滅。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case03.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case03.wumen.l01"/>俱胝并童子悟處，不在指頭上。
+            <lb n="wm32.case03.wumen.l02"/>若向者裏見得，
+            <lb n="wm32.case03.wumen.l03"/>天龍同俱胝并童子，與自己一串穿却。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case03.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case03.verse.l01"/>俱胝鈍置老天龍，
+            <lb n="wm32.case03.verse.l02"/>利刃單提勘小童。
+            <lb n="wm32.case03.verse.l03"/>巨靈擡手無多子，
+            <lb n="wm32.case03.verse.l04"/>分破華山千萬重。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="4" xml:id="wm32.case04">
+        <lb n="wm32.case04.head"/>
+        <head>4. 胡子無鬚</head>
+        <div type="gongan">
+          <lb n="wm32.case04.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case04.l01"/>或庵曰：西天胡子，因甚無鬚。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case04.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case04.wumen.l01"/>參須實參，悟須實悟。
+            <lb n="wm32.case04.wumen.l02"/>者箇胡子，直須親見一回，始得。
+            <lb n="wm32.case04.wumen.l03"/>說親見，早成兩箇。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case04.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case04.verse.l01"/>癡人面前，
+            <lb n="wm32.case04.verse.l02"/>不可說夢。
+            <lb n="wm32.case04.verse.l03"/>胡子無鬚，
+            <lb n="wm32.case04.verse.l04"/>惺惺添懵。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="5" xml:id="wm32.case05">
+        <lb n="wm32.case05.head"/>
+        <head>5. 香嚴上樹</head>
+        <div type="gongan">
+          <lb n="wm32.case05.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case05.l01"/>香嚴和尚云：如人上樹，口銜樹枝，手不攀枝，脚不踏樹。
+            <lb n="wm32.case05.l02"/>樹下有人問西來意，不對，即違他所問；
+            <lb n="wm32.case05.l03"/>若對，又喪身失命。
+            <lb n="wm32.case05.l04"/>正當恁麼時，作麼生對。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case05.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case05.wumen.l01"/>縱有懸河之辨，總用不著。
+            <lb n="wm32.case05.wumen.l02"/>說得一大藏教，亦用不著。
+            <lb n="wm32.case05.wumen.l03"/>若向者裏對得著，
+            <lb n="wm32.case05.wumen.l04"/>活却從前死路頭，
+            <lb n="wm32.case05.wumen.l05"/>死却從前活路頭。
+            <lb n="wm32.case05.wumen.l06"/>其或未然，直待當來問彌勒。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case05.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case05.verse.l01"/>香嚴真杜撰，
+            <lb n="wm32.case05.verse.l02"/>惡毒無盡限。
+            <lb n="wm32.case05.verse.l03"/>啞却納僧口，
+            <lb n="wm32.case05.verse.l04"/>通身迸鬼眼。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="6" xml:id="wm32.case06">
+        <lb n="wm32.case06.head"/>
+        <head>6. 世尊拈花</head>
+        <div type="gongan">
+          <lb n="wm32.case06.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case06.l01"/>世尊昔在靈山會上，拈花示眾。
+            <lb n="wm32.case06.l02"/>是時眾皆默然，惟迦葉尊者破顏微笑。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case06.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case06.wumen.l01"/>黃面瞿曇，傍若無人，壓良為賤，懸羊頭賣狗肉。
+            <lb n="wm32.case06.wumen.l02"/>將謂多少奇特。
+            <lb n="wm32.case06.wumen.l03"/>只如當時大眾都笑，正法眼藏，作麼生傳。
+            <lb n="wm32.case06.wumen.l04"/>設使迦葉不笑，正法眼藏又作麼生傳。
+            <lb n="wm32.case06.wumen.l05"/>若道正法眼藏有傳，黃面老子，誑謼閭閻。
+            <lb n="wm32.case06.wumen.l06"/>若道無傳，為甚麼獨許迦葉。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case06.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case06.verse.l01"/>拈起花來，
+            <lb n="wm32.case06.verse.l02"/>迦葉破顏。
+            <lb n="wm32.case06.verse.l03"/>尾巴已露，
+            <lb n="wm32.case06.verse.l04"/>人天罔措。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="7" xml:id="wm32.case07">
+        <lb n="wm32.case07.head"/>
+        <head>7. 趙州洗鉢</head>
+        <div type="gongan">
+          <lb n="wm32.case07.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case07.l01"/>趙州因僧問：
+            <lb n="wm32.case07.l02"/>其甲乍入叢林，乞師指示。
+            <lb n="wm32.case07.l03"/>州云：喫粥了也未？
+            <lb n="wm32.case07.l04"/>僧云：喫粥了也。
+            <lb n="wm32.case07.l05"/>州云：洗鉢盂去。
+            <lb n="wm32.case07.l06"/>其僧有省。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case07.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case07.wumen.l01"/>趙州開口，見膽露心肝。
+            <lb n="wm32.case07.wumen.l02"/>這僧聽事不真，喚鐘作甕。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case07.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case07.verse.l01"/>只爲分明極，
+            <lb n="wm32.case07.verse.l02"/>翻令所得遲。
+            <lb n="wm32.case07.verse.l03"/>早知燈是火，
+            <lb n="wm32.case07.verse.l04"/>飯熟已多時。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="8" xml:id="wm32.case08">
+        <lb n="wm32.case08.head"/>
+        <head>8. 奚仲造車</head>
+        <div type="gongan">
+          <lb n="wm32.case08.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case08.l01"/>月庵和尚問僧：
+            <lb n="wm32.case08.l02"/>奚仲造車，一百輻，
+            <lb n="wm32.case08.l03"/>拈却兩頭，去却軸，
+            <lb n="wm32.case08.l04"/>明甚麼邊事。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case08.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case08.wumen.l01"/>若出直下明得，
+            <lb n="wm32.case08.wumen.l02"/>眼似流星，
+            <lb n="wm32.case08.wumen.l03"/>機如掣電。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case08.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case08.verse.l01"/>機輪轉處，
+            <lb n="wm32.case08.verse.l02"/>達者猶迷。
+            <lb n="wm32.case08.verse.l03"/>四維上下，
+            <lb n="wm32.case08.verse.l04"/>南北東西。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="9" xml:id="wm32.case09">
+        <lb n="wm32.case09.head"/>
+        <head>9. 大通智勝</head>
+        <div type="gongan">
+          <lb n="wm32.case09.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case09.l01"/>興陽讓和尚因僧問：
+            <lb n="wm32.case09.l02"/>大通智勝佛，十劫坐道場，
+            <lb n="wm32.case09.l03"/>佛法不現前，不得成佛道。
+            <lb n="wm32.case09.l04"/>時如何。
+            <lb n="wm32.case09.l05"/>讓曰：
+            <lb n="wm32.case09.l06"/>其問甚諦。
+            <lb n="wm32.case09.l07"/>當僧云：
+            <lb n="wm32.case09.l08"/>既是坐道場，
+            <lb n="wm32.case09.l09"/>爲甚麼不得成佛道。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case09.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case09.wumen.l01"/>只許老胡知，
+            <lb n="wm32.case09.wumen.l02"/>不許老胡會。
+            <lb n="wm32.case09.wumen.l03"/>凡夫若知，即是聖人。
+            <lb n="wm32.case09.wumen.l04"/>聖人若會，即是凡夫。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case09.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case09.verse.l01"/>了身何似了心休，
+            <lb n="wm32.case09.verse.l02"/>了得心兮身不愁。
+            <lb n="wm32.case09.verse.l03"/>若也身心俱了了，
+            <lb n="wm32.case09.verse.l04"/>神仙何必更封侯。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="10" xml:id="wm32.case10">
+        <lb n="wm32.case10.head"/>
+        <head>10. 清稅孤貧</head>
+        <div type="gongan">
+          <lb n="wm32.case10.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case10.l01"/>曹山和尚因僧問云：
+            <lb n="wm32.case10.l02"/>清稅孤貧，乞師賑濟。
+            <lb n="wm32.case10.l03"/>山云：
+            <lb n="wm32.case10.l04"/>稅闍梨，青原白家酒，
+            <lb n="wm32.case10.l05"/>三盞喫了，猶道未沾唇。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case10.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case10.wumen.l01"/>清稅孤貧，曹山具眼。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case10.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case10.verse.l01"/>貧似范丹，
+            <lb n="wm32.case10.verse.l02"/>氣如項羽。
+            <lb n="wm32.case10.verse.l03"/>活計雖無，
+            <lb n="wm32.case10.verse.l04"/>敢與鬪富。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="11" xml:id="wm32.case11">
+        <lb n="wm32.case11.head"/>
+        <head>11. 州勘庵主</head>
+        <div type="gongan">
+          <lb n="wm32.case11.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case11.l01"/>趙州到一庵主處問：
+            <lb n="wm32.case11.l02"/>有麼有麼。
+            <lb n="wm32.case11.l03"/>主豎起拳頭。
+            <lb n="wm32.case11.l04"/>州云：
+            <lb n="wm32.case11.l05"/>水淺不是泊舟處。
+            <lb n="wm32.case11.l06"/>便行。
+          </p>
+          <p>
+            <lb n="wm32.case11.l07"/>又到一庵主處云：
+            <lb n="wm32.case11.l08"/>有麼有麼。
+            <lb n="wm32.case11.l09"/>主亦豎起拳頭。
+            <lb n="wm32.case11.l10"/>州云：
+            <lb n="wm32.case11.l11"/>能縱能奪，
+            <lb n="wm32.case11.l12"/>能殺能活，
+            <lb n="wm32.case11.l13"/>便作禮。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case11.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case11.wumen.l01"/>一般豎起拳頭，
+            <lb n="wm32.case11.wumen.l02"/>爲甚麼肯一箇，不肯一箇。
+            <lb n="wm32.case11.wumen.l03"/>且道，訛在甚處。
+            <lb n="wm32.case11.wumen.l04"/>若向者裏下得一轉語，
+            <lb n="wm32.case11.wumen.l05"/>便見趙州舌頭無骨，
+            <lb n="wm32.case11.wumen.l06"/>扶起放倒，
+            <lb n="wm32.case11.wumen.l07"/>得大自在。
+            <lb n="wm32.case11.wumen.l08"/>然雖如是，
+            <lb n="wm32.case11.wumen.l09"/>爭奈趙州却被二庵主勘破。
+            <lb n="wm32.case11.wumen.l10"/>眼若道無優劣，亦未具參學眼。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case11.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case11.verse.l01"/>眼流星，
+            <lb n="wm32.case11.verse.l02"/>機掣電。
+            <lb n="wm32.case11.verse.l03"/>殺人刀，
+            <lb n="wm32.case11.verse.l04"/>活人劍。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="12" xml:id="wm32.case12">
+        <lb n="wm32.case12.head"/>
+        <head>12. 巖喚主人</head>
+        <div type="gongan">
+          <lb n="wm32.case12.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case12.l01"/>瑞巖和尚，每日自喚主人公，
+            <lb n="wm32.case12.l02"/>復自應諾。
+            <lb n="wm32.case12.l03"/>乃云：
+            <lb n="wm32.case12.l04"/>惺惺著。
+            <lb n="wm32.case12.l05"/>他時異日，
+            <lb n="wm32.case12.l06"/>莫受人瞞。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case12.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case12.wumen.l01"/>瑞巖老子，自買自賣，弄出許多神頭鬼面。
+            <lb n="wm32.case12.wumen.l02"/>何故。
+            <lb n="wm32.case12.wumen.l03"/>一箇喚底，一箇應底；
+            <lb n="wm32.case12.wumen.l04"/>一箇惺惺底，一箇不受人瞞底。
+            <lb n="wm32.case12.wumen.l05"/>認著依前還不是。
+            <lb n="wm32.case12.wumen.l06"/>若也你擬他，
+            <lb n="wm32.case12.wumen.l07"/>總是野狐見解。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case12.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case12.verse.l01"/>學道之人不識真，
+            <lb n="wm32.case12.verse.l02"/>只為從前認識神。
+            <lb n="wm32.case12.verse.l03"/>無量劫來生死本，
+            <lb n="wm32.case12.verse.l04"/>癡人喚作本來人。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="13" xml:id="wm32.case13">
+        <lb n="wm32.case13.head"/>
+        <head>13. 德山托鉢</head>
+        <div type="gongan">
+          <lb n="wm32.case13.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case13.l01"/>德山一日托鉢下堂。
+            <lb n="wm32.case13.l02"/>見雪峰問者，老漢鐘未鳴、鼓未響，
+            <lb n="wm32.case13.l03"/>托鉢向甚處去。
+            <lb n="wm32.case13.l04"/>山便回方丈。
+          </p>
+          <p>
+            <lb n="wm32.case13.l05"/>峰舉似巖頭。
+            <lb n="wm32.case13.l06"/>頭云：
+            <lb n="wm32.case13.l07"/>大小德山，未會末後句。
+          </p>
+          <p>
+            <lb n="wm32.case13.l08"/>山聞，令侍者喚巖頭來問曰：
+            <lb n="wm32.case13.l09"/>汝不肯老僧那。
+          </p>
+          <p>
+            <lb n="wm32.case13.l10"/>巖頭密啓其意。
+            <lb n="wm32.case13.l11"/>山乃休去。
+            <lb n="wm32.case13.l12"/>明日陞座，果與尋常不同。
+            <lb n="wm32.case13.l13"/>巖頭至僧堂前，拊掌大笑云：
+            <lb n="wm32.case13.l14"/>且喜老漢會末後句。
+          </p>
+          <p>
+            <lb n="wm32.case13.l15"/>他後天下人不奈伊何。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case13.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case13.wumen.l01"/>若是末後句，
+            <lb n="wm32.case13.wumen.l02"/>巖頭、德山俱未夢見在。
+            <lb n="wm32.case13.wumen.l03"/>檢點將來，好似一棚傀儡。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case13.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case13.verse.l01"/>識得最初句，
+            <lb n="wm32.case13.verse.l02"/>便會末後句。
+            <lb n="wm32.case13.verse.l03"/>末後與最初，
+            <lb n="wm32.case13.verse.l04"/>不是者一句。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="14" xml:id="wm32.case14">
+        <lb n="wm32.case14.head"/>
+        <head>14. 南泉斬猫</head>
+        <div type="gongan">
+          <lb n="wm32.case14.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case14.l01"/>南泉和尚因東西兩堂爭猫兒。
+            <lb n="wm32.case14.l02"/>泉乃提起云：
+            <lb n="wm32.case14.l03"/>大眾道得即救，
+            <lb n="wm32.case14.l04"/>道不得即斬却也。
+            <lb n="wm32.case14.l05"/>眾無對。
+            <lb n="wm32.case14.l06"/>泉遂斬之。
+          </p>
+          <p>
+            <lb n="wm32.case14.l07"/>趙州外歸，
+            <lb n="wm32.case14.l08"/>泉舉似州。
+            <lb n="wm32.case14.l09"/>州乃脱鞋，
+            <lb n="wm32.case14.l10"/>安頭上而出。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case14.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case14.wumen.l01"/>若向者裏下得一轉語，
+            <lb n="wm32.case14.wumen.l02"/>便見南泉令不虛行。
+            <lb n="wm32.case14.wumen.l03"/>其或未然，
+            <lb n="wm32.case14.wumen.l04"/>趙州若在，
+            <lb n="wm32.case14.wumen.l05"/>奪却刀子，
+            <lb n="wm32.case14.wumen.l06"/>倒行此令，
+            <lb n="wm32.case14.wumen.l07"/>南泉乞命。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case14.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case14.verse.l01"/>趙州若在，
+            <lb n="wm32.case14.verse.l02"/>倒行此令。
+            <lb n="wm32.case14.verse.l03"/>奪却刀子，
+            <lb n="wm32.case14.verse.l04"/>南泉乞命。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="15" xml:id="wm32.case15">
+        <lb n="wm32.case15.head"/>
+        <head>15. 洞山三頓</head>
+        <div type="gongan">
+          <lb n="wm32.case15.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case15.l01"/>雲門問洞山：
+            <lb n="wm32.case15.l02"/>近日離甚處。
+            <lb n="wm32.case15.l03"/>山云：
+            <lb n="wm32.case15.l04"/>查渡。
+            <lb n="wm32.case15.l05"/>門曰：
+            <lb n="wm32.case15.l06"/>夏在甚處。
+            <lb n="wm32.case15.l07"/>山云：
+            <lb n="wm32.case15.l08"/>湖南。
+          </p>
+          <p>
+            <lb n="wm32.case15.l09"/>門曰：
+            <lb n="wm32.case15.l10"/>幾時離彼。
+            <lb n="wm32.case15.l11"/>山云：
+            <lb n="wm32.case15.l12"/>八月二十五。
+            <lb n="wm32.case15.l13"/>門曰：
+            <lb n="wm32.case15.l14"/>放汝三頓棒。
+          </p>
+          <p>
+            <lb n="wm32.case15.l15"/>至明日，
+            <lb n="wm32.case15.l16"/>山却上問訊：
+            <lb n="wm32.case15.l17"/>昨日蒙和尚放三頓棒，
+            <lb n="wm32.case15.l18"/>不知過在甚麼處。
+            <lb n="wm32.case15.l19"/>門曰：
+            <lb n="wm32.case15.l20"/>飯袋子，
+            <lb n="wm32.case15.l21"/>江西湖南便恁麼去。
+            <lb n="wm32.case15.l22"/>洞山於此大悟。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case15.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case15.wumen.l01"/>雲門當時便與本分草料，
+            <lb n="wm32.case15.wumen.l02"/>使洞山別有生機一路，
+            <lb n="wm32.case15.wumen.l03"/>家門不致寂寥。
+            <lb n="wm32.case15.wumen.l04"/>一夜在是非海裏著到直待天明再來，
+            <lb n="wm32.case15.wumen.l05"/>別與他注破。
+            <lb n="wm32.case15.wumen.l06"/>洞山直下悟去，
+            <lb n="wm32.case15.wumen.l07"/>未是性燥。
+            <lb n="wm32.case15.wumen.l08"/>且問諸人，
+            <lb n="wm32.case15.wumen.l09"/>洞山三頓棒，
+            <lb n="wm32.case15.wumen.l10"/>合喫不合喫。
+            <lb n="wm32.case15.wumen.l11"/>若道合喫，
+            <lb n="wm32.case15.wumen.l12"/>草木叢林皆合喫棒。
+            <lb n="wm32.case15.wumen.l13"/>若道不合喫，
+            <lb n="wm32.case15.wumen.l14"/>雲門又成誑語。
+            <lb n="wm32.case15.wumen.l15"/>向者裏明得，
+            <lb n="wm32.case15.wumen.l16"/>方與洞山出一口氣。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case15.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case15.verse.l01"/>獅子教兒迷子訣，
+            <lb n="wm32.case15.verse.l02"/>擬前跳躑早翻身。
+            <lb n="wm32.case15.verse.l03"/>無端再敘當頭著，
+            <lb n="wm32.case15.verse.l04"/>前箭猶輕後箭深。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="16" xml:id="wm32.case16">
+        <lb n="wm32.case16.head"/>
+        <head>16. 鐘聲七條</head>
+        <div type="gongan">
+          <lb n="wm32.case16.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case16.l01"/>雲門曰：
+            <lb n="wm32.case16.l02"/>世界恁麼廣闊，
+            <lb n="wm32.case16.l03"/>因甚向鐘聲裏披七條。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case16.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case16.wumen.l01"/>道得親切，
+            <lb n="wm32.case16.wumen.l02"/>豈可向聲上覓。
+            <lb n="wm32.case16.wumen.l03"/>若將耳聽應難會，
+            <lb n="wm32.case16.wumen.l04"/>眼處聞聲方始親。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case16.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case16.verse.l01"/>會則事同一家，
+            <lb n="wm32.case16.verse.l02"/>不會萬別千差。
+            <lb n="wm32.case16.verse.l03"/>不會事同一家，
+            <lb n="wm32.case16.verse.l04"/>會則萬別千差。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="17" xml:id="wm32.case17">
+        <lb n="wm32.case17.head"/>
+        <head>17. 國師三喚</head>
+        <div type="gongan">
+          <lb n="wm32.case17.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case17.l01"/>國師三喚侍者，侍者三應。
+            <lb n="wm32.case17.l02"/>國師云：將謂吾辜負汝，元來却是汝辜負吾。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case17.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case17.wumen.l01"/>國師三喚舌頭墮地。
+            <lb n="wm32.case17.wumen.l02"/>侍者三應。和光吐出。
+            <lb n="wm32.case17.wumen.l03"/>國師年老心孤，按牛頭喫草。
+            <lb n="wm32.case17.wumen.l04"/>侍者未肯承當，美食不中飽人餐。
+            <lb n="wm32.case17.wumen.l05"/>且道那裏是他辜負處。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case17.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case17.verse.l01"/>鐵枷無孔要人擔。
+            <lb n="wm32.case17.verse.l02"/>累及兒孫不等閑。
+            <lb n="wm32.case17.verse.l03"/>欲得撐門并拄戶，
+            <lb n="wm32.case17.verse.l04"/>更須赤腳上刀山。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="18" xml:id="wm32.case18">
+        <lb n="wm32.case18.head"/>
+        <head>18. 洞山三斤</head>
+        <div type="gongan">
+          <lb n="wm32.case18.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case18.l01"/>洞山和尚因僧問：如何是佛。
+            <lb n="wm32.case18.l02"/>山云：麻三斤。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case18.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case18.wumen.l01"/>洞山老人參得些蚌蛤禪，
+            <lb n="wm32.case18.wumen.l02"/>纔開兩片，露出肝腸。
+            <lb n="wm32.case18.wumen.l03"/>然雖如是，且道向甚處見洞山。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case18.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case18.verse.l01"/>突出麻三斤，
+            <lb n="wm32.case18.verse.l02"/>言親意更親。
+            <lb n="wm32.case18.verse.l03"/>來說是非者，
+            <lb n="wm32.case18.verse.l04"/>便是是非人。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="19" xml:id="wm32.case19">
+        <lb n="wm32.case19.head"/>
+        <head>19. 平常是道</head>
+        <div type="gongan">
+          <lb n="wm32.case19.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case19.l01"/>南泉因趙州問：如何是道。
+            <lb n="wm32.case19.l02"/>泉云：平常心是道。
+            <lb n="wm32.case19.l03"/>州云：還可趣向否。
+            <lb n="wm32.case19.l04"/>泉云：擬向即乖。
+            <lb n="wm32.case19.l05"/>州云：不擬爭知是道。
+            <lb n="wm32.case19.l06"/>泉云：道不屬知，不屬不知。
+            <lb n="wm32.case19.l07"/>知是妄覺，不知是無記。
+            <lb n="wm32.case19.l08"/>若真達不疑之道，猶如太虛廓然洞豁，豈可強是非也。
+            <lb n="wm32.case19.l09"/>州於言下頓悟。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case19.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case19.wumen.l01"/>南泉被趙州發問，
+            <lb n="wm32.case19.wumen.l02"/>直得瓦解冰消，分疏不下。
+            <lb n="wm32.case19.wumen.l03"/>趙州縱饒悟去，更參三十年始得。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case19.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case19.verse.l01"/>春有百花秋有月，
+            <lb n="wm32.case19.verse.l02"/>夏有涼風冬有雪。
+            <lb n="wm32.case19.verse.l03"/>若無閑事掛心頭，
+            <lb n="wm32.case19.verse.l04"/>便是人間好時節。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="20" xml:id="wm32.case20">
+        <lb n="wm32.case20.head"/>
+        <head>20. 大力量人</head>
+        <div type="gongan">
+          <lb n="wm32.case20.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case20.l01"/>松源和尚云：大力量人，因甚擡腳不起。
+            <lb n="wm32.case20.l02"/>又云：開口不在舌頭上。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case20.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case20.wumen.l01"/>松源可謂傾腸倒腹。
+            <lb n="wm32.case20.wumen.l02"/>只是欠人承當。
+            <lb n="wm32.case20.wumen.l03"/>直下承當，正好來無門處喫痛棒。
+            <lb n="wm32.case20.wumen.l04"/>何故。
+            <lb n="wm32.case20.wumen.l05"/>要識真金，火裏看。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case20.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case20.verse.l01"/>抬腳踏翻香水海，
+            <lb n="wm32.case20.verse.l02"/>低頭俯視四禪天。
+            <lb n="wm32.case20.verse.l03"/>一箇渾身無處著，
+            <lb n="wm32.case20.verse.l04"/>請續一向。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="21" xml:id="wm32.case21">
+        <lb n="wm32.case21.head"/>
+        <head>21. 雲門屎橛</head>
+        <div type="gongan">
+          <lb n="wm32.case21.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case21.l01"/>僧問雲門：如何是佛。
+            <lb n="wm32.case21.l02"/>門云：乾屎橛。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case21.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case21.wumen.l01"/>雲門可謂家貧難辨素食，
+            <lb n="wm32.case21.wumen.l02"/>事忙不及草書。
+            <lb n="wm32.case21.wumen.l03"/>動便將屎來撐門拄戶。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case21.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case21.verse.l01"/>閃電光，
+            <lb n="wm32.case21.verse.l02"/>擊石火。
+            <lb n="wm32.case21.verse.l03"/>眨得眼，
+            <lb n="wm32.case21.verse.l04"/>已蹉過。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="22" xml:id="wm32.case22">
+        <lb n="wm32.case22.head"/>
+        <head>22. 迦葉刹竿</head>
+        <div type="gongan">
+          <lb n="wm32.case22.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case22.l01"/>阿難問迦葉云：世尊傳金襴外，別傳何物。
+            <lb n="wm32.case22.l02"/>葉云：倒卻門前刹竿著。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case22.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case22.wumen.l01"/>若向者裏下得一轉語親切，
+            <lb n="wm32.case22.wumen.l02"/>便見靈山一會儼然未散。
+            <lb n="wm32.case22.wumen.l03"/>其或未然，佛早留心，直至而今不得妙。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case22.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case22.verse.l01"/>問處何如答處親，
+            <lb n="wm32.case22.verse.l02"/>幾人於此眼生筋。
+            <lb n="wm32.case22.verse.l03"/>兄呼弟應揚家醜，
+            <lb n="wm32.case22.verse.l04"/>不屬陰陽別是春。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="23" xml:id="wm32.case23">
+        <lb n="wm32.case23.head"/>
+        <head>23. 不思善惡</head>
+        <div type="gongan">
+          <lb n="wm32.case23.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case23.l01"/>六祖因明上座趁至大庾嶺。
+            <lb n="wm32.case23.l02"/>祖見明至，即擲衣鉢於石上云：此衣表信，可力爭耶。
+            <lb n="wm32.case23.l03"/>明遂擧之，如山不動。
+            <lb n="wm32.case23.l04"/>明白：我來求法，非為衣也。願行者開示。
+            <lb n="wm32.case23.l05"/>祖云：不思善，不思惡，正與麼時，那箇是明上座本來面目。
+            <lb n="wm32.case23.l06"/>明當下大悟，遍體汗流，泣淚作禮問。
+            <lb n="wm32.case23.l07"/>明曰：上來密語密意外，還更有意旨否。
+            <lb n="wm32.case23.l08"/>祖曰：我今為汝說者，即非密也。
+            <lb n="wm32.case23.l09"/>汝若返照自己面目，密却在汝邊。
+            <lb n="wm32.case23.l10"/>明曰：某甲雖在黃梅隨眾，實未省自己面目。
+            <lb n="wm32.case23.l11"/>今蒙指授入處，如人飲水，冷暖自知。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case23.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case23.wumen.l01"/>六祖可謂。
+            <lb n="wm32.case23.wumen.l02"/>是事出急家。
+            <lb n="wm32.case23.wumen.l03"/>老婆心切。
+            <lb n="wm32.case23.wumen.l04"/>譬如新荔支剝了殼，
+            <lb n="wm32.case23.wumen.l05"/>去了核送在爾口裏，
+            <lb n="wm32.case23.wumen.l06"/>只要爾嚥一嚥。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case23.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case23.verse.l01"/>描不成兮畫不就，
+            <lb n="wm32.case23.verse.l02"/>贊不及兮休生受。
+            <lb n="wm32.case23.verse.l03"/>本來面目沒處藏，
+            <lb n="wm32.case23.verse.l04"/>世界壞時渠不朽。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="24" xml:id="wm32.case24">
+        <lb n="wm32.case24.head"/>
+        <head>24. 離卻語言</head>
+        <div type="gongan">
+          <lb n="wm32.case24.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case24.l01"/>風穴和尚因僧問：語默涉離微，如何通不犯。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case24.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case24.wumen.l01"/>風穴機如掣電，得路便行。
+            <lb n="wm32.case24.wumen.l02"/>爭奈坐前人舌頭不斷。
+            <lb n="wm32.case24.wumen.l03"/>若向者裏見得親切，自有出身之路。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case24.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case24.verse.l01"/>不露風骨句，
+            <lb n="wm32.case24.verse.l02"/>未語先分付。
+            <lb n="wm32.case24.verse.l03"/>進步口喃喃，
+            <lb n="wm32.case24.verse.l04"/>知君大罨缿。
+            <lb n="wm32.case24.verse.l05"/>長憶江南三月裏，
+            <lb n="wm32.case24.verse.l06"/>鷓鴣啼處百花香。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="25" xml:id="wm32.case25">
+        <lb n="wm32.case25.head"/>
+        <head>25. 三座說法</head>
+        <div type="gongan">
+          <lb n="wm32.case25.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case25.l01"/>仰山和尚夢見往彌勒所，
+            <lb n="wm32.case25.l02"/>安第三座。
+            <lb n="wm32.case25.l03"/>有一尊者白槌云：
+            <lb n="wm32.case25.l04"/>今日當第三座說法。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case25.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case25.wumen.l01"/>且道是說法不說法。
+            <lb n="wm32.case25.wumen.l02"/>開口即失，
+            <lb n="wm32.case25.wumen.l03"/>閉口又喪。
+            <lb n="wm32.case25.wumen.l04"/>不開不閉，
+            <lb n="wm32.case25.wumen.l05"/>十萬八千。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case25.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case25.verse.l01"/>白日青天，
+            <lb n="wm32.case25.verse.l02"/>夢中說夢。
+            <lb n="wm32.case25.verse.l03"/>捏怪捏怪，
+            <lb n="wm32.case25.verse.l04"/>誑謼一眾。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="26" xml:id="wm32.case26">
+        <lb n="wm32.case26.head"/>
+        <head>26. 二僧卷簾</head>
+        <div type="gongan">
+          <lb n="wm32.case26.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case26.l01"/>清涼大法眼因僧齋前上參。
+            <lb n="wm32.case26.l02"/>眼以手指簾。
+            <lb n="wm32.case26.l03"/>時有二僧同去卷簾。
+            <lb n="wm32.case26.l04"/>眼曰：一得，一失。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case26.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case26.wumen.l01"/>且道是得是失。
+            <lb n="wm32.case26.wumen.l02"/>若向者裏著得一隻眼，
+            <lb n="wm32.case26.wumen.l03"/>便知清涼國師敗缺處。
+            <lb n="wm32.case26.wumen.l04"/>然雖如是，
+            <lb n="wm32.case26.wumen.l05"/>切忌向得失裏商量。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case26.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case26.verse.l01"/>卷起明明徹太空，
+            <lb n="wm32.case26.verse.l02"/>太空猶未合吾宗。
+            <lb n="wm32.case26.verse.l03"/>爭似從空都放下，
+            <lb n="wm32.case26.verse.l04"/>綿綿密密不通風。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="27" xml:id="wm32.case27">
+        <lb n="wm32.case27.head"/>
+        <head>27. 不是心佛</head>
+        <div type="gongan">
+          <lb n="wm32.case27.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case27.l01"/>南泉和尚因僧問云：
+            <lb n="wm32.case27.l02"/>還有不與人說底法麼。
+            <lb n="wm32.case27.l03"/>泉云：有。
+            <lb n="wm32.case27.l04"/>僧云：如何是不與人說底法。
+            <lb n="wm32.case27.l05"/>泉云：不是心，
+            <lb n="wm32.case27.l06"/>不是佛，
+            <lb n="wm32.case27.l07"/>不是物。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case27.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case27.wumen.l01"/>南泉被者一問，
+            <lb n="wm32.case27.wumen.l02"/>直得揣盡家私，
+            <lb n="wm32.case27.wumen.l03"/>郎當不少。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case27.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case27.verse.l01"/>叮嚀損君德，
+            <lb n="wm32.case27.verse.l02"/>無言真有功。
+            <lb n="wm32.case27.verse.l03"/>任從滄海變，
+            <lb n="wm32.case27.verse.l04"/>終不為君通。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="28" xml:id="wm32.case28">
+        <lb n="wm32.case28.head"/>
+        <head>28. 久響龍潭</head>
+        <div type="gongan">
+          <lb n="wm32.case28.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case28.l01"/>龍潭因德山請益。
+            <lb n="wm32.case28.l02"/>夜云：夜深。子何不下去。
+            <lb n="wm32.case28.l03"/>山遂珍重揭簾而出。見外面黑卻回云：外面黑。
+            <lb n="wm32.case28.l04"/>潭乃點紙燭度與山。
+          </p>
+          <p>
+            <lb n="wm32.case28.l05"/>山擬接，潭復吹滅。
+            <lb n="wm32.case28.l06"/>山於此忽然有省，便作禮。
+            <lb n="wm32.case28.l07"/>潭云：子見箇甚麼道理。
+            <lb n="wm32.case28.l08"/>山云：某甲從今日去，不疑天下老和尚舌頭也。
+          </p>
+          <p>
+            <lb n="wm32.case28.l09"/>至明日，龍潭陞堂云：
+            <lb n="wm32.case28.l10"/>可中有箇漢，牙如劍樹，口似血盆。
+            <lb n="wm32.case28.l11"/>一棒打不回頭。
+            <lb n="wm32.case28.l12"/>他時向孤峰頂上，立吾道去在。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case28.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case28.wumen.l01"/>德山未出關時，
+            <lb n="wm32.case28.wumen.l02"/>心憤憤，
+            <lb n="wm32.case28.wumen.l03"/>口悱悱。
+            <lb n="wm32.case28.wumen.l04"/>得得來南方，
+            <lb n="wm32.case28.wumen.l05"/>要滅卻教外別傳之旨。
+            <lb n="wm32.case28.wumen.l06"/>及到澧州路上，
+            <lb n="wm32.case28.wumen.l07"/>問婆子買點心。
+            <lb n="wm32.case28.wumen.l08"/>婆云：
+            <lb n="wm32.case28.wumen.l09"/>只如經中道，
+            <lb n="wm32.case28.wumen.l10"/>過去心不可得，
+            <lb n="wm32.case28.wumen.l11"/>見在心不可得，
+            <lb n="wm32.case28.wumen.l12"/>未來心不可得。
+            <lb n="wm32.case28.wumen.l13"/>大德要點那箇心。
+            <lb n="wm32.case28.wumen.l14"/>德山被者一問，
+            <lb n="wm32.case28.wumen.l15"/>直得口似匾檐。
+            <lb n="wm32.case28.wumen.l16"/>然雖如是，
+            <lb n="wm32.case28.wumen.l17"/>未肯向婆子句下死卻。
+            <lb n="wm32.case28.wumen.l18"/>遂問婆子：
+            <lb n="wm32.case28.wumen.l19"/>近處有甚麼宗師。
+            <lb n="wm32.case28.wumen.l20"/>婆云：
+            <lb n="wm32.case28.wumen.l21"/>五里外有龍潭和尚。
+            <lb n="wm32.case28.wumen.l22"/>及到龍潭，
+            <lb n="wm32.case28.wumen.l23"/>納盡敗闕，
+            <lb n="wm32.case28.wumen.l24"/>可謂是前言不應後語。
+            <lb n="wm32.case28.wumen.l25"/>龍潭大似憐兒不覺醜。
+            <lb n="wm32.case28.wumen.l26"/>見他有些子火種，
+            <lb n="wm32.case28.wumen.l27"/>郎忙將惡水，
+            <lb n="wm32.case28.wumen.l28"/>驀頭一澆，
+            <lb n="wm32.case28.wumen.l29"/>澆殺。
+            <lb n="wm32.case28.wumen.l30"/>冷地看來，
+            <lb n="wm32.case28.wumen.l31"/>一場好笑。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case28.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case28.verse.l01"/>聞名不如見面，
+            <lb n="wm32.case28.verse.l02"/>見面不如聞名。
+            <lb n="wm32.case28.verse.l03"/>雖然救得鼻孔，
+            <lb n="wm32.case28.verse.l04"/>爭奈瞎卻眼睛。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="29" xml:id="wm32.case29">
+        <lb n="wm32.case29.head"/>
+        <head>29. 非風非幡</head>
+        <div type="gongan">
+          <lb n="wm32.case29.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case29.l01"/>六祖因風颺刹，
+            <lb n="wm32.case29.l02"/>有二僧對論。
+            <lb n="wm32.case29.l03"/>一云風動，
+            <lb n="wm32.case29.l04"/>一云幡動。
+            <lb n="wm32.case29.l05"/>往復曾未契理。
+            <lb n="wm32.case29.l06"/>祖云：
+            <lb n="wm32.case29.l07"/>不是風動，
+            <lb n="wm32.case29.l08"/>不是幡動，
+            <lb n="wm32.case29.l09"/>仁者心動。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case29.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case29.wumen.l01"/>不是風動，
+            <lb n="wm32.case29.wumen.l02"/>不是幡動，
+            <lb n="wm32.case29.wumen.l03"/>不是心動。
+            <lb n="wm32.case29.wumen.l04"/>甚處見祖師。
+            <lb n="wm32.case29.wumen.l05"/>若向者裏見得親切，
+            <lb n="wm32.case29.wumen.l06"/>方知二僧買鐵得金。
+            <lb n="wm32.case29.wumen.l07"/>祖師忍俊不禁，
+            <lb n="wm32.case29.wumen.l08"/>一場漏逗。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case29.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case29.verse.l01"/>風幡心動，
+            <lb n="wm32.case29.verse.l02"/>一狀領過。
+            <lb n="wm32.case29.verse.l03"/>只知開口，
+            <lb n="wm32.case29.verse.l04"/>不覺話墮。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="30" xml:id="wm32.case30">
+        <lb n="wm32.case30.head"/>
+        <head>30. 即心即佛</head>
+        <div type="gongan">
+          <lb n="wm32.case30.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case30.l01"/>馬祖因大梅問：
+            <lb n="wm32.case30.l02"/>如何是佛。
+            <lb n="wm32.case30.l03"/>祖云：
+            <lb n="wm32.case30.l04"/>即心是佛。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case30.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case30.wumen.l01"/>若能直下領得去，
+            <lb n="wm32.case30.wumen.l02"/>著佛衣，
+            <lb n="wm32.case30.wumen.l03"/>喫佛飯，
+            <lb n="wm32.case30.wumen.l04"/>說佛話，
+            <lb n="wm32.case30.wumen.l05"/>行佛行，
+            <lb n="wm32.case30.wumen.l06"/>即是佛也。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case30.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case30.verse.l01"/>青天白日，
+            <lb n="wm32.case30.verse.l02"/>切忌尋覓。
+            <lb n="wm32.case30.verse.l03"/>更問如何，
+            <lb n="wm32.case30.verse.l04"/>抱賊叫屈。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="31" xml:id="wm32.case31">
+        <lb n="wm32.case31.head"/>
+        <head>31. 趙州勘婆</head>
+        <div type="gongan">
+          <lb n="wm32.case31.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case31.l01"/>趙州因僧問婆子：
+            <lb n="wm32.case31.l02"/>台山路向甚處去？
+            <lb n="wm32.case31.l03"/>婆云：驀直去。
+            <lb n="wm32.case31.l04"/>僧纔行三五步，
+            <lb n="wm32.case31.l05"/>婆云：好箇師僧，又恁麽去。
+          </p>
+          <p>
+            <lb n="wm32.case31.l06"/>後有僧舉似州。
+            <lb n="wm32.case31.l07"/>州云：待我去與你勘過這婆子。
+            <lb n="wm32.case31.l08"/>明日便去，亦如是問。
+            <lb n="wm32.case31.l09"/>婆亦如是答。
+            <lb n="wm32.case31.l10"/>州歸謂眾曰：台山婆子，我與你勘破了也。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case31.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case31.wumen.l01"/>婆子只解坐籌帷，
+            <lb n="wm32.case31.wumen.l02"/>要且不識趙州。
+            <lb n="wm32.case31.wumen.l03"/>趙州老人，
+            <lb n="wm32.case31.wumen.l04"/>善用偸營劫寨。
+            <lb n="wm32.case31.wumen.l05"/>雖然如是，
+            <lb n="wm32.case31.wumen.l06"/>且道那裏是趙州勘破婆子處。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case31.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case31.verse.l01"/>問既一般，
+            <lb n="wm32.case31.verse.l02"/>答亦相似。
+            <lb n="wm32.case31.verse.l03"/>飯裏有砂，
+            <lb n="wm32.case31.verse.l04"/>泥中有刺。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="32" xml:id="wm32.case32">
+        <lb n="wm32.case32.head"/>
+        <head>32. 外道問佛</head>
+        <div type="gongan">
+          <lb n="wm32.case32.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case32.l01"/>世尊因外道問：
+            <lb n="wm32.case32.l02"/>不問有言，
+            <lb n="wm32.case32.l03"/>不問無言。
+            <lb n="wm32.case32.l04"/>世尊據座。
+            <lb n="wm32.case32.l05"/>外道贊歎云：
+            <lb n="wm32.case32.l06"/>世尊大慈大悲，
+            <lb n="wm32.case32.l07"/>開我迷雲，
+            <lb n="wm32.case32.l08"/>令我得入。
+            <lb n="wm32.case32.l09"/>乃具禮而去。
+            <lb n="wm32.case32.l10"/>阿難尋問佛：
+            <lb n="wm32.case32.l11"/>外道有何所證贊歎而去。
+            <lb n="wm32.case32.l12"/>世尊云：
+            <lb n="wm32.case32.l13"/>如世良馬見鞭影而行。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case32.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case32.wumen.l01"/>阿難乃佛弟子。
+            <lb n="wm32.case32.wumen.l02"/>宛不如外道見解。
+            <lb n="wm32.case32.wumen.l03"/>且道外道與佛弟子相去多少。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case32.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case32.verse.l01"/>劍刃上行，
+            <lb n="wm32.case32.verse.l02"/>冰稜上走，
+            <lb n="wm32.case32.verse.l03"/>不涉階梯，
+            <lb n="wm32.case32.verse.l04"/>懸崖撒手。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="33" xml:id="wm32.case33">
+        <lb n="wm32.case33.head"/>
+        <head>33. 非心非佛</head>
+        <div type="gongan">
+          <lb n="wm32.case33.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case33.l01"/>馬祖因僧問：
+            <lb n="wm32.case33.l02"/>如何是佛。
+            <lb n="wm32.case33.l03"/>祖曰：
+            <lb n="wm32.case33.l04"/>非心非佛。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case33.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case33.wumen.l01"/>若向者裏見得。
+            <lb n="wm32.case33.wumen.l02"/>參學事畢。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case33.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case33.verse.l01"/>路逢劍客須呈，
+            <lb n="wm32.case33.verse.l02"/>不遇詩人莫獻，
+            <lb n="wm32.case33.verse.l03"/>逢人且說三分，
+            <lb n="wm32.case33.verse.l04"/>未可全施一片。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="34" xml:id="wm32.case34">
+        <lb n="wm32.case34.head"/>
+        <head>34. 智不是道</head>
+        <div type="gongan">
+          <lb n="wm32.case34.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case34.l01"/>南泉云：
+            <lb n="wm32.case34.l02"/>心不是佛。
+            <lb n="wm32.case34.l03"/>智不是道。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case34.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case34.wumen.l01"/>南泉可謂。
+            <lb n="wm32.case34.wumen.l02"/>老不識羞。
+            <lb n="wm32.case34.wumen.l03"/>纔開臭口。
+            <lb n="wm32.case34.wumen.l04"/>家醜外揚。
+            <lb n="wm32.case34.wumen.l05"/>然雖如是。
+            <lb n="wm32.case34.wumen.l06"/>知恩者少。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case34.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case34.verse.l01"/>天晴日頭出，
+            <lb n="wm32.case34.verse.l02"/>雨下地上濕，
+            <lb n="wm32.case34.verse.l03"/>盡情都說了，
+            <lb n="wm32.case34.verse.l04"/>只恐信不及。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="35" xml:id="wm32.case35">
+        <lb n="wm32.case35.head"/>
+        <head>35. 倩女離魂</head>
+        <div type="gongan">
+          <lb n="wm32.case35.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case35.l01"/>五祖問僧云：
+            <lb n="wm32.case35.l02"/>倩女離魂，
+            <lb n="wm32.case35.l03"/>那箇是真底。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case35.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case35.wumen.l01"/>若向者裏悟得真底。
+            <lb n="wm32.case35.wumen.l02"/>便知出殼入殼。
+            <lb n="wm32.case35.wumen.l03"/>如宿旅舍。
+            <lb n="wm32.case35.wumen.l04"/>其或未然。
+            <lb n="wm32.case35.wumen.l05"/>切莫亂走。
+            <lb n="wm32.case35.wumen.l06"/>驀然地水火風一散。
+            <lb n="wm32.case35.wumen.l07"/>如落湯螃蟹七手八腳。
+            <lb n="wm32.case35.wumen.l08"/>那時莫言。
+            <lb n="wm32.case35.wumen.l09"/>不道。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case35.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case35.verse.l01"/>雲月是同，
+            <lb n="wm32.case35.verse.l02"/>溪山各異，
+            <lb n="wm32.case35.verse.l03"/>萬福萬福，
+            <lb n="wm32.case35.verse.l04"/>是一是二。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="36" xml:id="wm32.case36">
+        <lb n="wm32.case36.head"/>
+        <head>36. 路逢達道</head>
+        <div type="gongan">
+          <lb n="wm32.case36.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case36.l01"/>五祖曰：
+            <lb n="wm32.case36.l02"/>路逢達道人，
+            <lb n="wm32.case36.l03"/>不將語默對，
+            <lb n="wm32.case36.l04"/>且道將甚麼對。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case36.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case36.wumen.l01"/>若向者裏。
+            <lb n="wm32.case36.wumen.l02"/>對得親切。
+            <lb n="wm32.case36.wumen.l03"/>不妨慶快。
+            <lb n="wm32.case36.wumen.l04"/>其或未然。
+            <lb n="wm32.case36.wumen.l05"/>也須一切處著眼。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case36.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case36.verse.l01"/>路逢達道人，
+            <lb n="wm32.case36.verse.l02"/>不將語默對，
+            <lb n="wm32.case36.verse.l03"/>攔腮劈面拳，
+            <lb n="wm32.case36.verse.l04"/>直下會便會。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="37" xml:id="wm32.case37">
+        <lb n="wm32.case37.head"/>
+        <head>37. 庭前柏樹</head>
+        <div type="gongan">
+          <lb n="wm32.case37.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case37.l01"/>趙州因僧問：
+            <lb n="wm32.case37.l02"/>如何是祖師西來意。
+            <lb n="wm32.case37.l03"/>州云：
+            <lb n="wm32.case37.l04"/>庭前柏樹子。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case37.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case37.wumen.l01"/>若向趙州答處。
+            <lb n="wm32.case37.wumen.l02"/>見得親切。
+            <lb n="wm32.case37.wumen.l03"/>前無釋迦。
+            <lb n="wm32.case37.wumen.l04"/>後無彌勒。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case37.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case37.verse.l01"/>言無展事，
+            <lb n="wm32.case37.verse.l02"/>語不投機，
+            <lb n="wm32.case37.verse.l03"/>承言者喪，
+            <lb n="wm32.case37.verse.l04"/>滯句者迷。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="38" xml:id="wm32.case38">
+        <lb n="wm32.case38.head"/>
+        <head>38. 牛過窗櫺</head>
+        <div type="gongan">
+          <lb n="wm32.case38.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case38.l01"/>五祖曰：
+            <lb n="wm32.case38.l02"/>譬如水牯牛過窗櫺，
+            <lb n="wm32.case38.l03"/>頭角四蹄都過了，
+            <lb n="wm32.case38.l04"/>因甚麼。
+            <lb n="wm32.case38.l05"/>尾巴過不得。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case38.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case38.wumen.l01"/>若向者裏。
+            <lb n="wm32.case38.wumen.l02"/>顛倒著得一隻眼。
+            <lb n="wm32.case38.wumen.l03"/>下得一轉語。
+            <lb n="wm32.case38.wumen.l04"/>可以上報四恩下資三有。
+            <lb n="wm32.case38.wumen.l05"/>其或未然。
+            <lb n="wm32.case38.wumen.l06"/>更須照顧尾巴始得。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case38.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case38.verse.l01"/>過去墮坑塹，
+            <lb n="wm32.case38.verse.l02"/>回來卻被壞，
+            <lb n="wm32.case38.verse.l03"/>者些尾巴子，
+            <lb n="wm32.case38.verse.l04"/>直是甚奇怪。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="39" xml:id="wm32.case39">
+        <lb n="wm32.case39.head"/>
+        <head>39. 雲門話墮</head>
+        <div type="gongan">
+          <lb n="wm32.case39.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case39.l01"/>雲門因僧問：
+            <lb n="wm32.case39.l02"/>光明寂照遍河沙。
+            <lb n="wm32.case39.l03"/>一句未絕。
+            <lb n="wm32.case39.l04"/>門遽曰：
+            <lb n="wm32.case39.l05"/>豈不是張拙秀才語。
+            <lb n="wm32.case39.l06"/>僧云：
+            <lb n="wm32.case39.l07"/>是。
+            <lb n="wm32.case39.l08"/>門云：
+            <lb n="wm32.case39.l09"/>話墮也。
+            <lb n="wm32.case39.l10"/>後來死心。
+            <lb n="wm32.case39.l11"/>拈云：
+            <lb n="wm32.case39.l12"/>且道那裏是者僧話墮處。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case39.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case39.wumen.l01"/>若向者裏。
+            <lb n="wm32.case39.wumen.l02"/>見得雲門用處。
+            <lb n="wm32.case39.wumen.l03"/>孤危者僧。
+            <lb n="wm32.case39.wumen.l04"/>因甚話墮。
+            <lb n="wm32.case39.wumen.l05"/>堪與人天為師。
+            <lb n="wm32.case39.wumen.l06"/>若也未明。
+            <lb n="wm32.case39.wumen.l07"/>自救不了。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case39.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case39.verse.l01"/>急流垂釣，
+            <lb n="wm32.case39.verse.l02"/>貪餌者著，
+            <lb n="wm32.case39.verse.l03"/>口縫纔開，
+            <lb n="wm32.case39.verse.l04"/>性命喪卻。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="40" xml:id="wm32.case40">
+        <lb n="wm32.case40.head"/>
+        <head>40. 趯倒淨瓶</head>
+        <div type="gongan">
+          <lb n="wm32.case40.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case40.l01"/>溈山和尚。
+            <lb n="wm32.case40.l02"/>始在百丈會中。
+            <lb n="wm32.case40.l03"/>充典座。
+            <lb n="wm32.case40.l04"/>百丈將選大溈主人。
+            <lb n="wm32.case40.l05"/>乃請同首座。
+            <lb n="wm32.case40.l06"/>對眾下語。
+            <lb n="wm32.case40.l07"/>出格者可往。
+            <lb n="wm32.case40.l08"/>百丈遂拈淨瓶。
+            <lb n="wm32.case40.l09"/>置地上。
+            <lb n="wm32.case40.l10"/>設問云。
+            <lb n="wm32.case40.l11"/>不得喚作淨瓶。
+            <lb n="wm32.case40.l12"/>汝喚作甚麼。
+            <lb n="wm32.case40.l13"/>首座乃云。
+            <lb n="wm32.case40.l14"/>不可喚作木杓。
+            <lb n="wm32.case40.l15"/>也百丈卻問於山。
+            <lb n="wm32.case40.l16"/>山乃趯倒淨瓶而去。
+            <lb n="wm32.case40.l17"/>百丈笑云。
+            <lb n="wm32.case40.l18"/>第一座輸卻山子。
+            <lb n="wm32.case40.l19"/>也因命之為開山。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case40.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case40.wumen.l01"/>溈山一期之勇。
+            <lb n="wm32.case40.wumen.l02"/>爭奈跳百丈圈圚不出。
+            <lb n="wm32.case40.wumen.l03"/>檢點將來。
+            <lb n="wm32.case40.wumen.l04"/>便重不便輕。
+            <lb n="wm32.case40.wumen.l05"/>何故聾脫得盤頭。
+            <lb n="wm32.case40.wumen.l06"/>擔起鐵枷。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case40.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case40.verse.l01"/>颺下箍籬并木杓，
+            <lb n="wm32.case40.verse.l02"/>當陽一突絕周遮，
+            <lb n="wm32.case40.verse.l03"/>百丈重關攔不住，
+            <lb n="wm32.case40.verse.l04"/>腳尖趯出佛如麻。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="41" xml:id="wm32.case41">
+        <lb n="wm32.case41.head"/>
+        <head>41. 達磨安心</head>
+        <div type="gongan">
+          <lb n="wm32.case41.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case41.l01"/>達磨面壁。
+            <lb n="wm32.case41.l02"/>二祖立雪斷臂云：
+            <lb n="wm32.case41.l03"/>弟子心未安，
+            <lb n="wm32.case41.l04"/>乞師安心。
+            <lb n="wm32.case41.l05"/>祖云：
+            <lb n="wm32.case41.l06"/>將心來與汝安。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case41.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case41.wumen.l01"/>缺齒老胡，
+            <lb n="wm32.case41.wumen.l02"/>十萬里航海特特而來，
+            <lb n="wm32.case41.wumen.l03"/>可謂是無風起浪。
+            <lb n="wm32.case41.wumen.l04"/>末後接得一箇門人，
+            <lb n="wm32.case41.wumen.l05"/>又卻六根不具。
+            <lb n="wm32.case41.wumen.l06"/>咦，
+            <lb n="wm32.case41.wumen.l07"/>謝三郎，
+            <lb n="wm32.case41.wumen.l08"/>不識四字。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case41.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case41.verse.l01"/>西來直指，
+            <lb n="wm32.case41.verse.l02"/>事因囑起。
+            <lb n="wm32.case41.verse.l03"/>撓聒叢林，
+            <lb n="wm32.case41.verse.l04"/>元來是爾。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="42" xml:id="wm32.case42">
+        <lb n="wm32.case42.head"/>
+        <head>42. 女子出定</head>
+        <div type="gongan">
+          <lb n="wm32.case42.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case42.l01"/>世尊昔因文殊至諸佛集處，值諸佛各還本處，
+            <lb n="wm32.case42.l02"/>惟有一女人近彼佛坐入定。
+          </p>
+          <p>
+            <lb n="wm32.case42.l03"/>文殊乃白佛：
+            <lb n="wm32.case42.l04"/>云何女人得近佛坐，我不得。
+          </p>
+          <p>
+            <lb n="wm32.case42.l05"/>佛告文殊：
+            <lb n="wm32.case42.l06"/>但此女人令從三昧起，汝自近前問之。
+            <lb n="wm32.case42.l07"/>若出得定，便知所以。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case42.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case42.wumen.l01"/>稽首老釋迦，只作一場雜劇。
+            <lb n="wm32.case42.wumen.l02"/>且道文殊是七佛之師，因甚出女子定不得。
+            <lb n="wm32.case42.wumen.l03"/>罔明初地菩薩，為甚却出得。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case42.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case42.verse.l01"/>出得出不得，
+            <lb n="wm32.case42.verse.l02"/>渠儂得自由。
+            <lb n="wm32.case42.verse.l03"/>神頭并鬼面，
+            <lb n="wm32.case42.verse.l04"/>敗闕當風流。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="43" xml:id="wm32.case43">
+        <lb n="wm32.case43.head"/>
+        <head>43. 首山竹篦</head>
+        <div type="gongan">
+          <lb n="wm32.case43.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case43.l01"/>首山和尚拈竹篦示眾云：
+            <lb n="wm32.case43.l02"/>汝等諸人，若喚作竹篦則觸，
+            <lb n="wm32.case43.l03"/>不喚作竹篦則背。
+            <lb n="wm32.case43.l04"/>不得有語，不得無語。速道。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case43.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case43.wumen.l01"/>喚作竹篦則觸。
+            <lb n="wm32.case43.wumen.l02"/>不喚作竹篦則背。
+            <lb n="wm32.case43.wumen.l03"/>不得有語，
+            <lb n="wm32.case43.wumen.l04"/>不得無語。
+            <lb n="wm32.case43.wumen.l05"/>速道速道。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case43.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case43.verse.l01"/>拈起竹篦，
+            <lb n="wm32.case43.verse.l02"/>行殺活令。
+            <lb n="wm32.case43.verse.l03"/>背觸交馳，
+            <lb n="wm32.case43.verse.l04"/>佛祖乞命。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="44" xml:id="wm32.case44">
+        <lb n="wm32.case44.head"/>
+        <head>44. 芭蕉拄杖</head>
+        <div type="gongan">
+          <lb n="wm32.case44.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case44.l01"/>芭蕉和尚示眾云：
+            <lb n="wm32.case44.l02"/>有拄杖子，我與你拄杖子。
+            <lb n="wm32.case44.l03"/>無拄杖子，我奪你拄杖子。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case44.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case44.wumen.l01"/>扶過斷橋水，
+            <lb n="wm32.case44.wumen.l02"/>伴歸無月村。
+            <lb n="wm32.case44.wumen.l03"/>若喚作拄杖，
+            <lb n="wm32.case44.wumen.l04"/>入地獄如箭。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case44.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case44.verse.l01"/>諸方深與淺，
+            <lb n="wm32.case44.verse.l02"/>都在掌握中。
+            <lb n="wm32.case44.verse.l03"/>撐天并拄地，
+            <lb n="wm32.case44.verse.l04"/>隨處振宗風。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="45" xml:id="wm32.case45">
+        <lb n="wm32.case45.head"/>
+        <head>45. 他是阿誰</head>
+        <div type="gongan">
+          <lb n="wm32.case45.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case45.l01"/>東山演師祖曰：
+            <lb n="wm32.case45.l02"/>釋迦彌勒猶是他奴。
+            <lb n="wm32.case45.l03"/>且道他是阿誰。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case45.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case45.wumen.l01"/>若也見得他分曉，
+            <lb n="wm32.case45.wumen.l02"/>譬如十字街頭撞見親爺相似。
+            <lb n="wm32.case45.wumen.l03"/>更不須問別人，
+            <lb n="wm32.case45.wumen.l04"/>道是與不是。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case45.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case45.verse.l01"/>他弓莫挽，
+            <lb n="wm32.case45.verse.l02"/>他馬莫騎。
+            <lb n="wm32.case45.verse.l03"/>他非莫辨，
+            <lb n="wm32.case45.verse.l04"/>他事莫知。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="46" xml:id="wm32.case46">
+        <lb n="wm32.case46.head"/>
+        <head>46. 竿頭進步</head>
+        <div type="gongan">
+          <lb n="wm32.case46.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case46.l01"/>石霜和尚云：
+            <lb n="wm32.case46.l02"/>百尺竿頭，如何進步。
+          </p>
+          <p>
+            <lb n="wm32.case46.l03"/>又古德云：
+            <lb n="wm32.case46.l04"/>百尺竿頭坐底人，雖然得入未為真。
+            <lb n="wm32.case46.l05"/>百尺竿頭須進步，十方世界現全身。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case46.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case46.wumen.l01"/>進得步，
+            <lb n="wm32.case46.wumen.l02"/>翻得身。
+            <lb n="wm32.case46.wumen.l03"/>更嫌何處不稱尊。
+            <lb n="wm32.case46.wumen.l04"/>然雖如是，
+            <lb n="wm32.case46.wumen.l05"/>且道百尺竿頭如何進步。
+            <lb n="wm32.case46.wumen.l06"/>嗄。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case46.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case46.verse.l01"/>瞎却頂門眼，
+            <lb n="wm32.case46.verse.l02"/>錯認定盤星。
+            <lb n="wm32.case46.verse.l03"/>拚身能捨命，
+            <lb n="wm32.case46.verse.l04"/>一盲引眾盲。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="47" xml:id="wm32.case47">
+        <lb n="wm32.case47.head"/>
+        <head>47. 兜率三關</head>
+        <div type="gongan">
+          <lb n="wm32.case47.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case47.l01"/>兜率悅和尚設三關問學者：
+            <lb n="wm32.case47.l02"/>撥草參玄只圖見性。
+            <lb n="wm32.case47.l03"/>即今上人性在甚處。
+            <lb n="wm32.case47.l04"/>識得自性，方脫生死。
+            <lb n="wm32.case47.l05"/>眼光落時，作麼生脫。
+            <lb n="wm32.case47.l06"/>脫得生死，便知去處。
+            <lb n="wm32.case47.l07"/>四大分離，向甚處去。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case47.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case47.wumen.l01"/>若能下得此三轉語，
+            <lb n="wm32.case47.wumen.l02"/>便可以隨處作主，
+            <lb n="wm32.case47.wumen.l03"/>遇緣即宗。
+            <lb n="wm32.case47.wumen.l04"/>其或未然，
+            <lb n="wm32.case47.wumen.l05"/>麤餐易飽，
+            <lb n="wm32.case47.wumen.l06"/>細嚼難飢。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case47.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case47.verse.l01"/>一念普觀無量劫，
+            <lb n="wm32.case47.verse.l02"/>無量劫事即如今。
+            <lb n="wm32.case47.verse.l03"/>如今覷破箇一念，
+            <lb n="wm32.case47.verse.l04"/>覷破如今覷底人。
+          </p>
+        </div>
+      </div>
+      <div type="case" n="48" xml:id="wm32.case48">
+        <lb n="wm32.case48.head"/>
+        <head>48. 乾峰一路</head>
+        <div type="gongan">
+          <lb n="wm32.case48.gongan-head"/>
+          <head>公案</head>
+          <p>
+            <lb n="wm32.case48.l01"/>乾峰和尚因僧問：
+            <lb n="wm32.case48.l02"/>十方薄伽梵，一路涅槃門。
+            <lb n="wm32.case48.l03"/>未審路頭在甚麼處。
+            <lb n="wm32.case48.l04"/>峰拈起拄杖，劃一劃云：
+            <lb n="wm32.case48.l05"/>在者裏。
+            <lb n="wm32.case48.l06"/>後僧請益雲門。
+            <lb n="wm32.case48.l07"/>門拈起扇子云：
+            <lb n="wm32.case48.l08"/>扇子勃跳，上三十三天，築著帝釋鼻孔。
+            <lb n="wm32.case48.l09"/>東海鯉魚打一棒，雨似盆傾。
+          </p>
+        </div>
+        <div type="wumen-commentary">
+          <lb n="wm32.case48.wumen.head"/>
+          <head>無門曰</head>
+          <p>
+            <lb n="wm32.case48.wumen.l01"/>一人向深深海底，
+            <lb n="wm32.case48.wumen.l02"/>行簸土揚塵。
+            <lb n="wm32.case48.wumen.l03"/>一人於高高山頂，
+            <lb n="wm32.case48.wumen.l04"/>立白浪滔天。
+            <lb n="wm32.case48.wumen.l05"/>把定放行，
+            <lb n="wm32.case48.wumen.l06"/>各出一隻手，
+            <lb n="wm32.case48.wumen.l07"/>扶豎宗乘。
+            <lb n="wm32.case48.wumen.l08"/>大似兩箇馳子相撞著。
+            <lb n="wm32.case48.wumen.l09"/>世上應無直底人。
+            <lb n="wm32.case48.wumen.l10"/>正眼觀來，
+            <lb n="wm32.case48.wumen.l11"/>二大老總未識路頭在。
+          </p>
+        </div>
+        <div type="verse">
+          <lb n="wm32.case48.verse.head"/>
+          <head>頌</head>
+          <p>
+            <lb n="wm32.case48.verse.l01"/>未舉步時先已到，
+            <lb n="wm32.case48.verse.l02"/>未動舌時先說了。
+            <lb n="wm32.case48.verse.l03"/>直饒著著在機先，
+            <lb n="wm32.case48.verse.l04"/>更須知有向上竅。
+          </p>
+        </div>
+      </div>
+      <div type="appendix" xml:id="wm32.appendix.case49">
+        <lb n="wm32.appendix.case49.head"/>
+        <head>Case 49 — 第四十九則語 (late appended material, not part of the core 48)</head>
+        <p>
+          <lb n="wm32.appendix.case49.l01"/>止止不須說我法妙難思。
+          <lb n="wm32.appendix.case49.l02"/>法從何來，妙從何說時，又作麼生。
+          <lb n="wm32.appendix.case49.l03"/>生豈但豐干饒舌，元是釋迦多口。
+          <lb n="wm32.appendix.case49.l04"/>老子造作好怪，令千百代兒孫被著。
+          <lb n="wm32.appendix.case49.l05"/>藤纏倒，未得頭出，恰似這般奇特話頭。
+          <lb n="wm32.appendix.case49.l06"/>起跳不止，飯蒸不熟，有多少錯認處。
+        </p>
+      </div>
+      <div type="appendix" xml:id="wm32.appendix.closing-address">
+        <lb n="wm32.appendix.closing-address.head"/>
+        <head>結尾示眾</head>
+        <p>
+          <lb n="wm32.appendix.closing-address.l01"/>門云拈起扇子云。
+          <lb n="wm32.appendix.closing-address.l02"/>扇子踍跳上三十三天。
+          <lb n="wm32.appendix.closing-address.l03"/>築著帝釋鼻孔。
+          <lb n="wm32.appendix.closing-address.l04"/>東海鯉魚打一棒，雨似盆傾。
+        </p>
+        <p>
+          <lb n="wm32.appendix.closing-address.l05"/>未舉步時先已到，
+          <lb n="wm32.appendix.closing-address.l06"/>未動舌時先說了。
+          <lb n="wm32.appendix.closing-address.l07"/>直饒著著在機先，
+          <lb n="wm32.appendix.closing-address.l08"/>更須知有向上竅。
+        </p>
+      </div>
+      <div type="appendix" xml:id="wm32.appendix.colophon">
+        <lb n="wm32.appendix.colophon.head"/>
+        <head>識語</head>
+        <p>
+          <lb n="wm32.appendix.colophon.l01"/>從上佛祖垂示機緣，
+          <lb n="wm32.appendix.colophon.l02"/>撮結案初。
+          <lb n="wm32.appendix.colophon.l03"/>請人直下承當，
+          <lb n="wm32.appendix.colophon.l04"/>不落處了無。
+          <lb n="wm32.appendix.colophon.l05"/>方上士絕聞興學者，
+          <lb n="wm32.appendix.colophon.l06"/>便知落處了無。
+          <lb n="wm32.appendix.colophon.l07"/>道明知道只是這箇，
+          <lb n="wm32.appendix.colophon.l08"/>爲甚透不得無門關。
+        </p>
+        <p>
+          <lb n="wm32.appendix.colophon.l09"/>不過淨厠說話，
+          <lb n="wm32.appendix.colophon.l10"/>也是赤土搽牛奶。
+          <lb n="wm32.appendix.colophon.l11"/>若透得無門關，
+          <lb n="wm32.appendix.colophon.l12"/>早是鈍置無門關。
+          <lb n="wm32.appendix.colophon.l13"/>透不得無門關，
+          <lb n="wm32.appendix.colophon.l14"/>亦乃辜負自己。
+          <lb n="wm32.appendix.colophon.l15"/>所謂涅槃心易曉，
+          <lb n="wm32.appendix.colophon.l16"/>差別智難明。
+          <lb n="wm32.appendix.colophon.l17"/>明得差別智，
+          <lb n="wm32.appendix.colophon.l18"/>家國自安寧。
+        </p>
+        <p>
+          <lb n="wm32.appendix.colophon.l19"/>紹定改元解制前五日，
+          <lb n="wm32.appendix.colophon.l20"/>楊岐八世孫無門比丘慧開謹識。
+        </p>
+      </div>
+      <div type="appendix" xml:id="wm32.appendix.volume-end">
+        <lb n="wm32.appendix.volume-end.head"/>
+        <head>無門關卷終</head>
+        <p>
+          <lb n="wm32.appendix.volume-end.l01"/>無門關卷終
+        </p>
+        <p>
+          <lb n="wm32.appendix.volume-end.l02"/>儱侗守禪威儀，
+          <lb n="wm32.appendix.volume-end.l03"/>無繩自縛，
+          <lb n="wm32.appendix.volume-end.l04"/>縱橫無碍。
+          <lb n="wm32.appendix.volume-end.l05"/>外道魔軍存心，
+          <lb n="wm32.appendix.volume-end.l06"/>澄寂黑照邪禪。
+          <lb n="wm32.appendix.volume-end.l07"/>融落深坑，
+          <lb n="wm32.appendix.volume-end.l08"/>懞然不昧。
+          <lb n="wm32.appendix.volume-end.l09"/>帶鎖擔枷，
+          <lb n="wm32.appendix.volume-end.l10"/>思善思惡。
+          <lb n="wm32.appendix.volume-end.l11"/>地獄天堂，
+          <lb n="wm32.appendix.volume-end.l12"/>佛見法見，
+          <lb n="wm32.appendix.volume-end.l13"/>二鐵圍山。
+          <lb n="wm32.appendix.volume-end.l14"/>念起即覺，
+          <lb n="wm32.appendix.volume-end.l15"/>進則迷理，
+          <lb n="wm32.appendix.volume-end.l16"/>退則乖宗，
+          <lb n="wm32.appendix.volume-end.l17"/>不進不退。
+          <lb n="wm32.appendix.volume-end.l18"/>有氣死人，
+          <lb n="wm32.appendix.volume-end.l19"/>且道如何履踐。
+          <lb n="wm32.appendix.volume-end.l20"/>努力今生。
+        </p>
+      </div>
+      <div type="appendix" xml:id="wm32.appendix.huanglong-sanguan">
+        <lb n="wm32.appendix.huanglong-sanguan.head"/>
+        <head>黃龍三關摘句</head>
+        <p>
+          <lb n="wm32.appendix.huanglong-sanguan.l01"/>頌了却莫教永劫受餘殃。
+        </p>
+        <p>
+          <lb n="wm32.appendix.huanglong-sanguan.l02"/>我手何似佛手。
+          <lb n="wm32.appendix.huanglong-sanguan.l03"/>我脚何似驢脚。
+          <lb n="wm32.appendix.huanglong-sanguan.l04"/>人人有箇生緣處。
+          <lb n="wm32.appendix.huanglong-sanguan.l05"/>元來通身是手。
+          <lb n="wm32.appendix.huanglong-sanguan.l06"/>四海橫行倒跨楊岐三脚。
+        </p>
+        <p>
+          <lb n="wm32.appendix.huanglong-sanguan.l07"/>人以有箇生緣，
+          <lb n="wm32.appendix.huanglong-sanguan.l08"/>各各透微機。
+          <lb n="wm32.appendix.huanglong-sanguan.l09"/>先那吒折骨還父。
+          <lb n="wm32.appendix.huanglong-sanguan.l10"/>五祖豈鑒爺娘。
+          <lb n="wm32.appendix.huanglong-sanguan.l11"/>凡聖路頭俱截斷，
+          <lb n="wm32.appendix.huanglong-sanguan.l12"/>幾多蜂蟻起雷音。
+        </p>
+      </div>
+      <div type="appendix" xml:id="wm32.appendix.dedication-titles">
+        <lb n="wm32.appendix.dedication-titles.head"/>
+        <head>題贊與銜名</head>
+        <p>
+          <lb n="wm32.appendix.dedication-titles.l01"/>成佛直指已是迂曲更言成佛。
+        </p>
+        <p>
+          <lb n="wm32.appendix.dedication-titles.l02"/>無門首座立僧山借奉謝紹定庚寅季春無量宗壽書贊
+        </p>
+        <p>
+          <lb n="wm32.appendix.dedication-titles.l03"/>因甚有老婆
+        </p>
+        <p>
+          <lb n="wm32.appendix.dedication-titles.l04"/>四十九則其間些子，
+          <lb n="wm32.appendix.dedication-titles.l05"/>請認別起眉毛。
+          <lb n="wm32.appendix.dedication-titles.l06"/>檢校保寧軍節度使京湖安撫制置大使兼知江陵府漢東郡開國公食邑
+          <lb n="wm32.appendix.dedication-titles.l07"/>二千一百戶食實封陸伯戶
+          <lb n="wm32.appendix.dedication-titles.l08"/>孟珙
+        </p>
+      </div>
+      <div type="appendix" xml:id="wm32.appendix.appended-prose">
+        <lb n="wm32.appendix.appended-prose.head"/>
+        <head>附錄相連散文</head>
+        <p>
+          <lb n="wm32.appendix.appended-prose.l01"/>無門老禪作四十八則語，
+          <lb n="wm32.appendix.appended-prose.l02"/>判斷古德公案。
+          <lb n="wm32.appendix.appended-prose.l03"/>大似黃油餅人，
+          <lb n="wm32.appendix.appended-prose.l04"/>令買家開口接。
+          <lb n="wm32.appendix.appended-prose.l05"/>安晚欲就渠熱爐上再打一撥，
+          <lb n="wm32.appendix.appended-prose.l06"/>足成大衍之數。
+        </p>
+        <p>
+          <lb n="wm32.appendix.appended-prose.l07"/>傍人問云：
+          <lb n="wm32.appendix.appended-prose.l08"/>畢竟作如何結斷。
+          <lb n="wm32.appendix.appended-prose.l09"/>安晚合十指爪曰：
+          <lb n="wm32.appendix.appended-prose.l10"/>止止不須說我法妙難思。
+          <lb n="wm32.appendix.appended-prose.l11"/>却急去難患兩字上打箇小圓相子，
+          <lb n="wm32.appendix.appended-prose.l12"/>指示衆人云：
+          <lb n="wm32.appendix.appended-prose.l13"/>總在裏許。
+        </p>
+      </div>
+      <div type="appendix" xml:id="wm32.appendix.imprint">
+        <lb n="wm32.appendix.imprint.head"/>
+        <head>刊記</head>
+        <p>
+          <lb n="wm32.appendix.imprint.l01"/>書於西湖漁莊。
+          <lb n="wm32.appendix.imprint.l02"/>淳祐丙午季夏初吉，
+          <lb n="wm32.appendix.imprint.l03"/>安晚居士。
+        </p>
+        <p>
+          <lb n="wm32.appendix.imprint.l04"/>舊板磨滅故重命工。
+          <lb n="wm32.appendix.imprint.l05"/>梓這板置於武藏州，
+          <lb n="wm32.appendix.imprint.l06"/>駒牟山廣圓禪寺也。
+          <lb n="wm32.appendix.imprint.l07"/>應永乙酉十月十三日，
+          <lb n="wm32.appendix.imprint.l08"/>幹緣比丘常牧。
+        </p>
+        <p>
+          <lb n="wm32.appendix.imprint.l09"/>寬永九年壬申九月，
+          <lb n="wm32.appendix.imprint.l10"/>中野宗左衛門刊行。
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
