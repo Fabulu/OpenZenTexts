@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zh-Hant">禪宗無門關</title>
+        <title xml:lang="en">The Gateless Barrier of the Chan School</title>
+        <title type="alt" xml:lang="ja">無門関 (Mumonkan)</title>
+        <author>無門慧開 (Wumen Huikai, 1183–1260)</author>
+        <editor role="compiler">宗紹 (Zongshao, fl. 1228)</editor>
+        <respStmt>
+          <resp>Witness sourcing, vetting, and TEI conversion</resp>
+          <name>Read Zen — OpenZenTexts curation</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Read Zen — OpenZenTexts</publisher>
+        <pubPlace>https://github.com/Fabulu/OpenZenTexts</pubPlace>
+        <date when="1228">Composed 1228 (Shaoding 1)</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">
+            <p><label>Work license:</label> Public domain (PD-old). The author Wumen Huikai died in 1260, more than 700 years ago, well beyond any plausible copyright term in any jurisdiction.</p>
+          </licence>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+            <p><label>Source-text license:</label> The transcription was extracted from Chinese Wikisource, whose page text is available under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Attribution and share-alike obligations apply to the transcription text as published by Wikisource.</p>
+          </licence>
+          <p><label>Source witness:</label> Chinese Wikisource page "無門關"</p>
+          <p><label>Source page:</label> https://zh.wikisource.org/wiki/%E7%84%A1%E9%96%80%E9%97%9C</p>
+          <p><label>Stable revision (oldid):</label> https://zh.wikisource.org/w/index.php?title=%E7%84%A1%E9%96%80%E9%97%9C&amp;oldid=2648998</p>
+          <p><label>Rights basis:</label> The captured oldid HTML shows page-level PD-old / public-domain language, and the Wikisource site footer declares site text available under CC BY-SA 4.0. Vetting confidence: high.</p>
+          <p><label>Provenance check:</label> The captured source package shows no CBETA marker. This file is independent of CBETA-encoded material.</p>
+          <p><label>Curator:</label> Read Zen — OpenZenTexts curation, 2026-04-09</p>
+          <p><label>Conversion:</label> Generated from the captured wikitext via tools/wikitext-to-tei/convert-gateless-barrier.mjs in this repository. Synthetic line identifiers (wm.*) are used; the file references no CBETA woodblock line notation.</p>
+          <p><label>Commercial use:</label> Permitted, subject to attribution and share-alike terms of CC BY-SA 4.0 for the transcription. The underlying work itself is PD-old and unrestricted.</p>
+          <p><label>Required attribution (short form):</label> "無門關 (The Gateless Barrier), public domain. Transcription from Chinese Wikisource (oldid 2648998), CC BY-SA 4.0. Compiled by Read Zen — OpenZenTexts."</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>無門慧開 (Wumen Huikai), 禪宗無門關 (Chánzōng Wúménguān / "The Gateless Barrier of the Chan School"), composed Shaoding 1 (1228), compiled by 宗紹 (Zongshao). Forty-eight kōan cases with the master's commentary and verses, plus a 49th case appended later by 安晚 (Anwan).</bibl>
+        <bibl type="digitalSource">Chinese Wikisource page "無門關", oldid 2648998, captured 2026-04-11. URL: https://zh.wikisource.org/w/index.php?title=%E7%84%A1%E9%96%80%E9%97%9C&amp;oldid=2648998</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file is part of the OpenZenTexts collection — Chinese Chan/Zen primary texts curated by the Read Zen project for commercial reusability. Each text in the collection is sourced from a public-domain or freely-licensed witness, with provenance, rights basis, and vetting confidence recorded in this TEI header. The collection deliberately excludes CBETA-derived material so it can be redistributed and built upon without inheriting CBETA non-commercial restrictions.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p><label>Line addressing:</label> This file uses synthetic line identifiers in the form "wm.{section}.{position}" (e.g. wm.case01.l01, wm.case01.wumen.l05, wm.case01.verse.l01). These identifiers are local to this file and do not reference any external woodblock line notation. They are designed never to collide with the CBETA notation (e.g. T48n2005:0292c22) so the two corpora can never be confused.</p>
+        <p><label>Sentence segmentation:</label> Paragraphs from the source wikitext are split into "lines" at Chinese sentence-ending punctuation (。！？) so each line bucket is small enough for translation editing.</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>禪宗無門關</head>
+      <p>
+        <lb n="wm.preface.l01"/>宋　宗紹　編
+        <lb n="wm.preface.l02"/>說道無門。
+        <lb n="wm.preface.l03"/>盡大地人得入。
+        <lb n="wm.preface.l04"/>說道有門。
+        <lb n="wm.preface.l05"/>無阿師分。
+        <lb n="wm.preface.l06"/>第一強添幾箇注腳。
+        <lb n="wm.preface.l07"/>大似笠上頂笠。
+        <lb n="wm.preface.l08"/>硬要習翁贊揚。
+        <lb n="wm.preface.l09"/>又是乾竹絞汁。
+        <lb n="wm.preface.l10"/>著得這些哮本。
+        <lb n="wm.preface.l11"/>不消習翁一擲。
+        <lb n="wm.preface.l12"/>一擲莫教一滴落江湖。
+        <lb n="wm.preface.l13"/>千里烏騅追不得。
+        <lb n="wm.preface.l14"/>紹定改元七月晦。
+        <lb n="wm.preface.l15"/>習菴陳寫。
+        <lb n="wm.preface.l16"/>紹定二年正月初五日。
+        <lb n="wm.preface.l17"/>恭遇天基聖節。
+        <lb n="wm.preface.l18"/>臣僧慧開。
+        <lb n="wm.preface.l19"/>預於元年十二月初五日。
+        <lb n="wm.preface.l20"/>印行拈提佛祖機緣四十八則。
+        <lb n="wm.preface.l21"/>祝延今上皇帝聖躬萬歲萬歲萬萬歲。
+        <lb n="wm.preface.l22"/>皇帝陛下。
+        <lb n="wm.preface.l23"/>恭願聖明齊日月。
+        <lb n="wm.preface.l24"/>叡算等乾坤。
+        <lb n="wm.preface.l25"/>八方歌有道之君。
+        <lb n="wm.preface.l26"/>四海樂無為之化。
+        <lb n="wm.preface.l27"/>慈懿皇后功德報因佑慈禪寺前住持傳法臣僧慧開謹言。
+        <lb n="wm.preface.l28"/>佛語心為宗。
+        <lb n="wm.preface.l29"/>無門為法門。
+        <lb n="wm.preface.l30"/>既是無門。
+        <lb n="wm.preface.l31"/>且作麼生透。
+        <lb n="wm.preface.l32"/>豈不見道。
+        <lb n="wm.preface.l33"/>從門入者。
+        <lb n="wm.preface.l34"/>不是家珍。
+        <lb n="wm.preface.l35"/>從緣得者。
+        <lb n="wm.preface.l36"/>始終成壞。
+        <lb n="wm.preface.l37"/>恁麼說話。
+        <lb n="wm.preface.l38"/>大似無風起浪好肉剜瘡。
+        <lb n="wm.preface.l39"/>何況滯言句。
+        <lb n="wm.preface.l40"/>覓解會。
+        <lb n="wm.preface.l41"/>掉棒打月。
+        <lb n="wm.preface.l42"/>隔靴爬痒。
+        <lb n="wm.preface.l43"/>有甚交涉。
+        <lb n="wm.preface.l44"/>慧開紹定戊子夏。
+        <lb n="wm.preface.l45"/>首眾于東嘉龍翔。
+        <lb n="wm.preface.l46"/>因衲子請益。
+        <lb n="wm.preface.l47"/>遂將古人公案。
+        <lb n="wm.preface.l48"/>作敲門瓦子。
+        <lb n="wm.preface.l49"/>隨機引導學者。
+        <lb n="wm.preface.l50"/>竟爾抄錄。
+        <lb n="wm.preface.l51"/>不覺成集。
+        <lb n="wm.preface.l52"/>初不以前後敘列。
+        <lb n="wm.preface.l53"/>共成四十八則。
+        <lb n="wm.preface.l54"/>通曰無門關。
+        <lb n="wm.preface.l55"/>若是箇漢不顧危亡。
+        <lb n="wm.preface.l56"/>單刀直入。
+        <lb n="wm.preface.l57"/>八臂那吒攔他不住。
+        <lb n="wm.preface.l58"/>縱使西天四七。
+        <lb n="wm.preface.l59"/>東土二三。
+        <lb n="wm.preface.l60"/>只得望風乞命。
+        <lb n="wm.preface.l61"/>設或躊躇。
+        <lb n="wm.preface.l62"/>也似隔窗看馬騎。
+        <lb n="wm.preface.l63"/>貶得眼來。
+        <lb n="wm.preface.l64"/>早已蹉過。
+        <lb n="wm.preface.l65"/>大道無門　千差有路　透得此關　乾坤獨步
+        <lb n="wm.preface.l66"/>佛祖機緣　四十八則
+        <lb n="wm.preface.l67"/>參學比丘　彌衍　宗紹　編
+        <lb n="wm.preface.l68"/>從上佛祖垂示機緣。
+        <lb n="wm.preface.l69"/>據款結案。
+        <lb n="wm.preface.l70"/>初無剩語。
+        <lb n="wm.preface.l71"/>揭翻腦蓋。
+        <lb n="wm.preface.l72"/>露出眼睛。
+        <lb n="wm.preface.l73"/>肯要諸人直下承當不從他覓。
+        <lb n="wm.preface.l74"/>若是通方上士。
+        <lb n="wm.preface.l75"/>纔聞舉著。
+        <lb n="wm.preface.l76"/>便知落處。
+        <lb n="wm.preface.l77"/>了無門戶可入。
+        <lb n="wm.preface.l78"/>亦無階級可升。
+        <lb n="wm.preface.l79"/>掉臂度關。
+        <lb n="wm.preface.l80"/>不問關吏。
+        <lb n="wm.preface.l81"/>豈不見玄沙道。
+        <lb n="wm.preface.l82"/>無門解脫之門。
+        <lb n="wm.preface.l83"/>無意道人之意。
+        <lb n="wm.preface.l84"/>又白雲道明明知道。
+        <lb n="wm.preface.l85"/>只是者箇為甚麼。
+        <lb n="wm.preface.l86"/>透不過。
+        <lb n="wm.preface.l87"/>恁麼說話。
+        <lb n="wm.preface.l88"/>也是赤土搽牛嬭。
+        <lb n="wm.preface.l89"/>若透得無門關。
+        <lb n="wm.preface.l90"/>早是鈍置無門。
+        <lb n="wm.preface.l91"/>若透不得無門關。
+        <lb n="wm.preface.l92"/>亦乃辜負自己。
+        <lb n="wm.preface.l93"/>所謂涅槃心易曉。
+        <lb n="wm.preface.l94"/>差別智難明。
+        <lb n="wm.preface.l95"/>明得差別智。
+        <lb n="wm.preface.l96"/>家國自安寧。
+        <lb n="wm.preface.l97"/>時。
+        <lb n="wm.preface.l98"/>紹定改元解制前五日。
+        <lb n="wm.preface.l99"/>楊岐八世孫無門比丘慧開謹識。
+        <lb n="wm.preface.l100"/>無門關卷【終】。
+        <lb n="wm.preface.l101"/>禪箴
+        <lb n="wm.preface.l102"/>循規守矩。
+        <lb n="wm.preface.l103"/>無繩自縛。
+        <lb n="wm.preface.l104"/>縱橫無礙。
+        <lb n="wm.preface.l105"/>外道魔軍。
+        <lb n="wm.preface.l106"/>存心澄寂。
+        <lb n="wm.preface.l107"/>默照邪禪恣。
+        <lb n="wm.preface.l108"/>瓷意忘緣。
+        <lb n="wm.preface.l109"/>墮落深坑。
+        <lb n="wm.preface.l110"/>惺惺不昧。
+        <lb n="wm.preface.l111"/>帶鎖擔枷。
+        <lb n="wm.preface.l112"/>思善思惡。
+        <lb n="wm.preface.l113"/>地獄天堂。
+        <lb n="wm.preface.l114"/>佛見法見二銕圍山。
+        <lb n="wm.preface.l115"/>念起即覺。
+        <lb n="wm.preface.l116"/>弄精魂漢。
+        <lb n="wm.preface.l117"/>兀然習定。
+        <lb n="wm.preface.l118"/>鬼家活計。
+        <lb n="wm.preface.l119"/>進則迷理。
+        <lb n="wm.preface.l120"/>退則乖宗。
+        <lb n="wm.preface.l121"/>不進不退。
+        <lb n="wm.preface.l122"/>有氣死人。
+        <lb n="wm.preface.l123"/>且道如何履踐。
+        <lb n="wm.preface.l124"/>努力今生須了卻。
+        <lb n="wm.preface.l125"/>莫教永劫受餘殃。
+        <lb n="wm.preface.l126"/>黃龍三關
+        <lb n="wm.preface.l127"/>我手何似佛手　摸得枕頭背後　不覺大笑呵呵　元來通身是手　我腳何似驢腳　未舉步時踏著　一任四海橫行　倒跨楊岐三腳　人人有箇生緣　各各透徹機先　那吒折骨還父　五祖豈藉爺緣　佛手驢腳生緣　非佛非道非禪　莫怪無門關險　結盡衲子深冤
+        <lb n="wm.preface.l128"/>瑞巖近日有無門　掇向繩床判古今　凡聖路頭俱截斷　幾多蟠蟄起雷音
+        <lb n="wm.preface.l129"/>請
+        <lb n="wm.preface.l130"/>無門首座。
+        <lb n="wm.preface.l131"/>立僧山偈奉謝。
+        <lb n="wm.preface.l132"/>紹定庚寅季春無量（宗壽）書
+        <lb n="wm.preface.l133"/>達磨西來。
+        <lb n="wm.preface.l134"/>不執文字。
+        <lb n="wm.preface.l135"/>直指人心。
+        <lb n="wm.preface.l136"/>見性成佛。
+        <lb n="wm.preface.l137"/>說箇直指。
+        <lb n="wm.preface.l138"/>已是迂曲。
+        <lb n="wm.preface.l139"/>更言成佛。
+        <lb n="wm.preface.l140"/>郎當不少。
+        <lb n="wm.preface.l141"/>既是無門。
+        <lb n="wm.preface.l142"/>因甚有關。
+        <lb n="wm.preface.l143"/>老婆心切惡聲流布。
+        <lb n="wm.preface.l144"/>無庵欲贅。
+        <lb n="wm.preface.l145"/>一語又成四十九則。
+        <lb n="wm.preface.l146"/>其間些子誵訛。
+        <lb n="wm.preface.l147"/>剔起眉毛薦取。
+        <lb n="wm.preface.l148"/>淳祐乙巳夏重刊。
+        <lb n="wm.preface.l149"/>檢校少保寧武軍節度使京湖安撫制置大使兼屯
+        <lb n="wm.preface.l150"/>田大使兼夔路策應大使兼知江陵府漢東郡開國
+        <lb n="wm.preface.l151"/>公食邑二千一百戶食實封陸佰戶　孟珙　跋
+        <lb n="wm.preface.l152"/>無門老禪。
+        <lb n="wm.preface.l153"/>作四十八則語。
+        <lb n="wm.preface.l154"/>判斷古德公案。
+        <lb n="wm.preface.l155"/>大似賣油餅。
+        <lb n="wm.preface.l156"/>人令買家開口接了更吞吐不得。
+        <lb n="wm.preface.l157"/>然雖如是。
+        <lb n="wm.preface.l158"/>安晚欲就渠熱爐熬上。
+        <lb n="wm.preface.l159"/>再打一枚足成大衍之數。
+        <lb n="wm.preface.l160"/>卻仍前送似。
+        <lb n="wm.preface.l161"/>未知。
+        <lb n="wm.preface.l162"/>老師從何處下牙。
+        <lb n="wm.preface.l163"/>如一口喫得。
+        <lb n="wm.preface.l164"/>放光動地。
+        <lb n="wm.preface.l165"/>若猶未。
+        <lb n="wm.preface.l166"/>也連見在四十八箇。
+        <lb n="wm.preface.l167"/>都成熱沙去。
+        <lb n="wm.preface.l168"/>速道速道。
+        <lb n="wm.preface.l169"/>語火是燈　掉頭弗應　惟賊識賊　一問即承
+        <lb n="wm.preface.l170"/>淳祐丙午季夏初吉安晚居士書于西湖漁莊
+        <lb n="wm.preface.l171"/>舊板磨滅故。
+        <lb n="wm.preface.l172"/>重命工鋟梓畢。
+        <lb n="wm.preface.l173"/>這板置于武藏州兜率山廣園禪寺也
+        <lb n="wm.preface.l174"/>應永乙酉十月十三日　幹緣比丘　常牧
+      </p>
+      <head>1. 趙州狗子</head>
+      <p>
+        <lb n="wm.case01.l01"/>趙州和尚因僧問。
+        <lb n="wm.case01.l02"/>狗子還有佛性。
+        <lb n="wm.case01.l03"/>也無。
+        <lb n="wm.case01.l04"/>州云無。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case01.wumen.l01"/>參禪須透祖師關。
+        <lb n="wm.case01.wumen.l02"/>妙悟要窮心路絕。
+        <lb n="wm.case01.wumen.l03"/>祖關不透。
+        <lb n="wm.case01.wumen.l04"/>心路不絕。
+        <lb n="wm.case01.wumen.l05"/>盡是依草附木精靈。
+        <lb n="wm.case01.wumen.l06"/>且道。
+        <lb n="wm.case01.wumen.l07"/>如何是祖師關。
+        <lb n="wm.case01.wumen.l08"/>只者一箇無字。
+        <lb n="wm.case01.wumen.l09"/>乃宗門一關也。
+        <lb n="wm.case01.wumen.l10"/>遂目之曰禪宗無門關。
+        <lb n="wm.case01.wumen.l11"/>透得過者。
+        <lb n="wm.case01.wumen.l12"/>非但親見趙州。
+        <lb n="wm.case01.wumen.l13"/>便可與歷代祖師。
+        <lb n="wm.case01.wumen.l14"/>把手共行。
+        <lb n="wm.case01.wumen.l15"/>眉毛廝結。
+        <lb n="wm.case01.wumen.l16"/>同一眼見。
+        <lb n="wm.case01.wumen.l17"/>同一耳聞。
+        <lb n="wm.case01.wumen.l18"/>豈不慶快。
+        <lb n="wm.case01.wumen.l19"/>莫有要透關底。
+        <lb n="wm.case01.wumen.l20"/>麼將三百六十骨節八萬四千毫竅。
+        <lb n="wm.case01.wumen.l21"/>通身起箇疑團。
+        <lb n="wm.case01.wumen.l22"/>參箇無字。
+        <lb n="wm.case01.wumen.l23"/>晝夜提撕。
+        <lb n="wm.case01.wumen.l24"/>莫作虛無會。
+        <lb n="wm.case01.wumen.l25"/>莫作有無會。
+        <lb n="wm.case01.wumen.l26"/>如吞了箇熱鐵丸。
+        <lb n="wm.case01.wumen.l27"/>相似吐又吐不出。
+        <lb n="wm.case01.wumen.l28"/>蕩盡從前惡知惡覺。
+        <lb n="wm.case01.wumen.l29"/>久久純熟。
+        <lb n="wm.case01.wumen.l30"/>自然內外打成。
+        <lb n="wm.case01.wumen.l31"/>一片如啞子得夢。
+        <lb n="wm.case01.wumen.l32"/>只許自知。
+        <lb n="wm.case01.wumen.l33"/>驀然打發。
+        <lb n="wm.case01.wumen.l34"/>驚天動地。
+        <lb n="wm.case01.wumen.l35"/>如奪得關將軍大刀入手。
+        <lb n="wm.case01.wumen.l36"/>逢佛殺佛。
+        <lb n="wm.case01.wumen.l37"/>逢祖殺祖。
+        <lb n="wm.case01.wumen.l38"/>於生死岸頭得大自在。
+        <lb n="wm.case01.wumen.l39"/>向六道四生中。
+        <lb n="wm.case01.wumen.l40"/>遊戲三昧。
+        <lb n="wm.case01.wumen.l41"/>且作麼生提撕。
+        <lb n="wm.case01.wumen.l42"/>盡平生氣力。
+        <lb n="wm.case01.wumen.l43"/>舉箇無字。
+        <lb n="wm.case01.wumen.l44"/>若不間斷好。
+        <lb n="wm.case01.wumen.l45"/>似法燭一點便著。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case01.verse.l01"/>狗子佛性　全提正令　纔涉有無　喪身失命
+      </p>
+      <head>2. 百丈野狐</head>
+      <p>
+        <lb n="wm.case02.l01"/>百丈和尚。
+        <lb n="wm.case02.l02"/>凡參次有一老人。
+        <lb n="wm.case02.l03"/>常隨眾聽法。
+        <lb n="wm.case02.l04"/>眾人退老人亦退。
+        <lb n="wm.case02.l05"/>忽一日不退。
+        <lb n="wm.case02.l06"/>師遂問。
+        <lb n="wm.case02.l07"/>面前立者復是何人。
+        <lb n="wm.case02.l08"/>老人云。
+        <lb n="wm.case02.l09"/>諾某甲非人也。
+        <lb n="wm.case02.l10"/>於過去迦葉佛時。
+        <lb n="wm.case02.l11"/>曾住此山。
+        <lb n="wm.case02.l12"/>因學人問。
+        <lb n="wm.case02.l13"/>大修行底人還落因果。
+        <lb n="wm.case02.l14"/>也無。
+        <lb n="wm.case02.l15"/>某甲對云。
+        <lb n="wm.case02.l16"/>不落因果。
+        <lb n="wm.case02.l17"/>五百生墮野狐身。
+        <lb n="wm.case02.l18"/>今請和尚。
+        <lb n="wm.case02.l19"/>代一轉語貴。
+        <lb n="wm.case02.l20"/>脫野狐遂問。
+        <lb n="wm.case02.l21"/>大修行底人還落因果。
+        <lb n="wm.case02.l22"/>也無。
+        <lb n="wm.case02.l23"/>師云。
+        <lb n="wm.case02.l24"/>不昧因果。
+        <lb n="wm.case02.l25"/>老人於言下大悟。
+        <lb n="wm.case02.l26"/>作禮云。
+        <lb n="wm.case02.l27"/>某甲已脫野狐身。
+        <lb n="wm.case02.l28"/>住在山後。
+        <lb n="wm.case02.l29"/>敢告和尚。
+        <lb n="wm.case02.l30"/>乞依亡僧事例。
+        <lb n="wm.case02.l31"/>師令無維那白槌告眾。
+        <lb n="wm.case02.l32"/>食後送亡僧。
+        <lb n="wm.case02.l33"/>大眾言議。
+        <lb n="wm.case02.l34"/>一眾皆安涅槃堂。
+        <lb n="wm.case02.l35"/>又無人病。
+        <lb n="wm.case02.l36"/>何故如是。
+        <lb n="wm.case02.l37"/>食後只見師領眾。
+        <lb n="wm.case02.l38"/>至山後巖下。
+        <lb n="wm.case02.l39"/>以杖挑出一死野狐。
+        <lb n="wm.case02.l40"/>乃依火葬。
+        <lb n="wm.case02.l41"/>師至晚上堂。
+        <lb n="wm.case02.l42"/>舉前因緣。
+        <lb n="wm.case02.l43"/>黃蘗便問。
+        <lb n="wm.case02.l44"/>古人錯祇對一轉語。
+        <lb n="wm.case02.l45"/>墮五百生野狐身。
+        <lb n="wm.case02.l46"/>轉轉不錯。
+        <lb n="wm.case02.l47"/>合作箇甚麼。
+        <lb n="wm.case02.l48"/>師云。
+        <lb n="wm.case02.l49"/>近前來與伊道。
+        <lb n="wm.case02.l50"/>黃蘗遂近前。
+        <lb n="wm.case02.l51"/>與師一掌。
+        <lb n="wm.case02.l52"/>師拍手笑云。
+        <lb n="wm.case02.l53"/>將謂。
+        <lb n="wm.case02.l54"/>胡鬚赤更有赤鬚胡。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case02.wumen.l01"/>不落因果。
+        <lb n="wm.case02.wumen.l02"/>為甚墮野狐。
+        <lb n="wm.case02.wumen.l03"/>不昧因果。
+        <lb n="wm.case02.wumen.l04"/>為甚脫野狐。
+        <lb n="wm.case02.wumen.l05"/>若向者裏著得一隻眼。
+        <lb n="wm.case02.wumen.l06"/>便知得。
+        <lb n="wm.case02.wumen.l07"/>前百丈贏得。
+        <lb n="wm.case02.wumen.l08"/>風流五百生。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case02.verse.l01"/>不落不昧　兩采一賽　不昧不落　千錯萬錯
+      </p>
+      <head>3. 俱胝豎指</head>
+      <p>
+        <lb n="wm.case03.l01"/>俱胝和尚。
+        <lb n="wm.case03.l02"/>凡有詰問。
+        <lb n="wm.case03.l03"/>唯舉一指。
+        <lb n="wm.case03.l04"/>後有童子。
+        <lb n="wm.case03.l05"/>因外人問。
+        <lb n="wm.case03.l06"/>和尚說何法要。
+        <lb n="wm.case03.l07"/>童子亦豎指頭。
+        <lb n="wm.case03.l08"/>胝聞。
+        <lb n="wm.case03.l09"/>遂以刃斷其指。
+        <lb n="wm.case03.l10"/>童子負痛號哭而去。
+        <lb n="wm.case03.l11"/>胝復召之。
+        <lb n="wm.case03.l12"/>童子迴首。
+        <lb n="wm.case03.l13"/>胝卻豎起指。
+        <lb n="wm.case03.l14"/>童子忽然領悟。
+        <lb n="wm.case03.l15"/>胝將順世。
+        <lb n="wm.case03.l16"/>謂眾曰。
+        <lb n="wm.case03.l17"/>吾得天龍一指頭禪。
+        <lb n="wm.case03.l18"/>一生受用不盡。
+        <lb n="wm.case03.l19"/>言訖示滅。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case03.wumen.l01"/>俱胝并童子悟處。
+        <lb n="wm.case03.wumen.l02"/>不在指頭上。
+        <lb n="wm.case03.wumen.l03"/>若向者裏見得。
+        <lb n="wm.case03.wumen.l04"/>天龍同俱胝并童子。
+        <lb n="wm.case03.wumen.l05"/>與自己一串穿卻。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case03.verse.l01"/>俱胝鈍置老天龍　利刃單提勘小童　巨靈抬手無多子　分破華山千萬重
+      </p>
+      <head>4. 胡子無鬚</head>
+      <p>
+        <lb n="wm.case04.l01"/>或庵曰。
+        <lb n="wm.case04.l02"/>西天胡子。
+        <lb n="wm.case04.l03"/>因甚無鬚。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case04.wumen.l01"/>參須實參。
+        <lb n="wm.case04.wumen.l02"/>悟須實悟。
+        <lb n="wm.case04.wumen.l03"/>者箇胡子。
+        <lb n="wm.case04.wumen.l04"/>直須親見一回始得。
+        <lb n="wm.case04.wumen.l05"/>說親見。
+        <lb n="wm.case04.wumen.l06"/>早成兩箇。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case04.verse.l01"/>癡人面前　不可說夢　胡子無鬚　惺惺添懵
+      </p>
+      <head>5. 香嚴上樹</head>
+      <p>
+        <lb n="wm.case05.l01"/>香嚴和尚云。
+        <lb n="wm.case05.l02"/>如人上樹。
+        <lb n="wm.case05.l03"/>口啣樹枝。
+        <lb n="wm.case05.l04"/>手不攀枝。
+        <lb n="wm.case05.l05"/>腳不踏樹。
+        <lb n="wm.case05.l06"/>樹下有人。
+        <lb n="wm.case05.l07"/>問西來意。
+        <lb n="wm.case05.l08"/>不對即違他所問。
+        <lb n="wm.case05.l09"/>若對又喪身失命。
+        <lb n="wm.case05.l10"/>正恁麼時。
+        <lb n="wm.case05.l11"/>作麼生對。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case05.wumen.l01"/>縱有懸河之辨。
+        <lb n="wm.case05.wumen.l02"/>總用不著。
+        <lb n="wm.case05.wumen.l03"/>說得一大藏教。
+        <lb n="wm.case05.wumen.l04"/>亦用不著。
+        <lb n="wm.case05.wumen.l05"/>若向者裏對得著。
+        <lb n="wm.case05.wumen.l06"/>活卻從前死路頭。
+        <lb n="wm.case05.wumen.l07"/>死卻從前活路頭。
+        <lb n="wm.case05.wumen.l08"/>其或未然。
+        <lb n="wm.case05.wumen.l09"/>直待當來。
+        <lb n="wm.case05.wumen.l10"/>問彌勒。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case05.verse.l01"/>香嚴真杜撰　惡毒無盡限　啞卻衲僧口　通身迸鬼眼
+      </p>
+      <head>6. 世尊拈花</head>
+      <p>
+        <lb n="wm.case06.l01"/>世尊昔在靈山會上。
+        <lb n="wm.case06.l02"/>拈花示眾。
+        <lb n="wm.case06.l03"/>是時眾皆默然。
+        <lb n="wm.case06.l04"/>惟迦葉尊者破顏微笑。
+        <lb n="wm.case06.l05"/>世尊云。
+        <lb n="wm.case06.l06"/>吾有正法眼藏涅槃妙心實相無相微妙法門。
+        <lb n="wm.case06.l07"/>不立文字教外別傳。
+        <lb n="wm.case06.l08"/>付囑摩訶迦葉。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case06.wumen.l01"/>黃面瞿曇傍若無人。
+        <lb n="wm.case06.wumen.l02"/>壓良為賤。
+        <lb n="wm.case06.wumen.l03"/>懸羊頭賣狗肉。
+        <lb n="wm.case06.wumen.l04"/>將謂。
+        <lb n="wm.case06.wumen.l05"/>多少奇特。
+        <lb n="wm.case06.wumen.l06"/>只如當時大眾都笑。
+        <lb n="wm.case06.wumen.l07"/>正法眼藏作麼生傳。
+        <lb n="wm.case06.wumen.l08"/>設使迦葉不笑。
+        <lb n="wm.case06.wumen.l09"/>正法眼藏又作麼生傳。
+        <lb n="wm.case06.wumen.l10"/>若道正法眼藏有傳授。
+        <lb n="wm.case06.wumen.l11"/>黃面老子誑謼閭閻。
+        <lb n="wm.case06.wumen.l12"/>若道無傳授。
+        <lb n="wm.case06.wumen.l13"/>為甚麼獨許迦葉。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case06.verse.l01"/>拈起花來　尾巴已露　迦葉破顏　人天罔措
+      </p>
+      <head>7. 趙州洗缽</head>
+      <p>
+        <lb n="wm.case07.l01"/>趙州因僧問。
+        <lb n="wm.case07.l02"/>某甲乍入叢林。
+        <lb n="wm.case07.l03"/>乞師指示。
+        <lb n="wm.case07.l04"/>州云。
+        <lb n="wm.case07.l05"/>喫粥了也未。
+        <lb n="wm.case07.l06"/>僧云。
+        <lb n="wm.case07.l07"/>喫粥了也。
+        <lb n="wm.case07.l08"/>州云。
+        <lb n="wm.case07.l09"/>洗缽盂去。
+        <lb n="wm.case07.l10"/>其僧有省。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case07.wumen.l01"/>趙州開口見膽。
+        <lb n="wm.case07.wumen.l02"/>露出心肝者僧聽事不真。
+        <lb n="wm.case07.wumen.l03"/>喚鐘作甕。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case07.verse.l01"/>只為分明極　翻令所得遲　早知燈是火　飯熟已多時
+      </p>
+      <head>8. 奚仲造車</head>
+      <p>
+        <lb n="wm.case08.l01"/>月庵和尚。
+        <lb n="wm.case08.l02"/>問僧。
+        <lb n="wm.case08.l03"/>奚仲造車一百輻。
+        <lb n="wm.case08.l04"/>拈卻兩頭。
+        <lb n="wm.case08.l05"/>去卻軸。
+        <lb n="wm.case08.l06"/>明甚麼邊事。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case08.wumen.l01"/>若也直下明得。
+        <lb n="wm.case08.wumen.l02"/>眼似流星。
+        <lb n="wm.case08.wumen.l03"/>機如掣電。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case08.verse.l01"/>機輪轉處　達者猶迷　四維上下　南北東西
+      </p>
+      <head>9. 大通智勝</head>
+      <p>
+        <lb n="wm.case09.l01"/>興陽讓和尚。
+        <lb n="wm.case09.l02"/>因僧問。
+        <lb n="wm.case09.l03"/>大通智勝佛。
+        <lb n="wm.case09.l04"/>十劫坐道場。
+        <lb n="wm.case09.l05"/>佛法不現前。
+        <lb n="wm.case09.l06"/>不得成佛道時如何。
+        <lb n="wm.case09.l07"/>讓曰。
+        <lb n="wm.case09.l08"/>其問甚諦當。
+        <lb n="wm.case09.l09"/>僧云。
+        <lb n="wm.case09.l10"/>既是坐道場。
+        <lb n="wm.case09.l11"/>為甚麼不得成佛道。
+        <lb n="wm.case09.l12"/>讓曰。
+        <lb n="wm.case09.l13"/>為伊不成佛。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case09.wumen.l01"/>只許老胡知。
+        <lb n="wm.case09.wumen.l02"/>不許老胡會。
+        <lb n="wm.case09.wumen.l03"/>凡夫若知即是聖人。
+        <lb n="wm.case09.wumen.l04"/>聖人若會即是凡夫。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case09.verse.l01"/>了身何似了心休　了得心兮身不愁　若也身心俱了了　神仙何必更封侯
+      </p>
+      <head>10. 清稅孤貧</head>
+      <p>
+        <lb n="wm.case10.l01"/>曹山和尚。
+        <lb n="wm.case10.l02"/>因僧問云。
+        <lb n="wm.case10.l03"/>清稅孤貧。
+        <lb n="wm.case10.l04"/>乞師賑濟。
+        <lb n="wm.case10.l05"/>山云。
+        <lb n="wm.case10.l06"/>稅闍梨稅應諾。
+        <lb n="wm.case10.l07"/>山曰。
+        <lb n="wm.case10.l08"/>青原白家酒。
+        <lb n="wm.case10.l09"/>三盞喫了猶道。
+        <lb n="wm.case10.l10"/>未沾唇。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case10.wumen.l01"/>清稅輸機。
+        <lb n="wm.case10.wumen.l02"/>是何心行。
+        <lb n="wm.case10.wumen.l03"/>曹山具眼深辨來機。
+        <lb n="wm.case10.wumen.l04"/>然雖如是且道。
+        <lb n="wm.case10.wumen.l05"/>那裏是稅闍梨喫。
+        <lb n="wm.case10.wumen.l06"/>酒處。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case10.verse.l01"/>貧似范丹　氣如項羽　活計雖無　敢與鬥富
+      </p>
+      <head>11. 州勘庵主</head>
+      <p>
+        <lb n="wm.case11.l01"/>趙州到一庵主處問。
+        <lb n="wm.case11.l02"/>有麼有麼主豎起拳頭。
+        <lb n="wm.case11.l03"/>州云。
+        <lb n="wm.case11.l04"/>水淺。
+        <lb n="wm.case11.l05"/>不是泊舡處。
+        <lb n="wm.case11.l06"/>便行。
+        <lb n="wm.case11.l07"/>又到一庵主處云。
+        <lb n="wm.case11.l08"/>有麼有麼主亦豎起拳頭。
+        <lb n="wm.case11.l09"/>州云。
+        <lb n="wm.case11.l10"/>能縱能奪能殺能活。
+        <lb n="wm.case11.l11"/>便作禮。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case11.wumen.l01"/>一般豎起拳頭。
+        <lb n="wm.case11.wumen.l02"/>為甚麼。
+        <lb n="wm.case11.wumen.l03"/>肯一箇不肯一箇。
+        <lb n="wm.case11.wumen.l04"/>且道。
+        <lb n="wm.case11.wumen.l05"/>誵訛在甚處。
+        <lb n="wm.case11.wumen.l06"/>若向者裏。
+        <lb n="wm.case11.wumen.l07"/>下得一轉語。
+        <lb n="wm.case11.wumen.l08"/>便見趙　州舌頭無骨。
+        <lb n="wm.case11.wumen.l09"/>扶起放倒得大自在。
+        <lb n="wm.case11.wumen.l10"/>雖然如是。
+        <lb n="wm.case11.wumen.l11"/>爭奈趙州卻被二庵主勘破。
+        <lb n="wm.case11.wumen.l12"/>若道二庵主有優劣。
+        <lb n="wm.case11.wumen.l13"/>未具參學眼。
+        <lb n="wm.case11.wumen.l14"/>若道無優劣。
+        <lb n="wm.case11.wumen.l15"/>亦未具參學眼。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case11.verse.l01"/>眼流星　機掣電　殺人刀　活人劍。
+      </p>
+      <head>12. 巖喚主人</head>
+      <p>
+        <lb n="wm.case12.l01"/>瑞巖彥和尚。
+        <lb n="wm.case12.l02"/>每日自喚主人公。
+        <lb n="wm.case12.l03"/>復自應諾。
+        <lb n="wm.case12.l04"/>乃云。
+        <lb n="wm.case12.l05"/>惺惺著喏。
+        <lb n="wm.case12.l06"/>他時異日。
+        <lb n="wm.case12.l07"/>莫受人瞞。
+        <lb n="wm.case12.l08"/>喏喏。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case12.wumen.l01"/>瑞巖老子自買自賣。
+        <lb n="wm.case12.wumen.l02"/>弄出許多神頭鬼面。
+        <lb n="wm.case12.wumen.l03"/>何故聾一箇喚底。
+        <lb n="wm.case12.wumen.l04"/>一箇應底。
+        <lb n="wm.case12.wumen.l05"/>一箇惺惺底。
+        <lb n="wm.case12.wumen.l06"/>一箇不受人瞞底。
+        <lb n="wm.case12.wumen.l07"/>認著依前還不是。
+        <lb n="wm.case12.wumen.l08"/>若也傚他。
+        <lb n="wm.case12.wumen.l09"/>總是野狐見解。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case12.verse.l01"/>學道之人不識真　只為從前認識神　無量劫來生死本　癡人喚作本來人
+      </p>
+      <head>13. 德山托缽</head>
+      <p>
+        <lb n="wm.case13.l01"/>德山一日托缽下堂。
+        <lb n="wm.case13.l02"/>見雪峰問者。
+        <lb n="wm.case13.l03"/>老漢鐘未鳴鼓未響。
+        <lb n="wm.case13.l04"/>托缽向甚處去。
+        <lb n="wm.case13.l05"/>山便回方丈。
+        <lb n="wm.case13.l06"/>峰舉似巖頭。
+        <lb n="wm.case13.l07"/>頭云。
+        <lb n="wm.case13.l08"/>大小德山未會末後句。
+        <lb n="wm.case13.l09"/>山聞。
+        <lb n="wm.case13.l10"/>令侍者喚巖頭來。
+        <lb n="wm.case13.l11"/>問曰。
+        <lb n="wm.case13.l12"/>汝不肯老僧那。
+        <lb n="wm.case13.l13"/>巖頭密啟其意。
+        <lb n="wm.case13.l14"/>山乃休去。
+        <lb n="wm.case13.l15"/>明日陞座。
+        <lb n="wm.case13.l16"/>果與尋常不同。
+        <lb n="wm.case13.l17"/>巖頭至僧堂前。
+        <lb n="wm.case13.l18"/>拊掌大笑云。
+        <lb n="wm.case13.l19"/>且喜得老漢會末後句。
+        <lb n="wm.case13.l20"/>他後天下人不奈伊何。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case13.wumen.l01"/>若是末後句。
+        <lb n="wm.case13.wumen.l02"/>巖頭德山俱未夢見在。
+        <lb n="wm.case13.wumen.l03"/>撿點將來好。
+        <lb n="wm.case13.wumen.l04"/>似一棚傀儡。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case13.verse.l01"/>識得最初句　便會末後句　末後與最初　不是者一句
+      </p>
+      <head>14. 南泉斬貓</head>
+      <p>
+        <lb n="wm.case14.l01"/>南泉和尚。
+        <lb n="wm.case14.l02"/>因東西兩堂爭貓兒。
+        <lb n="wm.case14.l03"/>泉乃提起云。
+        <lb n="wm.case14.l04"/>大眾道得即救。
+        <lb n="wm.case14.l05"/>道不得即斬卻也。
+        <lb n="wm.case14.l06"/>眾無對。
+        <lb n="wm.case14.l07"/>泉遂斬之。
+        <lb n="wm.case14.l08"/>晚趙州外歸。
+        <lb n="wm.case14.l09"/>泉舉似州。
+        <lb n="wm.case14.l10"/>州乃脫履。
+        <lb n="wm.case14.l11"/>安頭上而出。
+        <lb n="wm.case14.l12"/>泉云。
+        <lb n="wm.case14.l13"/>子若在即救得貓兒。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case14.wumen.l01"/>且道。
+        <lb n="wm.case14.wumen.l02"/>趙州頂草鞋意作麼生。
+        <lb n="wm.case14.wumen.l03"/>若向者裏下得一轉語。
+        <lb n="wm.case14.wumen.l04"/>便見南泉令不虛行。
+        <lb n="wm.case14.wumen.l05"/>其或未然險。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case14.verse.l01"/>趙州若在　倒行此令　奪卻刀子　南泉乞命
+      </p>
+      <head>15. 洞山三頓</head>
+      <p>
+        <lb n="wm.case15.l01"/>雲門因洞山參次。
+        <lb n="wm.case15.l02"/>門問曰。
+        <lb n="wm.case15.l03"/>近離甚處。
+        <lb n="wm.case15.l04"/>山云查渡。
+        <lb n="wm.case15.l05"/>門曰夏在甚處。
+        <lb n="wm.case15.l06"/>山云湖南報慈。
+        <lb n="wm.case15.l07"/>門曰幾時離彼。
+        <lb n="wm.case15.l08"/>山云八月二十五。
+        <lb n="wm.case15.l09"/>門曰放汝三頓棒。
+        <lb n="wm.case15.l10"/>山至明日卻上問訊。
+        <lb n="wm.case15.l11"/>昨日蒙和尚放三頓棒。
+        <lb n="wm.case15.l12"/>不知過在甚麼處。
+        <lb n="wm.case15.l13"/>門曰飯袋子。
+        <lb n="wm.case15.l14"/>江西湖南便恁麼去山。
+        <lb n="wm.case15.l15"/>於此大悟。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case15.wumen.l01"/>雲門當時便與本分草料。
+        <lb n="wm.case15.wumen.l02"/>使洞山別有生機一路。
+        <lb n="wm.case15.wumen.l03"/>家門不致寂寥。
+        <lb n="wm.case15.wumen.l04"/>一夜在是非海裏。
+        <lb n="wm.case15.wumen.l05"/>著到直待天明。
+        <lb n="wm.case15.wumen.l06"/>再來又與他注破。
+        <lb n="wm.case15.wumen.l07"/>洞山直下悟去。
+        <lb n="wm.case15.wumen.l08"/>未是性燥。
+        <lb n="wm.case15.wumen.l09"/>且問諸人。
+        <lb n="wm.case15.wumen.l10"/>洞山三頓棒合喫不合喫。
+        <lb n="wm.case15.wumen.l11"/>若道合喫。
+        <lb n="wm.case15.wumen.l12"/>草木叢林皆合喫棒。
+        <lb n="wm.case15.wumen.l13"/>若道不合喫。
+        <lb n="wm.case15.wumen.l14"/>雲門又成誑語。
+        <lb n="wm.case15.wumen.l15"/>向者裏明得。
+        <lb n="wm.case15.wumen.l16"/>方與洞山出一口氣。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case15.verse.l01"/>獅子教兒迷子訣　擬前跳躑早翻身　無端再敘當頭著　前箭猶輕後箭深
+      </p>
+      <head>16. 鐘聲七條</head>
+      <p>
+        <lb n="wm.case16.l01"/>雲門曰。
+        <lb n="wm.case16.l02"/>世界恁麼廣闊。
+        <lb n="wm.case16.l03"/>因甚向鐘聲裏披七條。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case16.wumen.l01"/>大凡參禪學道。
+        <lb n="wm.case16.wumen.l02"/>切忌隨聲逐色。
+        <lb n="wm.case16.wumen.l03"/>縱使聞聲悟道見色明心。
+        <lb n="wm.case16.wumen.l04"/>也是尋常。
+        <lb n="wm.case16.wumen.l05"/>殊不知。
+        <lb n="wm.case16.wumen.l06"/>衲僧家騎聲蓋色。
+        <lb n="wm.case16.wumen.l07"/>頭頭上明。
+        <lb n="wm.case16.wumen.l08"/>著著上妙。
+        <lb n="wm.case16.wumen.l09"/>然雖如是且道。
+        <lb n="wm.case16.wumen.l10"/>聲來耳畔。
+        <lb n="wm.case16.wumen.l11"/>耳往聲邊。
+        <lb n="wm.case16.wumen.l12"/>直饒響寂雙忘。
+        <lb n="wm.case16.wumen.l13"/>到此如何話會。
+        <lb n="wm.case16.wumen.l14"/>若將耳聽應難會。
+        <lb n="wm.case16.wumen.l15"/>眼處聞聲方始親。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case16.verse.l01"/>會則事同一家　不會萬別千差　不會事同一家　會則萬別千差
+      </p>
+      <head>17. 國師三喚</head>
+      <p>
+        <lb n="wm.case17.l01"/>國師三喚侍者。
+        <lb n="wm.case17.l02"/>侍者三應。
+        <lb n="wm.case17.l03"/>國師云。
+        <lb n="wm.case17.l04"/>將謂吾辜負汝。
+        <lb n="wm.case17.l05"/>元來卻是汝辜負吾。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case17.wumen.l01"/>國師三喚舌頭墮地。
+        <lb n="wm.case17.wumen.l02"/>侍者三應。
+        <lb n="wm.case17.wumen.l03"/>和光吐出。
+        <lb n="wm.case17.wumen.l04"/>國師年老心孤。
+        <lb n="wm.case17.wumen.l05"/>按牛頭喫草。
+        <lb n="wm.case17.wumen.l06"/>侍者未肯承當。
+        <lb n="wm.case17.wumen.l07"/>美食不中飽人餐。
+        <lb n="wm.case17.wumen.l08"/>且道那裏是他辜負處。
+        <lb n="wm.case17.wumen.l09"/>國清才子貴。
+        <lb n="wm.case17.wumen.l10"/>家富小兒嬌。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case17.verse.l01"/>鐵枷無孔要人擔　累及兒孫不等閑　欲得撐門并拄戶　更須赤腳上刀山
+      </p>
+      <head>18. 洞山三斤</head>
+      <p>
+        <lb n="wm.case18.l01"/>洞山和尚。
+        <lb n="wm.case18.l02"/>因僧問。
+        <lb n="wm.case18.l03"/>如何是佛。
+        <lb n="wm.case18.l04"/>山云。
+        <lb n="wm.case18.l05"/>麻三斤。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case18.wumen.l01"/>洞山老人參得些蚌蛤禪。
+        <lb n="wm.case18.wumen.l02"/>纔開兩片。
+        <lb n="wm.case18.wumen.l03"/>露出肝腸。
+        <lb n="wm.case18.wumen.l04"/>然雖如是且道。
+        <lb n="wm.case18.wumen.l05"/>向甚處見洞山。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case18.verse.l01"/>突出麻三斤　言親意更親　來說是非者　便是是非人
+      </p>
+      <head>19. 平常是道</head>
+      <p>
+        <lb n="wm.case19.l01"/>南泉因趙州問。
+        <lb n="wm.case19.l02"/>如何是道。
+        <lb n="wm.case19.l03"/>泉云。
+        <lb n="wm.case19.l04"/>平常心是道。
+        <lb n="wm.case19.l05"/>州云。
+        <lb n="wm.case19.l06"/>還可趣向否。
+        <lb n="wm.case19.l07"/>泉云。
+        <lb n="wm.case19.l08"/>擬向即乖。
+        <lb n="wm.case19.l09"/>州云。
+        <lb n="wm.case19.l10"/>不擬爭知是道。
+        <lb n="wm.case19.l11"/>泉云。
+        <lb n="wm.case19.l12"/>道不屬知。
+        <lb n="wm.case19.l13"/>不屬不知。
+        <lb n="wm.case19.l14"/>知是妄覺。
+        <lb n="wm.case19.l15"/>不知是無記。
+        <lb n="wm.case19.l16"/>若真達不擬之道。
+        <lb n="wm.case19.l17"/>猶如太虛廓然洞豁。
+        <lb n="wm.case19.l18"/>豈可強是非也。
+        <lb n="wm.case19.l19"/>州於言下頓悟。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case19.wumen.l01"/>南泉被趙州發問。
+        <lb n="wm.case19.wumen.l02"/>直得瓦解冰消分疏不下。
+        <lb n="wm.case19.wumen.l03"/>趙州縱饒悟去。
+        <lb n="wm.case19.wumen.l04"/>更參三十年始得。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case19.verse.l01"/>春有百花秋有月　夏有涼風冬有雪　若無閑事挂心頭　便是人間好時節
+      </p>
+      <head>20. 大力量人</head>
+      <p>
+        <lb n="wm.case20.l01"/>松源和尚云。
+        <lb n="wm.case20.l02"/>大力量人因甚抬腳不起。
+        <lb n="wm.case20.l03"/>又云。
+        <lb n="wm.case20.l04"/>開口不在舌頭上。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case20.wumen.l01"/>松源可謂。
+        <lb n="wm.case20.wumen.l02"/>傾腸倒腹。
+        <lb n="wm.case20.wumen.l03"/>只是欠人承當。
+        <lb n="wm.case20.wumen.l04"/>縱饒直下承當。
+        <lb n="wm.case20.wumen.l05"/>正好來無門處喫痛棒。
+        <lb n="wm.case20.wumen.l06"/>何故聾。
+        <lb n="wm.case20.wumen.l07"/>聻要識真金。
+        <lb n="wm.case20.wumen.l08"/>火裏看。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case20.verse.l01"/>抬腳踏翻香水海　低頭俯視四禪天　一箇渾身無處著　請續一向
+      </p>
+      <head>21. 雲門屎橛</head>
+      <p>
+        <lb n="wm.case21.l01"/>雲門因僧問。
+        <lb n="wm.case21.l02"/>如何是佛。
+        <lb n="wm.case21.l03"/>門云乾屎橛
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case21.wumen.l01"/>雲門可謂。
+        <lb n="wm.case21.wumen.l02"/>家貧難辨素食。
+        <lb n="wm.case21.wumen.l03"/>事忙不及草書。
+        <lb n="wm.case21.wumen.l04"/>動便將屎橛來。
+        <lb n="wm.case21.wumen.l05"/>撐門拄戶。
+        <lb n="wm.case21.wumen.l06"/>佛法興衰可見。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case21.verse.l01"/>閃電光　擊石火　眨得眼　已蹉過
+      </p>
+      <head>22. 迦葉剎竿</head>
+      <p>
+        <lb n="wm.case22.l01"/>迦葉因阿難問云。
+        <lb n="wm.case22.l02"/>世尊傳金襴袈裟外。
+        <lb n="wm.case22.l03"/>別傳何物。
+        <lb n="wm.case22.l04"/>葉喚云。
+        <lb n="wm.case22.l05"/>阿難。
+        <lb n="wm.case22.l06"/>難應諾。
+        <lb n="wm.case22.l07"/>葉云。
+        <lb n="wm.case22.l08"/>倒卻門前剎竿著。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case22.wumen.l01"/>若向者裏下得一轉語。
+        <lb n="wm.case22.wumen.l02"/>親切便見靈山一會儼然未散。
+        <lb n="wm.case22.wumen.l03"/>其或未然。
+        <lb n="wm.case22.wumen.l04"/>毘婆尸佛早留心。
+        <lb n="wm.case22.wumen.l05"/>直至而今不得妙。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case22.verse.l01"/>問處何如答處親　幾人於此眼生筋　兄呼弟應揚家醜　不屬陰陽別是春
+      </p>
+      <head>23. 不思善惡</head>
+      <p>
+        <lb n="wm.case23.l01"/>六祖因明上座。
+        <lb n="wm.case23.l02"/>趁至大庾嶺。
+        <lb n="wm.case23.l03"/>祖見明至。
+        <lb n="wm.case23.l04"/>即擲衣缽於石上云。
+        <lb n="wm.case23.l05"/>此衣表信。
+        <lb n="wm.case23.l06"/>可力爭耶。
+        <lb n="wm.case23.l07"/>任君將去。
+        <lb n="wm.case23.l08"/>明遂舉之如山不動。
+        <lb n="wm.case23.l09"/>踟躕悚慄。
+        <lb n="wm.case23.l10"/>明曰。
+        <lb n="wm.case23.l11"/>我來求法。
+        <lb n="wm.case23.l12"/>非為衣也。
+        <lb n="wm.case23.l13"/>願行者開示。
+        <lb n="wm.case23.l14"/>祖云。
+        <lb n="wm.case23.l15"/>不思善不思惡。
+        <lb n="wm.case23.l16"/>正與麼時那箇是明上座。
+        <lb n="wm.case23.l17"/>本來面目。
+        <lb n="wm.case23.l18"/>明當下大悟。
+        <lb n="wm.case23.l19"/>遍體汗流。
+        <lb n="wm.case23.l20"/>泣淚作禮問曰。
+        <lb n="wm.case23.l21"/>上來密語密意外。
+        <lb n="wm.case23.l22"/>還更有意旨否。
+        <lb n="wm.case23.l23"/>祖曰。
+        <lb n="wm.case23.l24"/>我今為汝說者。
+        <lb n="wm.case23.l25"/>即非密也。
+        <lb n="wm.case23.l26"/>汝若返照自己面目。
+        <lb n="wm.case23.l27"/>密卻在汝邊。
+        <lb n="wm.case23.l28"/>明云。
+        <lb n="wm.case23.l29"/>某甲雖在黃梅隨眾。
+        <lb n="wm.case23.l30"/>實未省自己面目。
+        <lb n="wm.case23.l31"/>今蒙指授入處。
+        <lb n="wm.case23.l32"/>如人飲水冷暖自知。
+        <lb n="wm.case23.l33"/>今行者即是某甲師也。
+        <lb n="wm.case23.l34"/>祖云。
+        <lb n="wm.case23.l35"/>汝若如是。
+        <lb n="wm.case23.l36"/>則吾與汝同師黃梅。
+        <lb n="wm.case23.l37"/>善自護持。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case23.wumen.l01"/>六祖可謂。
+        <lb n="wm.case23.wumen.l02"/>是事出急家。
+        <lb n="wm.case23.wumen.l03"/>老婆心切。
+        <lb n="wm.case23.wumen.l04"/>譬如新荔支剝了殼。
+        <lb n="wm.case23.wumen.l05"/>去了核送在爾口裏。
+        <lb n="wm.case23.wumen.l06"/>只要爾嚥一嚥。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case23.verse.l01"/>描不成兮畫不就　贊不及兮休生受　本來面目沒處藏　世界壞時渠不朽
+      </p>
+      <head>24. 離卻語言</head>
+      <p>
+        <lb n="wm.case24.l01"/>風穴和尚。
+        <lb n="wm.case24.l02"/>因僧問。
+        <lb n="wm.case24.l03"/>語默涉離微。
+        <lb n="wm.case24.l04"/>如何通不犯。
+        <lb n="wm.case24.l05"/>穴云。
+        <lb n="wm.case24.l06"/>長憶江南三月裏。
+        <lb n="wm.case24.l07"/>鷓鴣啼處百花香。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case24.wumen.l01"/>風穴機如掣電。
+        <lb n="wm.case24.wumen.l02"/>得路便行。
+        <lb n="wm.case24.wumen.l03"/>爭奈坐前人舌頭不斷。
+        <lb n="wm.case24.wumen.l04"/>若向者裏見得親切。
+        <lb n="wm.case24.wumen.l05"/>自有出身之路。
+        <lb n="wm.case24.wumen.l06"/>且離卻語言三昧。
+        <lb n="wm.case24.wumen.l07"/>道將一句來。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case24.verse.l01"/>不露風骨句　未語先分付　進步口喃喃　知君大罔措
+      </p>
+      <head>25. 三座說法</head>
+      <p>
+        <lb n="wm.case25.l01"/>仰山和尚。
+        <lb n="wm.case25.l02"/>夢見往彌勒所安第三座。
+        <lb n="wm.case25.l03"/>有一尊者。
+        <lb n="wm.case25.l04"/>白槌云。
+        <lb n="wm.case25.l05"/>今日當第三座說法。
+        <lb n="wm.case25.l06"/>山乃起白槌云。
+        <lb n="wm.case25.l07"/>摩訶衍法離四句絕百非。
+        <lb n="wm.case25.l08"/>諦聽諦聽。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case25.wumen.l01"/>且道是說法不說法。
+        <lb n="wm.case25.wumen.l02"/>開口即失。
+        <lb n="wm.case25.wumen.l03"/>閉口又喪。
+        <lb n="wm.case25.wumen.l04"/>不開不閉十萬八千。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case25.verse.l01"/>白日青天　夢中說夢　捏怪捏怪　誑謼一眾
+      </p>
+      <head>26. 二僧卷簾</head>
+      <p>
+        <lb n="wm.case26.l01"/>清涼大法眼。
+        <lb n="wm.case26.l02"/>因僧齋前上參。
+        <lb n="wm.case26.l03"/>眼以手指簾。
+        <lb n="wm.case26.l04"/>時有二僧。
+        <lb n="wm.case26.l05"/>同去卷簾。
+        <lb n="wm.case26.l06"/>眼曰。
+        <lb n="wm.case26.l07"/>一得一失。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case26.wumen.l01"/>且道是誰得誰失。
+        <lb n="wm.case26.wumen.l02"/>若向者裏著得一隻眼。
+        <lb n="wm.case26.wumen.l03"/>便知清涼國師敗闕處。
+        <lb n="wm.case26.wumen.l04"/>然雖如是。
+        <lb n="wm.case26.wumen.l05"/>切忌向得失裏商量。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case26.verse.l01"/>卷起明明徹太空　太空猶未合吾宗　爭似從空都放下　綿綿密密不通風
+      </p>
+      <head>27. 不是心佛</head>
+      <p>
+        <lb n="wm.case27.l01"/>南泉和尚。
+        <lb n="wm.case27.l02"/>因僧問云。
+        <lb n="wm.case27.l03"/>還有不與人說底法麼。
+        <lb n="wm.case27.l04"/>泉云有僧云。
+        <lb n="wm.case27.l05"/>如何是不與人說底法。
+        <lb n="wm.case27.l06"/>泉云。
+        <lb n="wm.case27.l07"/>不是心不是佛不是物。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case27.wumen.l01"/>南泉被者一問。
+        <lb n="wm.case27.wumen.l02"/>直得揣盡家私。
+        <lb n="wm.case27.wumen.l03"/>郎當不少。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case27.verse.l01"/>叮嚀損君德　無言真有功　任從滄海變　終不為君通
+      </p>
+      <head>28. 久響龍潭</head>
+      <p>
+        <lb n="wm.case28.l01"/>龍潭因德山請益抵夜。
+        <lb n="wm.case28.l02"/>潭云。
+        <lb n="wm.case28.l03"/>夜深子何不下去。
+        <lb n="wm.case28.l04"/>山遂珍重揭簾而出。
+        <lb n="wm.case28.l05"/>見外面黑卻回云。
+        <lb n="wm.case28.l06"/>外面黑。
+        <lb n="wm.case28.l07"/>潭乃點紙燭度與。
+        <lb n="wm.case28.l08"/>山擬接。
+        <lb n="wm.case28.l09"/>潭便吹滅。
+        <lb n="wm.case28.l10"/>山於此忽然有省。
+        <lb n="wm.case28.l11"/>便作禮。
+        <lb n="wm.case28.l12"/>潭云。
+        <lb n="wm.case28.l13"/>子見箇甚麼道理。
+        <lb n="wm.case28.l14"/>山云。
+        <lb n="wm.case28.l15"/>某甲從今日去。
+        <lb n="wm.case28.l16"/>不疑天下老和尚舌頭。
+        <lb n="wm.case28.l17"/>也至明日龍潭陞堂云。
+        <lb n="wm.case28.l18"/>可中有箇漢。
+        <lb n="wm.case28.l19"/>牙如劍樹。
+        <lb n="wm.case28.l20"/>口似血盆。
+        <lb n="wm.case28.l21"/>一棒打不回頭。
+        <lb n="wm.case28.l22"/>他時異日向孤峰頂上立吾道在。
+        <lb n="wm.case28.l23"/>山遂取疏抄。
+        <lb n="wm.case28.l24"/>於法堂前將一炬火。
+        <lb n="wm.case28.l25"/>提起云窮諸玄辨。
+        <lb n="wm.case28.l26"/>若一毫致於太虛。
+        <lb n="wm.case28.l27"/>竭世樞機。
+        <lb n="wm.case28.l28"/>似一滴投於巨壑。
+        <lb n="wm.case28.l29"/>將疏抄便燒。
+        <lb n="wm.case28.l30"/>於是禮辭。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case28.wumen.l01"/>德山未出關時。
+        <lb n="wm.case28.wumen.l02"/>心憤憤口悱悱。
+        <lb n="wm.case28.wumen.l03"/>得得來南方。
+        <lb n="wm.case28.wumen.l04"/>要滅卻教外別傳之旨。
+        <lb n="wm.case28.wumen.l05"/>及到澧州路上。
+        <lb n="wm.case28.wumen.l06"/>問婆子買點心。
+        <lb n="wm.case28.wumen.l07"/>婆云。
+        <lb n="wm.case28.wumen.l08"/>大德車子內是甚麼文字。
+        <lb n="wm.case28.wumen.l09"/>山云。
+        <lb n="wm.case28.wumen.l10"/>金剛經抄疏。
+        <lb n="wm.case28.wumen.l11"/>婆云。
+        <lb n="wm.case28.wumen.l12"/>只如經中道。
+        <lb n="wm.case28.wumen.l13"/>過去心不可得。
+        <lb n="wm.case28.wumen.l14"/>見在心不可得。
+        <lb n="wm.case28.wumen.l15"/>未來心不可得。
+        <lb n="wm.case28.wumen.l16"/>大德要點那箇心。
+        <lb n="wm.case28.wumen.l17"/>德山被者一問。
+        <lb n="wm.case28.wumen.l18"/>直得口似匾檐。
+        <lb n="wm.case28.wumen.l19"/>然雖如是。
+        <lb n="wm.case28.wumen.l20"/>未肯向婆子句下死卻。
+        <lb n="wm.case28.wumen.l21"/>遂問婆子。
+        <lb n="wm.case28.wumen.l22"/>近處有甚麼宗師。
+        <lb n="wm.case28.wumen.l23"/>婆云。
+        <lb n="wm.case28.wumen.l24"/>五里外有龍潭和尚。
+        <lb n="wm.case28.wumen.l25"/>及到龍潭納盡敗闕。
+        <lb n="wm.case28.wumen.l26"/>可謂是前言不應後語。
+        <lb n="wm.case28.wumen.l27"/>龍潭大似憐兒不覺醜。
+        <lb n="wm.case28.wumen.l28"/>見他有些子火種。
+        <lb n="wm.case28.wumen.l29"/>郎忙將惡水。
+        <lb n="wm.case28.wumen.l30"/>驀頭一澆澆殺。
+        <lb n="wm.case28.wumen.l31"/>冷地看來一場好笑。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case28.verse.l01"/>聞名不如見面　見面不如聞名　雖然救得鼻孔　爭奈瞎卻眼睛
+      </p>
+      <head>29. 非風非幡</head>
+      <p>
+        <lb n="wm.case29.l01"/>六祖因風颺剎幡。
+        <lb n="wm.case29.l02"/>有二僧對論。
+        <lb n="wm.case29.l03"/>一云幡動。
+        <lb n="wm.case29.l04"/>一云風動。
+        <lb n="wm.case29.l05"/>往復曾未契理。
+        <lb n="wm.case29.l06"/>祖云。
+        <lb n="wm.case29.l07"/>不是風動不是幡動。
+        <lb n="wm.case29.l08"/>仁者心動。
+        <lb n="wm.case29.l09"/>二僧悚然。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case29.wumen.l01"/>不是風動。
+        <lb n="wm.case29.wumen.l02"/>不是幡動。
+        <lb n="wm.case29.wumen.l03"/>不是心動。
+        <lb n="wm.case29.wumen.l04"/>甚處見祖師。
+        <lb n="wm.case29.wumen.l05"/>若向者裏見得親切。
+        <lb n="wm.case29.wumen.l06"/>方知二僧買鐵得金。
+        <lb n="wm.case29.wumen.l07"/>祖師忍俊不禁一場漏逗。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case29.verse.l01"/>風幡心動　一狀領過　只知開口　不覺話墮
+      </p>
+      <head>30. 即心即佛</head>
+      <p>
+        <lb n="wm.case30.l01"/>馬祖因大梅問。
+        <lb n="wm.case30.l02"/>如何是佛。
+        <lb n="wm.case30.l03"/>祖云。
+        <lb n="wm.case30.l04"/>即心是佛。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case30.wumen.l01"/>若能直下領略得去。
+        <lb n="wm.case30.wumen.l02"/>著佛衣喫佛飯。
+        <lb n="wm.case30.wumen.l03"/>說佛話行佛行。
+        <lb n="wm.case30.wumen.l04"/>即是佛也。
+        <lb n="wm.case30.wumen.l05"/>然雖如是。
+        <lb n="wm.case30.wumen.l06"/>大梅引多少人。
+        <lb n="wm.case30.wumen.l07"/>錯認定盤星。
+        <lb n="wm.case30.wumen.l08"/>爭知道說箇佛字三日漱口。
+        <lb n="wm.case30.wumen.l09"/>若是箇漢。
+        <lb n="wm.case30.wumen.l10"/>見說即心是佛。
+        <lb n="wm.case30.wumen.l11"/>掩耳便走。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case30.verse.l01"/>青天白日　切忌尋覓　更問如何　抱贓叫屈
+      </p>
+      <head>31. 趙州勘婆</head>
+      <p>
+        <lb n="wm.case31.l01"/>趙州因僧問婆子。
+        <lb n="wm.case31.l02"/>臺山路向甚處去。
+        <lb n="wm.case31.l03"/>婆云。
+        <lb n="wm.case31.l04"/>驀直去。
+        <lb n="wm.case31.l05"/>僧纔行三五步。
+        <lb n="wm.case31.l06"/>婆云。
+        <lb n="wm.case31.l07"/>好箇師僧又恁麼去。
+        <lb n="wm.case31.l08"/>後有僧舉似州。
+        <lb n="wm.case31.l09"/>州云。
+        <lb n="wm.case31.l10"/>待我去與爾勘過這婆子。
+        <lb n="wm.case31.l11"/>明日便去亦如是問。
+        <lb n="wm.case31.l12"/>婆亦如是答。
+        <lb n="wm.case31.l13"/>州歸謂眾曰。
+        <lb n="wm.case31.l14"/>臺山婆子我與爾勘破了也。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case31.wumen.l01"/>婆子只解坐籌帷幄。
+        <lb n="wm.case31.wumen.l02"/>要且著賊。
+        <lb n="wm.case31.wumen.l03"/>不知趙州老人善用偷營劫塞之機。
+        <lb n="wm.case31.wumen.l04"/>又且無大人相。
+        <lb n="wm.case31.wumen.l05"/>撿點將來二俱有過。
+        <lb n="wm.case31.wumen.l06"/>且道那裏是趙州勘破婆子處。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case31.verse.l01"/>問既一般　答亦相似　飯裏有砂　泥中有刺
+      </p>
+      <head>32. 外道問佛</head>
+      <p>
+        <lb n="wm.case32.l01"/>世尊因外道問。
+        <lb n="wm.case32.l02"/>不問有言。
+        <lb n="wm.case32.l03"/>不問無言。
+        <lb n="wm.case32.l04"/>世尊據座。
+        <lb n="wm.case32.l05"/>外道贊歎云。
+        <lb n="wm.case32.l06"/>世尊大慈大悲。
+        <lb n="wm.case32.l07"/>開我迷雲。
+        <lb n="wm.case32.l08"/>令我得入。
+        <lb n="wm.case32.l09"/>乃具禮而去。
+        <lb n="wm.case32.l10"/>阿難尋問佛。
+        <lb n="wm.case32.l11"/>外道有何所證贊歎而去。
+        <lb n="wm.case32.l12"/>世尊云。
+        <lb n="wm.case32.l13"/>如世良馬見鞭影而行。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case32.wumen.l01"/>阿難乃佛弟子。
+        <lb n="wm.case32.wumen.l02"/>宛不如外道見解。
+        <lb n="wm.case32.wumen.l03"/>且道外道與佛弟子相去多少。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case32.verse.l01"/>劍刃上行　冰稜上走　不涉階梯　懸崖撒手
+      </p>
+      <head>33. 非心非佛</head>
+      <p>
+        <lb n="wm.case33.l01"/>馬祖因僧問。
+        <lb n="wm.case33.l02"/>如何是佛。
+        <lb n="wm.case33.l03"/>祖曰。
+        <lb n="wm.case33.l04"/>非心非佛。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case33.wumen.l01"/>若向者裏見得。
+        <lb n="wm.case33.wumen.l02"/>參學事畢。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case33.verse.l01"/>路逢劍客須呈　不遇詩人莫獻　逢人且說三分　未可全施一片
+      </p>
+      <head>34. 智不是道</head>
+      <p>
+        <lb n="wm.case34.l01"/>南泉云。
+        <lb n="wm.case34.l02"/>心不是佛。
+        <lb n="wm.case34.l03"/>智不是道。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case34.wumen.l01"/>南泉可謂。
+        <lb n="wm.case34.wumen.l02"/>老不識羞。
+        <lb n="wm.case34.wumen.l03"/>纔開臭口。
+        <lb n="wm.case34.wumen.l04"/>家醜外揚。
+        <lb n="wm.case34.wumen.l05"/>然雖如是。
+        <lb n="wm.case34.wumen.l06"/>知恩者少。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case34.verse.l01"/>天晴日頭出　雨下地上濕　盡情都說了　只恐信不及
+      </p>
+      <head>35. 倩女離魂</head>
+      <p>
+        <lb n="wm.case35.l01"/>五祖問僧云。
+        <lb n="wm.case35.l02"/>倩女離魂。
+        <lb n="wm.case35.l03"/>那箇是真底。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case35.wumen.l01"/>若向者裏悟得真底。
+        <lb n="wm.case35.wumen.l02"/>便知出殼入殼。
+        <lb n="wm.case35.wumen.l03"/>如宿旅舍。
+        <lb n="wm.case35.wumen.l04"/>其或未然。
+        <lb n="wm.case35.wumen.l05"/>切莫亂走。
+        <lb n="wm.case35.wumen.l06"/>驀然地水火風一散。
+        <lb n="wm.case35.wumen.l07"/>如落湯螃蟹七手八腳。
+        <lb n="wm.case35.wumen.l08"/>那時莫言。
+        <lb n="wm.case35.wumen.l09"/>不道。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case35.verse.l01"/>雲月是同　溪山各異　萬福萬福　是一是二
+      </p>
+      <head>36. 路逢達道</head>
+      <p>
+        <lb n="wm.case36.l01"/>五祖曰。
+        <lb n="wm.case36.l02"/>路逢達道人。
+        <lb n="wm.case36.l03"/>不將語默對。
+        <lb n="wm.case36.l04"/>且道將甚麼對。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case36.wumen.l01"/>若向者裏。
+        <lb n="wm.case36.wumen.l02"/>對得親切。
+        <lb n="wm.case36.wumen.l03"/>不妨慶快。
+        <lb n="wm.case36.wumen.l04"/>其或未然。
+        <lb n="wm.case36.wumen.l05"/>也須一切處著眼。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case36.verse.l01"/>路逢達道人　不將語默對　攔腮劈面拳　直下會便會
+      </p>
+      <head>37. 庭前柏樹</head>
+      <p>
+        <lb n="wm.case37.l01"/>趙州因僧問。
+        <lb n="wm.case37.l02"/>如何是祖師西來意。
+        <lb n="wm.case37.l03"/>州云。
+        <lb n="wm.case37.l04"/>庭前柏樹子。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case37.wumen.l01"/>若向趙州答處。
+        <lb n="wm.case37.wumen.l02"/>見得親切。
+        <lb n="wm.case37.wumen.l03"/>前無釋迦。
+        <lb n="wm.case37.wumen.l04"/>後無彌勒。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case37.verse.l01"/>言無展事　語不投機　承言者喪　滯句者迷
+      </p>
+      <head>38. 牛過窗櫺</head>
+      <p>
+        <lb n="wm.case38.l01"/>五祖曰。
+        <lb n="wm.case38.l02"/>譬如水牯牛過窗櫺。
+        <lb n="wm.case38.l03"/>頭角四蹄都過了。
+        <lb n="wm.case38.l04"/>因甚麼。
+        <lb n="wm.case38.l05"/>尾巴過不得。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case38.wumen.l01"/>若向者裏。
+        <lb n="wm.case38.wumen.l02"/>顛倒著得一隻眼。
+        <lb n="wm.case38.wumen.l03"/>下得一轉語。
+        <lb n="wm.case38.wumen.l04"/>可以上報四恩下資三有。
+        <lb n="wm.case38.wumen.l05"/>其或未然。
+        <lb n="wm.case38.wumen.l06"/>更須照顧尾巴始得。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case38.verse.l01"/>過去墮坑塹　回來卻被壞　者些尾巴子　直是甚奇怪
+      </p>
+      <head>39. 雲門話墮</head>
+      <p>
+        <lb n="wm.case39.l01"/>雲門因僧問。
+        <lb n="wm.case39.l02"/>光明寂照遍河沙。
+        <lb n="wm.case39.l03"/>一句未絕。
+        <lb n="wm.case39.l04"/>門遽曰。
+        <lb n="wm.case39.l05"/>豈不是張拙秀才語。
+        <lb n="wm.case39.l06"/>僧云是。
+        <lb n="wm.case39.l07"/>門云話墮也。
+        <lb n="wm.case39.l08"/>後來死心。
+        <lb n="wm.case39.l09"/>拈云。
+        <lb n="wm.case39.l10"/>且道那裏是者僧話墮處。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case39.wumen.l01"/>若向者裏。
+        <lb n="wm.case39.wumen.l02"/>見得雲門用處。
+        <lb n="wm.case39.wumen.l03"/>孤危者僧。
+        <lb n="wm.case39.wumen.l04"/>因甚話墮。
+        <lb n="wm.case39.wumen.l05"/>堪與人天為師。
+        <lb n="wm.case39.wumen.l06"/>若也未明。
+        <lb n="wm.case39.wumen.l07"/>自救不了。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case39.verse.l01"/>急流垂釣　貪餌者著　口縫纔開　性命喪卻
+      </p>
+      <head>40. 趯倒淨瓶</head>
+      <p>
+        <lb n="wm.case40.l01"/>溈山和尚。
+        <lb n="wm.case40.l02"/>始在百丈會中。
+        <lb n="wm.case40.l03"/>充典座。
+        <lb n="wm.case40.l04"/>百丈將選大溈主人。
+        <lb n="wm.case40.l05"/>乃請同首座。
+        <lb n="wm.case40.l06"/>對眾下語。
+        <lb n="wm.case40.l07"/>出格者可往。
+        <lb n="wm.case40.l08"/>百丈遂拈淨瓶。
+        <lb n="wm.case40.l09"/>置地上。
+        <lb n="wm.case40.l10"/>設問云。
+        <lb n="wm.case40.l11"/>不得喚作淨瓶。
+        <lb n="wm.case40.l12"/>汝喚作甚麼。
+        <lb n="wm.case40.l13"/>首座乃云。
+        <lb n="wm.case40.l14"/>不可喚作木[木+突]。
+        <lb n="wm.case40.l15"/>也百丈卻問於山。
+        <lb n="wm.case40.l16"/>山乃趯倒淨瓶而去。
+        <lb n="wm.case40.l17"/>百丈笑云。
+        <lb n="wm.case40.l18"/>第一座輸卻山子。
+        <lb n="wm.case40.l19"/>也因命之為開山。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case40.wumen.l01"/>溈山一期之勇。
+        <lb n="wm.case40.wumen.l02"/>爭奈跳百丈圈圚不出。
+        <lb n="wm.case40.wumen.l03"/>檢點將來。
+        <lb n="wm.case40.wumen.l04"/>便重不便輕。
+        <lb n="wm.case40.wumen.l05"/>何故聾脫得盤頭。
+        <lb n="wm.case40.wumen.l06"/>擔起鐵枷。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case40.verse.l01"/>颺下箍籬并木杓　當陽一突絕周遮　百丈重關攔不住　腳尖趯出佛如麻
+      </p>
+      <head>41. 達磨安心</head>
+      <p>
+        <lb n="wm.case41.l01"/>達磨面壁。
+        <lb n="wm.case41.l02"/>二祖立雪斷臂云。
+        <lb n="wm.case41.l03"/>弟子心未安。
+        <lb n="wm.case41.l04"/>乞師安心。
+        <lb n="wm.case41.l05"/>磨云。
+        <lb n="wm.case41.l06"/>將心來。
+        <lb n="wm.case41.l07"/>與汝安。
+        <lb n="wm.case41.l08"/>祖云。
+        <lb n="wm.case41.l09"/>覓心了不可得。
+        <lb n="wm.case41.l10"/>磨云。
+        <lb n="wm.case41.l11"/>為汝安心竟。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case41.wumen.l01"/>缺齒老胡。
+        <lb n="wm.case41.wumen.l02"/>十萬里航海特特而來。
+        <lb n="wm.case41.wumen.l03"/>可謂是無風起浪。
+        <lb n="wm.case41.wumen.l04"/>末後接得一箇門人。
+        <lb n="wm.case41.wumen.l05"/>又卻六根不具。
+        <lb n="wm.case41.wumen.l06"/>咦謝三郎。
+        <lb n="wm.case41.wumen.l07"/>不識四字。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case41.verse.l01"/>西來直指　事因囑起　撓聒叢林　元來是爾
+      </p>
+      <head>42. 女子出定</head>
+      <p>
+        <lb n="wm.case42.l01"/>世尊昔因文殊至諸佛集處。
+        <lb n="wm.case42.l02"/>值諸佛各還本處。
+        <lb n="wm.case42.l03"/>惟有一女人。
+        <lb n="wm.case42.l04"/>近彼佛坐入於三昧。
+        <lb n="wm.case42.l05"/>文殊乃白佛。
+        <lb n="wm.case42.l06"/>云何女人得近佛坐。
+        <lb n="wm.case42.l07"/>而我不得。
+        <lb n="wm.case42.l08"/>佛告文殊。
+        <lb n="wm.case42.l09"/>汝但覺此女。
+        <lb n="wm.case42.l10"/>令從三昧起。
+        <lb n="wm.case42.l11"/>汝自問之。
+        <lb n="wm.case42.l12"/>文殊遶女人三匝。
+        <lb n="wm.case42.l13"/>鳴指一下。
+        <lb n="wm.case42.l14"/>乃托至梵天。
+        <lb n="wm.case42.l15"/>盡其神力。
+        <lb n="wm.case42.l16"/>而不能出。
+        <lb n="wm.case42.l17"/>世尊云。
+        <lb n="wm.case42.l18"/>假使百千文殊亦出此女人定不得。
+        <lb n="wm.case42.l19"/>下方過一十二億河沙國土。
+        <lb n="wm.case42.l20"/>有罔明菩薩。
+        <lb n="wm.case42.l21"/>能出此女人定。
+        <lb n="wm.case42.l22"/>須臾罔明大士從地湧出。
+        <lb n="wm.case42.l23"/>禮拜世尊。
+        <lb n="wm.case42.l24"/>世尊敕罔明。
+        <lb n="wm.case42.l25"/>卻至女人前。
+        <lb n="wm.case42.l26"/>鳴指一下。
+        <lb n="wm.case42.l27"/>女人於是從定而出。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case42.wumen.l01"/>釋迦老子做者一場雜劇。
+        <lb n="wm.case42.wumen.l02"/>不通小小。
+        <lb n="wm.case42.wumen.l03"/>且道文殊是七佛之師。
+        <lb n="wm.case42.wumen.l04"/>因甚出女人定不得。
+        <lb n="wm.case42.wumen.l05"/>罔明初地菩薩。
+        <lb n="wm.case42.wumen.l06"/>為甚卻出得。
+        <lb n="wm.case42.wumen.l07"/>若向者裏。
+        <lb n="wm.case42.wumen.l08"/>見得親切。
+        <lb n="wm.case42.wumen.l09"/>業識忙忙　那伽大定。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case42.verse.l01"/>出得出不得　渠儂得自由　神頭并鬼面　敗闕當風流
+      </p>
+      <head>43. 首山竹篦</head>
+      <p>
+        <lb n="wm.case43.l01"/>首山和尚。
+        <lb n="wm.case43.l02"/>拈竹篦示眾云。
+        <lb n="wm.case43.l03"/>汝等諸人若喚作竹篦則觸。
+        <lb n="wm.case43.l04"/>不喚作竹篦則背。
+        <lb n="wm.case43.l05"/>汝諸人且道。
+        <lb n="wm.case43.l06"/>喚作甚麼。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case43.wumen.l01"/>喚作竹篦則觸。
+        <lb n="wm.case43.wumen.l02"/>不喚作竹篦則背。
+        <lb n="wm.case43.wumen.l03"/>不得有語。
+        <lb n="wm.case43.wumen.l04"/>不得無語。
+        <lb n="wm.case43.wumen.l05"/>速道速道。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case43.verse.l01"/>拈起竹篦　行殺活令　背觸交馳　佛祖乞命
+      </p>
+      <head>44. 芭蕉拄杖</head>
+      <p>
+        <lb n="wm.case44.l01"/>芭蕉和尚示眾云。
+        <lb n="wm.case44.l02"/>爾有拄杖子。
+        <lb n="wm.case44.l03"/>我與爾拄杖子。
+        <lb n="wm.case44.l04"/>爾無拄杖子。
+        <lb n="wm.case44.l05"/>我奪爾拄杖子。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case44.wumen.l01"/>扶過斷橋水。
+        <lb n="wm.case44.wumen.l02"/>伴歸無月村。
+        <lb n="wm.case44.wumen.l03"/>若喚作拄杖。
+        <lb n="wm.case44.wumen.l04"/>入地獄如箭。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case44.verse.l01"/>諸方深與淺　都在掌握中　撐天并拄地　隨處振宗風
+      </p>
+      <head>45. 他是阿誰</head>
+      <p>
+        <lb n="wm.case45.l01"/>東山演師祖曰。
+        <lb n="wm.case45.l02"/>釋迦彌勒猶是他奴。
+        <lb n="wm.case45.l03"/>且道他是阿誰。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case45.wumen.l01"/>若也見得他分曉。
+        <lb n="wm.case45.wumen.l02"/>譬如十字街頭撞見親爺相似。
+        <lb n="wm.case45.wumen.l03"/>更不須問別人。
+        <lb n="wm.case45.wumen.l04"/>道是與不是。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case45.verse.l01"/>他弓莫挽　他馬莫騎　他非莫辨　他事莫知
+      </p>
+      <head>46. 竿頭進步</head>
+      <p>
+        <lb n="wm.case46.l01"/>石霜和尚云。
+        <lb n="wm.case46.l02"/>百尺竿頭如何進步。
+        <lb n="wm.case46.l03"/>又古德云。
+        <lb n="wm.case46.l04"/>百尺竿頭坐底人。
+        <lb n="wm.case46.l05"/>雖然得入。
+        <lb n="wm.case46.l06"/>未為真。
+        <lb n="wm.case46.l07"/>百尺竿頭須進步十方世界現全身。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case46.wumen.l01"/>進得步翻得身。
+        <lb n="wm.case46.wumen.l02"/>更嫌何處不稱尊。
+        <lb n="wm.case46.wumen.l03"/>然雖如是。
+        <lb n="wm.case46.wumen.l04"/>且道百尺竿頭如何進步。
+        <lb n="wm.case46.wumen.l05"/>嗄。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case46.verse.l01"/>瞎卻頂門眼　錯認定盤星　拚身能捨命　一盲引眾盲
+      </p>
+      <head>47. 兜率三關</head>
+      <p>
+        <lb n="wm.case47.l01"/>兜率悅和尚。
+        <lb n="wm.case47.l02"/>設三關問學者。
+        <lb n="wm.case47.l03"/>撥草參玄只圖見性。
+        <lb n="wm.case47.l04"/>即今上人性在甚處。
+        <lb n="wm.case47.l05"/>識得自性。
+        <lb n="wm.case47.l06"/>方脫生死。
+        <lb n="wm.case47.l07"/>眼光落時。
+        <lb n="wm.case47.l08"/>作麼生脫。
+        <lb n="wm.case47.l09"/>脫得生死。
+        <lb n="wm.case47.l10"/>便知去處。
+        <lb n="wm.case47.l11"/>四大分離。
+        <lb n="wm.case47.l12"/>向甚處去。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case47.wumen.l01"/>若能下得此三轉語。
+        <lb n="wm.case47.wumen.l02"/>便可以隨處作主。
+        <lb n="wm.case47.wumen.l03"/>遇緣即宗。
+        <lb n="wm.case47.wumen.l04"/>其或未然、麤餐易飽、細嚼難飢。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case47.verse.l01"/>一念普觀無量劫　無量劫事即如今　如今覷破箇一念　覷破如今覷底人
+      </p>
+      <head>48. 乾峰一路</head>
+      <p>
+        <lb n="wm.case48.l01"/>乾峰和尚因僧問。
+        <lb n="wm.case48.l02"/>十方薄伽梵。
+        <lb n="wm.case48.l03"/>一路涅槃門。
+        <lb n="wm.case48.l04"/>未審路頭在甚麼處。
+        <lb n="wm.case48.l05"/>峰拈起拄杖。
+        <lb n="wm.case48.l06"/>劃一劃云。
+        <lb n="wm.case48.l07"/>在者裏。
+        <lb n="wm.case48.l08"/>後僧請益雲門。
+        <lb n="wm.case48.l09"/>門拈起扇子云。
+        <lb n="wm.case48.l10"/>扇子勃跳。
+        <lb n="wm.case48.l11"/>上三十三天。
+        <lb n="wm.case48.l12"/>築著帝釋鼻孔。
+        <lb n="wm.case48.l13"/>東海鯉魚打一棒。
+        <lb n="wm.case48.l14"/>雨似盆傾。
+      </p>
+      <head>無門曰</head>
+      <p>
+        <lb n="wm.case48.wumen.l01"/>一人向深深海底。
+        <lb n="wm.case48.wumen.l02"/>行簸土揚塵。
+        <lb n="wm.case48.wumen.l03"/>一人於高高山頂。
+        <lb n="wm.case48.wumen.l04"/>立白浪滔天。
+        <lb n="wm.case48.wumen.l05"/>把定放行各出一隻手。
+        <lb n="wm.case48.wumen.l06"/>扶豎宗乘。
+        <lb n="wm.case48.wumen.l07"/>大似兩箇馳子相撞著。
+        <lb n="wm.case48.wumen.l08"/>世上應無直底人。
+        <lb n="wm.case48.wumen.l09"/>正眼觀來。
+        <lb n="wm.case48.wumen.l10"/>二大老總未識路頭在。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case48.verse.l01"/>未舉步時先已到　未動舌時先說了　直饒著著在機先　更須知有向上竅
+      </p>
+      <head>49. 第四十九則語</head>
+      <p>
+        <lb n="wm.case49.l01"/>第四十九則語
+        <lb n="wm.case49.l02"/>經云。
+        <lb n="wm.case49.l03"/>止止不須說我法妙難思。
+        <lb n="wm.case49.l04"/>安晚曰。
+        <lb n="wm.case49.l05"/>法從何來。
+        <lb n="wm.case49.l06"/>妙從何有。
+        <lb n="wm.case49.l07"/>說時又作麼生。
+        <lb n="wm.case49.l08"/>豈但豐干饒舌。
+        <lb n="wm.case49.l09"/>元是釋迦多口。
+        <lb n="wm.case49.l10"/>這老子造作妖怪。
+        <lb n="wm.case49.l11"/>令千百代兒孫被葛藤纏倒。
+        <lb n="wm.case49.l12"/>未得頭出。
+        <lb n="wm.case49.l13"/>似這般奇特話靶。
+        <lb n="wm.case49.l14"/>匙挑不上。
+        <lb n="wm.case49.l15"/>甑蒸不熟。
+        <lb n="wm.case49.l16"/>有多少錯認底。
+        <lb n="wm.case49.l17"/>傍人問云。
+        <lb n="wm.case49.l18"/>畢竟作如何結斷。
+        <lb n="wm.case49.l19"/>安晚合十指爪曰。
+        <lb n="wm.case49.l20"/>止止不須說我法妙難思。
+        <lb n="wm.case49.l21"/>卻急去難思兩字上。
+        <lb n="wm.case49.l22"/>打箇小圓相子。
+        <lb n="wm.case49.l23"/>指示眾人。
+        <lb n="wm.case49.l24"/>大藏五千卷。
+        <lb n="wm.case49.l25"/>維摩不二門。
+        <lb n="wm.case49.l26"/>總在里許。
+      </p>
+      <head>頌曰</head>
+      <p>
+        <lb n="wm.case49.verse.l01"/>頌曰：
+      </p>
+    </body>
+  </text>
+</TEI>
