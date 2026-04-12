@@ -1,0 +1,114 @@
+001 left  cjk=10769 lang=cached
+001 right cjk=  78 lang=cached
+002 left  cjk= 147 lang=cached
+002 right cjk=5916 lang=cached
+003 left  cjk= 351 lang=cached
+003 right cjk=6638 lang=cached
+004 left  cjk=  99 lang=cached
+004 right cjk= 995 lang=cached
+005 left  cjk= 144 lang=cached
+005 right cjk= 953 lang=cached
+006 left  cjk= 560 lang=cached
+006 right cjk= 235 lang=cached
+007 left  cjk= 358 lang=cached
+007 right cjk= 648 lang=cached
+008 left  cjk= 195 lang=cached
+008 right cjk= 811 lang=cached
+009 left  cjk= 264 lang=cached
+009 right cjk= 282 lang=cached
+010 left  cjk= 154 lang=cached
+010 right cjk= 468 lang=cached
+011 left  cjk=1018 lang=cached
+011 right cjk= 224 lang=cached
+012 left  cjk= 156 lang=cached
+012 right cjk= 838 lang=cached
+013 left  cjk= 212 lang=cached
+013 right cjk= 283 lang=cached
+014 left  cjk= 276 lang=cached
+014 right cjk= 212 lang=cached
+015 left  cjk= 919 lang=cached
+015 right cjk= 339 lang=cached
+016 left  cjk= 836 lang=cached
+016 right cjk=1093 lang=cached
+017 left  cjk=1179 lang=cached
+017 right cjk= 728 lang=cached
+018 left  cjk= 713 lang=cached
+018 right cjk= 540 lang=cached
+019 left  cjk= 312 lang=cached
+019 right cjk= 430 lang=cached
+020 left  cjk= 599 lang=cached
+020 right cjk= 845 lang=cached
+021 left  cjk= 493 lang=cached
+021 right cjk= 416 lang=chi_tra_vert
+022 left  cjk= 571 lang=chi_tra_vert
+022 right cjk= 283 lang=chi_tra_vert
+023 left  cjk= 380 lang=chi_tra_vert
+023 right cjk= 457 lang=chi_tra_vert
+024 left  cjk= 408 lang=chi_tra_vert
+024 right cjk= 373 lang=chi_tra_vert
+025 left  cjk= 181 lang=chi_tra_vert
+025 right cjk= 206 lang=chi_tra_vert
+026 left  cjk= 451 lang=chi_tra_vert
+026 right cjk= 165 lang=chi_tra_vert
+027 left  cjk= 323 lang=chi_tra_vert
+027 right cjk= 363 lang=chi_tra_vert
+028 left  cjk= 396 lang=chi_tra_vert
+028 right cjk= 180 lang=chi_tra_vert
+029 left  cjk= 361 lang=chi_tra_vert
+029 right cjk= 316 lang=chi_tra_vert
+030 left  cjk= 428 lang=chi_tra_vert
+030 right cjk= 488 lang=chi_tra_vert
+031 left  cjk= 336 lang=chi_tra_vert
+031 right cjk= 406 lang=chi_tra_vert
+032 left  cjk= 236 lang=chi_tra_vert
+032 right cjk= 445 lang=chi_tra_vert
+033 left  cjk= 416 lang=chi_tra_vert
+033 right cjk= 307 lang=chi_tra_vert
+034 left  cjk= 261 lang=chi_tra_vert
+034 right cjk= 792 lang=chi_tra_vert
+035 left  cjk= 292 lang=chi_tra_vert
+035 right cjk= 219 lang=chi_tra_vert
+036 left  cjk= 353 lang=chi_tra_vert
+036 right cjk= 250 lang=chi_tra_vert
+037 left  cjk= 245 lang=chi_tra_vert
+037 right cjk= 276 lang=chi_tra_vert
+038 left  cjk= 276 lang=chi_tra_vert
+038 right cjk= 302 lang=chi_tra_vert
+039 left  cjk= 409 lang=chi_tra_vert
+039 right cjk= 366 lang=chi_tra_vert
+040 left  cjk= 174 lang=chi_tra_vert
+040 right cjk= 398 lang=chi_tra_vert
+041 left  cjk= 371 lang=chi_tra_vert
+041 right cjk= 315 lang=chi_tra_vert
+042 left  cjk= 335 lang=chi_tra_vert
+042 right cjk= 558 lang=chi_tra_vert
+043 left  cjk= 163 lang=chi_tra_vert
+043 right cjk= 470 lang=chi_tra_vert
+044 left  cjk= 442 lang=chi_tra_vert
+044 right cjk= 218 lang=chi_tra_vert
+045 left  cjk= 403 lang=chi_tra_vert
+045 right cjk= 374 lang=chi_tra_vert
+046 left  cjk= 251 lang=chi_tra_vert
+046 right cjk= 314 lang=chi_tra_vert
+047 left  cjk= 366 lang=chi_tra_vert
+047 right cjk= 169 lang=chi_tra_vert
+048 left  cjk= 172 lang=chi_tra_vert
+048 right cjk= 177 lang=chi_tra_vert
+049 left  cjk= 180 lang=chi_tra_vert
+049 right cjk= 270 lang=chi_tra_vert
+050 left  cjk= 319 lang=chi_tra_vert
+050 right cjk= 126 lang=chi_tra_vert
+051 left  cjk= 278 lang=chi_tra_vert
+051 right cjk= 232 lang=chi_tra_vert
+052 left  cjk= 153 lang=chi_tra_vert
+052 right cjk= 473 lang=chi_tra_vert
+053 left  cjk= 153 lang=chi_tra_vert
+053 right cjk= 171 lang=chi_tra_vert
+054 left  cjk= 393 lang=chi_tra_vert
+054 right cjk= 402 lang=chi_tra_vert
+055 left  cjk=4295 lang=chi_tra_vert
+055 right cjk= 393 lang=chi_tra_vert
+056 left  cjk= 128 lang=chi_tra_vert
+056 right cjk=5024 lang=chi_tra_vert
+057 left  cjk=1946 lang=chi_tra_vert
+057 right cjk=4523 lang=chi_tra_vert
