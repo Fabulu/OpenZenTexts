@@ -1,0 +1,56 @@
+{
+  "text_id": "ws.gateless-barrier",
+  "readings": {},
+  "revisions": [
+    {
+      "revision_id": "rev_001",
+      "label": "Wikisource transcription",
+      "date": "2026-04-11",
+      "event_range": [1, 5],
+      "witnesses_added": [],
+      "status": "published"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt_001", "sequence": 1, "timestamp": "2026-04-11T10:00:00Z",
+      "stage": "project_setup", "event_type": "project_started",
+      "object_type": "edition", "object_id": "ws.gateless-barrier",
+      "summary": "Wikisource transcription project started for the Gateless Barrier (無門關).",
+      "details": "Single-source transcription from Chinese Wikisource. Not a critical edition — one witness only.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    },
+    {
+      "event_id": "evt_002", "sequence": 2, "timestamp": "2026-04-11T10:30:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "wikisource-zh-2648998",
+      "summary": "Chinese Wikisource revision 2648998 captured as sole source witness.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied",
+      "evidence_links": ["https://zh.wikisource.org/w/index.php?title=%E7%84%A1%E9%96%80%E9%97%9C&oldid=2648998"],
+      "state_effects": {"witness_status": "captured", "revision_id": "2648998"}
+    },
+    {
+      "event_id": "evt_003", "sequence": 3, "timestamp": "2026-04-11T11:00:00Z",
+      "stage": "witness_validation", "event_type": "validation_passed",
+      "object_type": "witness", "object_id": "wikisource-zh-2648998",
+      "summary": "Source validated: CC-BY-SA-4.0 via Wikisource licensing. PD-old underlying work.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    },
+    {
+      "event_id": "evt_004", "sequence": 4, "timestamp": "2026-04-11T12:00:00Z",
+      "stage": "reading_text", "event_type": "text_changed",
+      "object_type": "edition_text", "object_id": "gateless-barrier.xml",
+      "summary": "Wikitext converted to TEI XML via convert-gateless-barrier.mjs.",
+      "details": "Deterministic conversion from source.wikitext (33 KB) to gateless-barrier.xml (83 KB). 48 cases structured as TEI divs.",
+      "actor_type": "machine", "actor_id": "convert-gateless-barrier.mjs", "status": "applied"
+    },
+    {
+      "event_id": "evt_005", "sequence": 5, "timestamp": "2026-04-11T12:30:00Z",
+      "stage": "publication", "event_type": "publication_check_changed",
+      "object_type": "edition", "object_id": "ws.gateless-barrier",
+      "summary": "Transcription published. Single-source, CC-BY-SA-4.0.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied",
+      "state_effects": {"edition_maturity": "published"}
+    }
+  ]
+}

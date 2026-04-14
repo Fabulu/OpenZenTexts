@@ -17,6 +17,7 @@
   "share_alike_required": true,
   "no_cbeta_material": true,
   "tei_file": "gateless-barrier.xml",
+  "timeline_file": "timeline.json",
   "witnesses_consulted": [
     {
       "id": "wikisource-zh-2648998",
