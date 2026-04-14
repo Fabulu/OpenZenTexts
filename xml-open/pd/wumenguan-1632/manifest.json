@@ -23,6 +23,12 @@
     "share_alike_required":  false,
     "no_cbeta_material":  true,
     "tei_file":  "wumenguan-1632.xml",
+    "process_file":  "process.json",
+    "apparatus_file":  "apparatus.json",
+    "stats_file":  "stats.json",
+    "documents_file":  "documents.json",
+    "edition_maturity":  "draft",
+    "base_witness_id":  "ndl-1632",
     "witnesses_consulted":  [
                                 {
                                     "id":  "ndl-1632",

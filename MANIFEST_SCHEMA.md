@@ -43,12 +43,26 @@ This document describes every field. The TEI file's own `<teiHeader><availabilit
 |---|---|---|---|
 | `tei_file` | string | yes | The TEI XML filename in this directory (relative). Example: `gateless-barrier.xml` |
 | `production_inputs_dir` | string | optional | Relative path to the captured source files used to produce the TEI. Usually points into `provenance/`. Example: `../../../provenance/gateless-barrier/` |
+| `process_file` | string | optional | Relative path to `process.json` — the machine-readable editorial workflow record. See `docs/curation/PROCESS_JSON_SCHEMA.md` |
+| `apparatus_file` | string | optional | Relative path to `apparatus.json` — locus-by-locus variant data. See `docs/curation/APPARATUS_JSON_SCHEMA.md` |
+| `stats_file` | string | optional | Relative path to `stats.json` — compact derived summary. See `docs/curation/STATS_JSON_SCHEMA.md` |
+| `documents_file` | string | optional | Relative path to `documents.json` — curated registry of human-readable documents. See `docs/curation/DOCUMENTS_JSON_SCHEMA.md` |
 
 ### Witnesses (the provenance trail)
 
 | Field | Type | Required | Notes |
 |---|---|---|---|
 | `witnesses_consulted` | array | yes | One entry per source witness consulted in producing the TEI. See "Witness fields" below. A `transcription` edition typically has one witness; a `critical_edition` has two or more |
+
+### Edition metadata
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `base_witness_id` | string | conditional | ID of the witness used as base text. Required when `edition_kind` is `critical_edition`; references a witness `id` in `witnesses_consulted` |
+| `edition_maturity` | enum | optional | One of: `draft`, `review`, `publication-candidate`, `published`. Tracks how far the edition has progressed through the critical-edition pipeline |
+| `ocr_maximal` | boolean | optional | Whether OCR was pushed as far as possible before human intervention. Expected `true` for critical editions following the OpenZen workflow |
+| `human_intervention_required` | boolean | optional | Whether the edition required human intervention beyond OCR |
+| `human_intervention_note` | string | optional | Brief description of what human intervention was needed and why |
 
 ### Production
 
@@ -82,6 +96,12 @@ Each entry in `witnesses_consulted[]` describes one physical source.
 | `vetting_confidence` | enum | yes | `high`, `medium`, or `low`. Reflects how confident the curator is in the rights basis. Per the workflow at `C:\woodblocks\WORKFLOW.md`, witnesses below `high` should not normally land in this collection |
 | `provenance_check` | string | yes | Always set to `no_cbeta_marker_in_captured_package` for OpenZen witnesses. Affirms the curator manually checked that the captured source has no CBETA contamination |
 | `role_in_production` | string | yes | What role this witness played: `sole source`, `primary base text`, `variant for X`, `secondary cross-check`, etc. |
+| `family_id` | string | optional | Which witness family this belongs to (e.g. `四部録`, `standalone`). Used for critical editions with multiple witness families |
+| `page_count` | integer | optional | Total page count of the captured witness file |
+| `completeness` | enum | optional | One of: `complete`, `partial`, `fragment`. Whether the captured witness covers the full text |
+| `validation_method` | string | optional | How the captured file was validated (e.g. `sha256-match`, `visual-spot-check`, `page-count-match`) |
+| `source_page_snapshot` | string (URL) | optional | URL to an archived snapshot of the source page (e.g. Internet Archive Wayback Machine link) |
+| `license_snapshot` | string (URL) | optional | URL to an archived snapshot of the license or terms-of-use page |
 
 ## Edition kinds
 

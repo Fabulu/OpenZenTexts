@@ -1,0 +1,65 @@
+{
+  "project": {
+    "name": "Faith in Mind Critical Edition",
+    "slug": "faith-in-mind",
+    "edition_kind": "critical_edition",
+    "target_maturity": "draft",
+    "curator": "Read Zen — OpenZen curation",
+    "start_date": "2026-04-14"
+  },
+  "base_witness": {
+    "id": "korea-commons",
+    "label": "三祖大師信心銘 (Korean woodblock, Commons)",
+    "selection_rationale": "Strongest direct standalone text witness. Independent transmission line outside the 四部録 family. Final selection pending collation."
+  },
+  "witness_families": [
+    {
+      "family_id": "standalone",
+      "family_name": "Standalone 三祖大師信心銘",
+      "members": ["korea-commons"],
+      "relationship_notes": "Single strong direct witness."
+    },
+    {
+      "family_id": "shiburoku",
+      "family_name": "四部録 anthology branch",
+      "members": ["ndl-2537640", "kyoto-rb00009461", "kyoto-rb00012929", "waseda-e1087"],
+      "relationship_notes": "Four copies. Printing relationships unresolved."
+    },
+    {
+      "family_id": "shiburokushou",
+      "family_name": "四部録抄 derivative branch",
+      "members": ["waseda-e1089", "ndl-2537799"],
+      "relationship_notes": "Derivative excerpting tradition from 四部録."
+    },
+    {
+      "family_id": "nyushu-nichiyou",
+      "family_name": "入衆日用 anthology branch",
+      "members": ["kyoto-rb00016909"],
+      "relationship_notes": "Distinct anthology, not part of 四部録 tradition."
+    }
+  ],
+  "ocr_pipeline": null,
+  "segmentation_pipeline": null,
+  "human_passes": [],
+  "decision_records": [],
+  "coverage": {
+    "total_pages": null,
+    "segmented_pages": null,
+    "ocr_pages": null,
+    "human_checked_pages": null,
+    "percent_complete": 0
+  },
+  "unresolved_loci": [],
+  "publication_checks": {
+    "all_witness_rights_confirmed": false,
+    "all_hashes_valid": false,
+    "segmentation_complete": false,
+    "ocr_recorded": false,
+    "ocr_benchmark_exists": false,
+    "human_passes_logged": false,
+    "apparatus_exists": false,
+    "unresolved_classified": false,
+    "tei_validates": false,
+    "all_artifacts_validate": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "text_id": "pd.wumenguan-1632",
+    "project": "wumenguan-1632",
+    "edition_kind": "scan_ocr",
+    "edition_maturity": "draft",
+    "pipeline": "scan_ocr → reading edition",
+    "pipeline_note": "Editorial reading edition rebuilt from PD woodblock scans via multi-engine OCR comparison and image adjudication. NOT a diplomatic transcript and NOT a full critical edition.",
+    "base_witness_id": "ndl-1632",
+    "witnesses_used": [
+        {
+            "id": "ndl-1632",
+            "role": "primary base text"
+        },
+        {
+            "id": "waseda-1752",
+            "role": "secondary cross-check"
+        },
+        {
+            "id": "ndl-wumen-huikai-record",
+            "role": "tertiary corroborant"
+        },
+        {
+            "id": "reading-edition-markdown",
+            "role": "direct conversion input"
+        }
+    ],
+    "ocr_engines": [
+        "tesseract",
+        "RapidOCR",
+        "PaddleOCR",
+        "EasyOCR (selective)"
+    ],
+    "converter": "tools/woodblock-to-tei/convert-wumenguan-1632.mjs",
+    "converter_deterministic": true,
+    "coverage": "partial",
+    "coverage_note": "Cases 1–48 structurally complete. Case 49 in appendix. No apparatus in v1. Variant readings and per-leaf witness notes exist in working files but are not yet surfaced in the TEI.",
+    "publication_checks": {
+        "rights_confirmed_all_witnesses": true,
+        "hashes_recorded_all_witnesses": true,
+        "no_cbeta_material": true,
+        "line_id_namespace_distinct": true,
+        "apparatus_included": false,
+        "apparatus_note": "Deliberately omitted from v1; can be added later from separate witness notes."
+    },
+    "incomplete": [
+        "apparatus not yet transcribed into TEI",
+        "per-leaf witness notes not surfaced",
+        "no formal critical-edition collation"
+    ]
+}

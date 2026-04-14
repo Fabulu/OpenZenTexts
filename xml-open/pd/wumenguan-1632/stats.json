@@ -1,0 +1,18 @@
+{
+    "text_id": "pd.wumenguan-1632",
+    "witnesses_consulted_count": 4,
+    "witnesses_scan_count": 3,
+    "base_witness_id": "ndl-1632",
+    "base_witness_captured_bytes": 188151699,
+    "cases_core": 48,
+    "cases_appendix": 1,
+    "cases_total": 49,
+    "apparatus_entries": 0,
+    "line_id_namespace": "wm32",
+    "edition_kind": "scan_ocr",
+    "edition_maturity": "draft",
+    "license": "CC0-1.0",
+    "tei_file": "wumenguan-1632.xml",
+    "reading_edition_input_bytes": 30903,
+    "reading_edition_input_sha256": "6ecc0b148d4cc82c1cf18b60c193d6c5be24298875140a89869fe67288c6e742"
+}

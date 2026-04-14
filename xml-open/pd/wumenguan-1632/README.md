@@ -47,6 +47,10 @@ file.
 |---|---|
 | `wumenguan-1632.xml` | The TEI-P5 XML file. Body text plus rich license/attribution metadata in the `<teiHeader>` block. Read by both the Read Zen desktop app and the [readzen.pages.dev](https://readzen.pages.dev) web preview |
 | `manifest.json` | Provenance manifest. Records the three witnesses consulted, their SHA-256 hashes and byte counts, the reading-edition markdown used as the direct conversion input, the license basis, and the conversion method. Source of truth for everything in this directory |
+| `process.json` | Editorial process record: pipeline, witnesses used, OCR engines, coverage, publication checks, and known gaps |
+| `apparatus.json` | Apparatus skeleton (empty in v1 — no variant-reading entries yet for this reading edition) |
+| `stats.json` | Summary statistics: witness counts, case counts, apparatus entry count, input hashes |
+| `documents.json` | Registry of all provenance documents under `provenance/wumenguan-1632/` |
 | `README.md` | This file |
 
 ## Editorial scope
@@ -111,11 +115,11 @@ authoritative:
   Confidence: medium-high (we rely on the Commons posture rather than Waseda's
   own site terms).
 - **Tertiary corroborant (NDL 2537788, Wumen Huikai Recorded Sayings):**
-  Rights memo still marked **incomplete** in the local source ledger at
-  `C:\woodblocks\Wumen_Huikai_NDL_Commons\README.md`. This witness is cited
-  only as an editorial corroborant for Huikai's own voice and is not treated
-  as a primary authority. Downstream users should independently confirm its
-  provenance before leaning on it.
+  Categorized PD-Japan / PD-scan (PD-Japan) on Wikimedia Commons. Local copy
+  validated (`246,780,631` bytes, SHA-256
+  `782397C4D09627ECAF40EB6EBEF698E96B45A7FD743FC9A3FD6BB766D3319494`).
+  Vetting confidence: **high**. This witness is cited only as an editorial
+  corroborant for Huikai's own voice and is not treated as a primary authority.
 - **Editorial layer:** Dedicated to the public domain under CC0 1.0 by the
   editor. No attribution required.
 

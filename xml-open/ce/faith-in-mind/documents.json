@@ -1,0 +1,22 @@
+{
+  "documents": [
+    {
+      "id": "edition-plan",
+      "title": "Edition Plan",
+      "path": "../../../provenance/faith-in-mind/process/edition-plan.md",
+      "category": "process",
+      "format": "markdown",
+      "description": "Scope, target witnesses, success conditions",
+      "sort_order": 1
+    },
+    {
+      "id": "family-stemma",
+      "title": "Witness Family Stemma",
+      "path": "../../../provenance/faith-in-mind/collation/family-stemma.md",
+      "category": "apparatus",
+      "format": "markdown",
+      "description": "Provisional witness family tree",
+      "sort_order": 1
+    }
+  ]
+}

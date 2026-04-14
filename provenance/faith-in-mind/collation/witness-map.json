@@ -1,0 +1,49 @@
+{
+  "text_id": "ce.faith-in-mind",
+  "families": [
+    {
+      "family_id": "standalone",
+      "family_name": "Standalone 三祖大師信心銘",
+      "members": ["korea-commons"],
+      "relationship_notes": "Single strong direct witness. Independent transmission line."
+    },
+    {
+      "family_id": "shiburoku",
+      "family_name": "四部録 anthology branch",
+      "members": ["ndl-2537640", "kyoto-rb00009461", "kyoto-rb00012929", "waseda-e1087"],
+      "relationship_notes": "Four copies of the 四部録 anthology. Printing relationships between the three Kyoto/NDL copies are unresolved and require collation."
+    },
+    {
+      "family_id": "shiburokushou",
+      "family_name": "四部録抄 derivative branch",
+      "members": ["waseda-e1089", "ndl-2537799"],
+      "relationship_notes": "Derivative excerpting tradition from 四部録. Two distinct physical witnesses."
+    },
+    {
+      "family_id": "nyushu-nichiyou",
+      "family_name": "入衆日用 anthology branch",
+      "members": ["kyoto-rb00016909"],
+      "relationship_notes": "Distinct anthology witness, not part of the 四部録 tradition."
+    }
+  ],
+  "control_witnesses": {
+    "translation": ["ndl-906534-zaike", "ndl-961952-zenmon"],
+    "commentary": [
+      "ndl-823155-kouwa",
+      "ndl-823156-nentei",
+      "ndl-823157-nentei-taiso",
+      "ndl-823160-yatousui-kan-jou",
+      "ndl-823161-yatousui-kan-ge",
+      "ndl-823158-yatousui-zou-jou",
+      "ndl-823159-yatousui-zou-ge",
+      "ndl-823162-yatousui-kougi-1",
+      "ndl-823162-yatousui-kougi-2",
+      "ndl-823371-tsuuzoku-1",
+      "ndl-823371-tsuuzoku-2",
+      "kyoto-rb00018401-nentei"
+    ],
+    "study": ["ndl-1885755-gyou-no-shuukyou"]
+  },
+  "base_witness_candidates": ["korea-commons"],
+  "note": "Final base selection depends on collation. The standalone Korean witness is the strongest candidate."
+}

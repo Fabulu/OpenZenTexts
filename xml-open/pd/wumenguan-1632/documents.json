@@ -1,0 +1,74 @@
+{
+    "text_id": "pd.wumenguan-1632",
+    "provenance_dir": "../../../provenance/wumenguan-1632/",
+    "documents": [
+        {
+            "path": "provenance/wumenguan-1632/WITNESS_CASE_ORDER_FROM_CONTENTS.md",
+            "description": "Case ordering derived from witness tables of contents"
+        },
+        {
+            "path": "provenance/wumenguan-1632/WUMENGUAN_1632_DIPLOMATIC_DRAFT.md",
+            "description": "Diplomatic draft transcript of the 1632 NDL woodblock"
+        },
+        {
+            "path": "provenance/wumenguan-1632/source-reading-edition.md",
+            "description": "Source reading-edition markdown used as conversion input"
+        },
+        {
+            "path": "provenance/wumenguan-1632/rebuild_chunks/README.md",
+            "description": "Index of chunked rebuild files"
+        },
+        {
+            "path": "provenance/wumenguan-1632/rebuild_chunks/00_preface_cases_01_07.md",
+            "description": "Rebuild chunk: preface and cases 1–7"
+        },
+        {
+            "path": "provenance/wumenguan-1632/rebuild_chunks/01_cases_08_16.md",
+            "description": "Rebuild chunk: cases 8–16"
+        },
+        {
+            "path": "provenance/wumenguan-1632/rebuild_chunks/02_cases_17_24.md",
+            "description": "Rebuild chunk: cases 17–24"
+        },
+        {
+            "path": "provenance/wumenguan-1632/rebuild_chunks/03_cases_25_31.md",
+            "description": "Rebuild chunk: cases 25–31"
+        },
+        {
+            "path": "provenance/wumenguan-1632/rebuild_chunks/04_cases_32_40.md",
+            "description": "Rebuild chunk: cases 32–40"
+        },
+        {
+            "path": "provenance/wumenguan-1632/rebuild_chunks/05_cases_41_49_end.md",
+            "description": "Rebuild chunk: cases 41–49 and end matter"
+        },
+        {
+            "path": "provenance/wumenguan-1632/witnesses/wumenguan-1632-ndl-README.md",
+            "description": "Witness README: NDL 12865429 (1632 woodblock, primary base text)"
+        },
+        {
+            "path": "provenance/wumenguan-1632/witnesses/mumonkan-1752-waseda-README.md",
+            "description": "Witness README: Waseda bunko31 e1102 (1752 woodblock, secondary cross-check)"
+        },
+        {
+            "path": "provenance/wumenguan-1632/witnesses/wumen-huikai-ndl-README.md",
+            "description": "Witness README: NDL 2537788 Wumen Huikai Recorded Sayings (tertiary corroborant)"
+        },
+        {
+            "path": "provenance/wumenguan-1632/witnesses/wikisource-pd-old-README.md",
+            "description": "Witness README: Wikisource public-domain old text"
+        },
+        {
+            "path": "provenance/wumenguan-1632/witnesses/wikisource-wumenguan.wikitext",
+            "description": "Raw wikitext of the Wikisource Wumenguan page"
+        },
+        {
+            "path": "provenance/wumenguan-1632/witnesses/wumen-huikai-corroborations.md",
+            "description": "Corroboration notes from the Wumen Huikai Recorded Sayings witness"
+        },
+        {
+            "path": "provenance/wumenguan-1632/witnesses/zenshu-mumonkan-1882-korea-README.md",
+            "description": "Witness README: Zenshu Mumonkan 1882 Korea edition"
+        }
+    ]
+}
