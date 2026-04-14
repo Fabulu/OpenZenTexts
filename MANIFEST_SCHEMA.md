@@ -1,4 +1,4 @@
-# OpenZenTexts — `manifest.json` schema reference
+# OpenZen — `manifest.json` schema reference
 
 Every text in `xml-open/{publisher}/{slug}/` carries a `manifest.json` next to its TEI file. The manifest is the **provenance trail and license declaration** for that text. The Read Zen desktop app and the [readzen.pages.dev](https://readzen.pages.dev) web preview both read these manifests to display attribution, license terms, and source-witness information to users.
 
@@ -32,10 +32,10 @@ This document describes every field. The TEI file's own `<teiHeader><availabilit
 | `license` | string | yes | SPDX identifier where possible: `CC0-1.0`, `CC-BY-4.0`, `CC-BY-SA-4.0`, `MIT`, `PD-old`, etc. |
 | `license_url` | string (URL) | recommended | Canonical URL for the license text |
 | `license_basis` | string | yes | Plain-English explanation of WHY this is the license. Reference the underlying work's PD status, the source-text's separate license, the editor's release decision, etc. |
-| `commercial_use_allowed` | boolean | yes | Whether downstream users may use this text in commercial products. Almost always `true` in OpenZenTexts (the whole point of the collection), but explicit so tooling can filter |
+| `commercial_use_allowed` | boolean | yes | Whether downstream users may use this text in commercial products. Almost always `true` in OpenZen (the whole point of the collection), but explicit so tooling can filter |
 | `attribution_required` | boolean | yes | Whether downstream uses must preserve attribution |
 | `share_alike_required` | boolean | yes | Whether derivative works must inherit the same license |
-| `no_cbeta_material` | boolean | yes | **Hard requirement.** Must be `true` for every file in OpenZenTexts. Affirms that nothing in this text is derived from CBETA-encoded material. The curation workflow at `C:\woodblocks\WORKFLOW.md` is the validation gate |
+| `no_cbeta_material` | boolean | yes | **Hard requirement.** Must be `true` for every file in OpenZen. Affirms that nothing in this text is derived from CBETA-encoded material. The curation workflow at `C:\woodblocks\WORKFLOW.md` is the validation gate |
 
 ### File pointers
 
@@ -57,7 +57,7 @@ This document describes every field. The TEI file's own `<teiHeader><availabilit
 | `production_method` | string | yes | Brief description of how the TEI was produced from the witnesses. Reference the conversion script or pipeline used |
 | `production_notes` | string | optional | Free-text notes about editorial decisions, known issues, planned successors, etc. |
 | `captured_utc` | string (ISO 8601) | yes | When the TEI file in this directory was generated. Distinct from per-witness `captured_utc` (which is when each witness was first captured into `provenance/`) |
-| `curator` | string | yes | Who produced this text. Default: `Read Zen — OpenZenTexts curation` |
+| `curator` | string | yes | Who produced this text. Default: `Read Zen — OpenZen curation` |
 
 ## Witness fields
 
@@ -80,7 +80,7 @@ Each entry in `witnesses_consulted[]` describes one physical source.
 | `rights` | string | yes | One-line summary of the witness's rights status |
 | `rights_basis_text` | string | yes | Longer explanation of WHY the witness is usable. Reference page-level PD evidence, host site terms, etc. |
 | `vetting_confidence` | enum | yes | `high`, `medium`, or `low`. Reflects how confident the curator is in the rights basis. Per the workflow at `C:\woodblocks\WORKFLOW.md`, witnesses below `high` should not normally land in this collection |
-| `provenance_check` | string | yes | Always set to `no_cbeta_marker_in_captured_package` for OpenZenTexts witnesses. Affirms the curator manually checked that the captured source has no CBETA contamination |
+| `provenance_check` | string | yes | Always set to `no_cbeta_marker_in_captured_package` for OpenZen witnesses. Affirms the curator manually checked that the captured source has no CBETA contamination |
 | `role_in_production` | string | yes | What role this witness played: `sole source`, `primary base text`, `variant for X`, `secondary cross-check`, etc. |
 
 ## Edition kinds
@@ -116,7 +116,7 @@ A simple OCR pass over a single PD scan, with minimal or no editorial reconcilia
 
 ### `derived`
 
-A text produced from another text in the OpenZenTexts collection (e.g. a normalized variant, a punctuation overlay). The license should match or be looser than the source text's license.
+A text produced from another text in the OpenZen collection (e.g. a normalized variant, a punctuation overlay). The license should match or be looser than the source text's license.
 
 - Witness count: 1 (and the witness should reference the source `text_id` rather than an external URL)
 
@@ -137,7 +137,7 @@ New prefixes can be added when a new source category appears, but they should be
 
 ## Validation
 
-A manifest is "valid" for OpenZenTexts if:
+A manifest is "valid" for OpenZen if:
 
 1. `no_cbeta_material` is `true`
 2. `text_id` does not match the CBETA regex

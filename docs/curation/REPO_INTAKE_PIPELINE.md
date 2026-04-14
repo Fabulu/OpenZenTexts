@@ -13,11 +13,11 @@ This is the **post-vetting** half of the pipeline. The pre-vetting half (find so
             ↓
    tools/wikitext-to-tei/converter       ← deterministic conversion script (or new one)
             ↓
-   OpenZenTexts/xml-open/{prefix}/{slug}/
+   OpenZen/xml-open/{prefix}/{slug}/
        ├── {slug}.xml                    ← the TEI file the apps consume
        ├── manifest.json                 ← provenance + license, machine-readable
        └── README.md                     ← per-text human notes
-   OpenZenTexts/provenance/{slug}/       ← verbatim copy of captured source
+   OpenZen/provenance/{slug}/       ← verbatim copy of captured source
        └── ...                              for reproducibility
 ```
 
@@ -59,7 +59,7 @@ The prefix categorizes how the text was produced. Currently:
 | `pd` | Single PD-scan transcription (OCR or hand-keyed from one scan) | PD-old / CC0-1.0 |
 | `mit` | Reserved for contributor-released MIT-equivalent work | MIT |
 
-If your new text doesn't fit any of these, propose a new prefix in `OpenZenTexts/MANIFEST_SCHEMA.md` and add it to that table. Prefixes must be 2–3 lowercase ASCII letters and **must never collide with CBETA canon abbreviations** (`T`, `X`, `S`, etc.).
+If your new text doesn't fit any of these, propose a new prefix in `OpenZen/MANIFEST_SCHEMA.md` and add it to that table. Prefixes must be 2–3 lowercase ASCII letters and **must never collide with CBETA canon abbreviations** (`T`, `X`, `S`, etc.).
 
 ### English slug
 
@@ -83,7 +83,7 @@ The dot separator and hyphenated slug guarantee this. **Do not** invent a format
 
 ## Step 2 — Decide the line addressing scheme
 
-The TEI file needs synthetic `<lb n="...">` line identifiers because OpenZenTexts cannot use CBETA's woodblock notation (`0292c22`). Pick a scheme that reflects the work's natural structure.
+The TEI file needs synthetic `<lb n="...">` line identifiers because OpenZen cannot use CBETA's woodblock notation (`0292c22`). Pick a scheme that reflects the work's natural structure.
 
 For Wumenguan we used:
 
@@ -101,7 +101,7 @@ For Wumenguan we used:
 Two important rules:
 
 1. **Never collide with CBETA woodblock notation.** CBETA uses `0292c22` and similar. A regex like `^\d{4}[abc]\d{2}$` should never match any of your IDs. The conversion tests check this
-2. **Every `<head>` element must be preceded by its own `<lb>`.** Without this, the parser attributes the heading text to whatever bucket the previous `<lb>` set up, and you get cross-section bleed. The Wumenguan converter learned this the hard way — see commit `52bb27c` on `OpenZenTexts` for the fix and the test that catches it
+2. **Every `<head>` element must be preceded by its own `<lb>`.** Without this, the parser attributes the heading text to whatever bucket the previous `<lb>` set up, and you get cross-section bleed. The Wumenguan converter learned this the hard way — see commit `52bb27c` on `OpenZen` for the fix and the test that catches it
 
 For a new work, choose a short prefix (`bcr` for blue-cliff-record, `ll` for linji-lu, etc.) and a hierarchy that mirrors the work's structure (`{prefix}.{section}.{subsection}.l{n}` is a good template).
 
@@ -109,7 +109,7 @@ For a new work, choose a short prefix (`bcr` for blue-cliff-record, `ll` for lin
 
 ## Step 3 — Build or extend a converter
 
-The current converter (`OpenZenTexts/tools/wikitext-to-tei/convert-gateless-barrier.mjs`) is a one-off for Wumenguan. It will be generalized once a second wikitext-source text comes through (the next obvious candidate is Hongzhi Extensive Record at `C:\woodblocks\Hongzhi_Extensive_Record_Wikisource_PD_old\`).
+The current converter (`OpenZen/tools/wikitext-to-tei/convert-gateless-barrier.mjs`) is a one-off for Wumenguan. It will be generalized once a second wikitext-source text comes through (the next obvious candidate is Hongzhi Extensive Record at `C:\woodblocks\Hongzhi_Extensive_Record_Wikisource_PD_old\`).
 
 ### If your source is wikitext
 
@@ -121,7 +121,7 @@ Copy `convert-gateless-barrier.mjs` and adapt it. The structure of the script is
 
 ### If your source is a different format
 
-You'll need a new converter. Follow the same shape: deterministic, runs from the command line, takes input file and output file as arguments, prints a summary of what it produced. Place it under `OpenZenTexts/tools/{format}-to-tei/`.
+You'll need a new converter. Follow the same shape: deterministic, runs from the command line, takes input file and output file as arguments, prints a summary of what it produced. Place it under `OpenZen/tools/{format}-to-tei/`.
 
 For OCR-based pipelines (the future critical-edition path), the converter is expected to be much more elaborate — multiple input scans, OCR model invocation, reconciliation logic, manual override files. The shape is the same: deterministic in-out, no surprises, every editorial decision recorded somewhere.
 
@@ -132,7 +132,7 @@ For OCR-based pipelines (the future critical-edition path), the converter is exp
 Run the converter:
 
 ```bash
-cd OpenZenTexts
+cd OpenZen
 node tools/wikitext-to-tei/convert-gateless-barrier.mjs \
      provenance/{slug}/source.wikitext \
      xml-open/{prefix}/{slug}/{slug}.xml
@@ -161,7 +161,7 @@ Open the generated `{slug}.xml` and verify the `<teiHeader>` block contains:
   - `<p><label>Stable revision:</label> ...</p>` with oldid where applicable
   - `<p><label>Rights basis:</label> ...</p>` with the long-form explanation
   - `<p><label>Provenance check:</label> ... no CBETA-derived material ...</p>`
-  - `<p><label>Curator:</label> Read Zen — OpenZenTexts curation, {date}</p>`
+  - `<p><label>Curator:</label> Read Zen — OpenZen curation, {date}</p>`
   - `<p><label>Conversion:</label> Generated from ...</p>`
   - `<p><label>Required attribution (short form):</label> "..."</p>`
 - **`<sourceDesc>`** with one `<bibl>` for the work itself and one `<bibl type="digitalSource">` for the captured source
@@ -194,7 +194,7 @@ If they don't match, you have line-ending normalization or some other byte-level
 
 ## Step 7 — Write the manifest
 
-Create `xml-open/{prefix}/{slug}/manifest.json` per [`OpenZenTexts/MANIFEST_SCHEMA.md`](../programmieren/OpenZenTexts/MANIFEST_SCHEMA.md). The canonical example is `OpenZenTexts/xml-open/ws/gateless-barrier/manifest.json`. Required top-level fields:
+Create `xml-open/{prefix}/{slug}/manifest.json` per [`OpenZen/MANIFEST_SCHEMA.md`](../programmieren/OpenZen/MANIFEST_SCHEMA.md). The canonical example is `OpenZen/xml-open/ws/gateless-barrier/manifest.json`. Required top-level fields:
 
 - `text_id` — the composite file ID from Step 1
 - `work_name`, `work_name_zh`, `author`, `compiler`, `year_composed`
@@ -202,7 +202,7 @@ Create `xml-open/{prefix}/{slug}/manifest.json` per [`OpenZenTexts/MANIFEST_SCHE
 - `license` — SPDX identifier
 - `license_basis` — plain-English why
 - `commercial_use_allowed`, `attribution_required`, `share_alike_required`
-- `no_cbeta_material: true` — **always true for OpenZenTexts**
+- `no_cbeta_material: true` — **always true for OpenZen**
 - `tei_file` — filename of the TEI in this directory
 - `witnesses_consulted[]` — one entry per source witness (see schema for sub-fields)
 - `production_method` — what generated the TEI
@@ -216,13 +216,13 @@ Create `xml-open/{prefix}/{slug}/manifest.json` per [`OpenZenTexts/MANIFEST_SCHE
 
 ## Step 8 — Write the per-text README
 
-Create `xml-open/{prefix}/{slug}/README.md`. Use the existing one at `OpenZenTexts/xml-open/ws/gateless-barrier/README.md` as a template. It should cover:
+Create `xml-open/{prefix}/{slug}/README.md`. Use the existing one at `OpenZen/xml-open/ws/gateless-barrier/README.md` as a template. It should cover:
 
 - Work metadata (title, author, year, license) in a header block
 - A table listing the files in the directory and what each is for
 - A "license obligations (the short version)" section in plain English explaining what users may and must do
 - A reference to the captured source in `provenance/{slug}/`
-- A note explaining why the file ID uses the OpenZenTexts naming scheme (link to `MANIFEST_SCHEMA.md` for the full reasoning)
+- A note explaining why the file ID uses the OpenZen naming scheme (link to `MANIFEST_SCHEMA.md` for the full reasoning)
 - A reproducibility section with the exact command to re-generate the TEI
 - A "see also" section linking to `MANIFEST_SCHEMA.md`, `LICENSE.md`, and the repo `README.md`
 
@@ -244,7 +244,7 @@ import { installDomShim } from './_dom-shim.js';
 installDomShim();
 const { parseTei } = await import('../lib/tei.js');
 
-const xml = readFileSync('C:/programmieren/OpenZenTexts/xml-open/{prefix}/{slug}/{slug}.xml', 'utf8');
+const xml = readFileSync('C:/programmieren/OpenZen/xml-open/{prefix}/{slug}/{slug}.xml', 'utf8');
 const parsed = parseTei(xml);
 
 console.log('titleZh:', parsed.titleZh);
@@ -267,13 +267,13 @@ Run with `node test/_sanity-check-{slug}.mjs`. Delete the file after the run —
 
 ### Desktop renderer (`TeiRenderer.cs`)
 
-Add a temporary xunit test under `ReadZen.Tests/Services/_OpenZenTextsSanityCheck.cs` (delete after the run). Pattern:
+Add a temporary xunit test under `ReadZen.Tests/Services/_OpenZenSanityCheck.cs` (delete after the run). Pattern:
 
 ```csharp
 [Fact]
 public void {WorkName}_RendersCleanSegments()
 {
-    var xml = File.ReadAllText(@"C:\programmieren\OpenZenTexts\xml-open\{prefix}\{slug}\{slug}.xml");
+    var xml = File.ReadAllText(@"C:\programmieren\OpenZen\xml-open\{prefix}\{slug}\{slug}.xml");
     var doc = TeiRenderer.Render(xml);
 
     Assert.False(doc.IsEmpty);
@@ -298,7 +298,7 @@ Run:
 ```bash
 cd C:/programmieren/MergeWorkCbeta/CBETA-Translator
 dotnet test ReadZen.Tests/ReadZen.Tests.csproj \
-  --filter "FullyQualifiedName~OpenZenTextsSanityCheck"
+  --filter "FullyQualifiedName~OpenZenSanityCheck"
 ```
 
 Delete the test file after it passes. Both parsers reporting the same line-bucket count is a strong sanity signal — they should agree.
@@ -308,7 +308,7 @@ Delete the test file after it passes. Both parsers reporting the same line-bucke
 ## Step 10 — Commit and push
 
 ```bash
-cd C:/programmieren/OpenZenTexts
+cd C:/programmieren/OpenZen
 git status
 git add xml-open/{prefix}/{slug}/{slug}.xml \
         xml-open/{prefix}/{slug}/manifest.json \
@@ -328,7 +328,7 @@ Use a descriptive commit message that mentions the work, the source, the license
 Add an entry to `OpenZenTranslations/titles.jsonl`:
 
 ```json
-{"path":"{prefix}/{slug}/{slug}.xml","fileId":"{prefix}.{slug}","zh":"{Chinese title}","en":"{English title}","enShort":"{Short English title}","author":"{Author}","year":"{Year}","license":"{SPDX or short label}","collection":"OpenZenTexts"}
+{"path":"{prefix}/{slug}/{slug}.xml","fileId":"{prefix}.{slug}","zh":"{Chinese title}","en":"{English title}","enShort":"{Short English title}","author":"{Author}","year":"{Year}","license":"{SPDX or short label}","collection":"OpenZen"}
 ```
 
 Commit and push to `OpenZenTranslations`. The web preview's title-lookup feature uses this file.
@@ -349,7 +349,7 @@ Mark the text done in `C:\woodblocks\ZEN_TEXT_WORKLIST.md` and update `C:\woodbl
 | Line-ending hash mismatch between woodblocks and provenance copies | `sha256sum` reports different values for what should be the same bytes | Use binary copy (`cp` from a Unix-like shell, not Notepad save) when moving the source into `provenance/`. The repo's `.gitattributes` may also be normalizing — check what's actually on disk vs what git stores |
 | Converter strips wikitext templates aggressively and loses content | Some preface lines missing | The order of regex passes matters. Strip wikitables and `{{templates}}` separately and BEFORE converting `[[link]]` syntax |
 | File ID matches the CBETA regex by accident | Test fails with "CBETA-style file ID" | Add a literal dot or hyphen to the slug. The dot separator between prefix and slug already prevents this in the standard scheme — check you're using the standard scheme |
-| Sanity-check test left in the test project | CI fails on a different machine because the absolute path doesn't exist there | Always delete `_OpenZenTextsSanityCheck.cs` after the run. It's a one-off check, not a permanent test |
+| Sanity-check test left in the test project | CI fails on a different machine because the absolute path doesn't exist there | Always delete `_OpenZenSanityCheck.cs` after the run. It's a one-off check, not a permanent test |
 
 ---
 
@@ -358,8 +358,8 @@ Mark the text done in `C:\woodblocks\ZEN_TEXT_WORKLIST.md` and update `C:\woodbl
 - [`C:\woodblocks\WORKFLOW.md`](WORKFLOW.md) — pre-vetting curation discipline (acquire, validate, license-check)
 - [`C:\woodblocks\SOURCES.md`](SOURCES.md) — the attribution ledger / inventory
 - [`C:\woodblocks\ZEN_TEXT_WORKLIST.md`](ZEN_TEXT_WORKLIST.md) — the working queue
-- [`OpenZenTexts/MANIFEST_SCHEMA.md`](../programmieren/OpenZenTexts/MANIFEST_SCHEMA.md) — manifest field reference
-- [`OpenZenTexts/xml-open/ws/gateless-barrier/`](../programmieren/OpenZenTexts/xml-open/ws/gateless-barrier/) — the canonical first-text example
-- [`OpenZenTexts/tools/wikitext-to-tei/convert-gateless-barrier.mjs`](../programmieren/OpenZenTexts/tools/wikitext-to-tei/convert-gateless-barrier.mjs) — the canonical converter pattern
+- [`OpenZen/MANIFEST_SCHEMA.md`](../programmieren/OpenZen/MANIFEST_SCHEMA.md) — manifest field reference
+- [`OpenZen/xml-open/ws/gateless-barrier/`](../programmieren/OpenZen/xml-open/ws/gateless-barrier/) — the canonical first-text example
+- [`OpenZen/tools/wikitext-to-tei/convert-gateless-barrier.mjs`](../programmieren/OpenZen/tools/wikitext-to-tei/convert-gateless-barrier.mjs) — the canonical converter pattern
 - [`Fabulu/OpenZenTexts`](https://github.com/Fabulu/OpenZenTexts) on GitHub — the live repo
 - [`Fabulu/OpenZenTranslations`](https://github.com/Fabulu/OpenZenTranslations) on GitHub — the companion translations repo

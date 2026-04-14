@@ -2,9 +2,12 @@
 
 ## Witness
 
-- PDF: `NDL2537788_wumen_kai_record.redownload.pdf`
+- PDF: `NDL2537788_wumen_kai_record.redownload2.pdf`
 - Commons filename: `NDL2537788_無門開和尚語録.pdf`
-- Status: valid re-download completed on `2026-04-11`
+- Source page: https://commons.wikimedia.org/wiki/File:NDL2537788_%E7%84%A1%E9%96%80%E9%96%8B%E5%92%8C%E5%B0%9A%E8%AA%9E%E9%8C%B2.pdf
+- DOI: `10.11501/2537788`
+- Rights basis: Commons file page is categorized `PD-Japan` and `PD-scan (PD-Japan)`.
+- Status: exact Commons-backed local copy validated on disk (`70` pages)
 
 ## Rules
 
@@ -17,7 +20,7 @@
 
 1. map reliable case anchors between the two witnesses
 2. locate the `趙州勘婆` block corresponding to `PDF p.033 right leaf` in the 1632 draft
-3. locate the `門云拈起扇子云` block corresponding to `PDF p.047 right leaf` in the 1632 draft
+3. locate the `雲門拈起扇子云` block corresponding to `PDF p.047 right leaf` in the 1632 draft
 4. compare weak end-matter leaves after case anchors are stable
 
 ## First Defensible Anchors
@@ -53,16 +56,16 @@
   - `一見便見`
 - This is good enough to say that the second witness corroborates the broader `趙州勘婆` zone.
 - It is not yet good enough to derive a full line-for-line replacement reading from OCR alone.
-- It does not currently pin the separate `門云拈起扇子云 / 築著帝釋鼻孔` problem.
+- It does not currently pin the separate `雲門拈起扇子云 / 築著帝釋鼻孔` problem.
 
 ### Conservative Partial Reading
 
 ```text
-簡要理會此事，山僧不免更一〔?〕
-已分人來，一見便見〔?〕
-大〔?〕村婆子〔?〕
-何故婆云，我煎得透底沈靜無聲〔?〕
-重門光明寂照遍〔?〕
+簡要理會此事，山僧不免更一。?。
+已分人來，一見便見。?。
+大。?。村婆子。?。
+何故婆云，我煎得透底沉靜無聲。?。
+重門光明寂照遍。?。
 ```
 
 - This is a corroboration note only.

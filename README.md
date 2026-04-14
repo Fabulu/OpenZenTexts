@@ -1,10 +1,10 @@
-# OpenZenTexts
+# OpenZen
 
 Chinese Chan/Zen primary texts in TEI-P5 XML format, curated by the [Read Zen](https://github.com/Fabulu/ReadZen) project for **commercial reusability**.
 
 ## Why this exists
 
-The CBETA Chinese Buddhist canon is the gold standard for digital Chan/Zen text scholarship, but its distribution terms restrict commercial use. OpenZenTexts is a parallel collection sourced from public-domain witnesses and freely-licensed transcriptions — you can redistribute, modify, translate, sell, or build commercial products from anything in this repository, subject to each file's per-text license terms.
+The CBETA Chinese Buddhist canon is the gold standard for digital Chan/Zen text scholarship, but its distribution terms restrict commercial use. OpenZen is a parallel collection sourced from public-domain witnesses and freely-licensed transcriptions — you can redistribute, modify, translate, sell, or build commercial products from anything in this repository, subject to each file's per-text license terms.
 
 Every file in this repository is **independent of CBETA-encoded material**. The vetting workflow at [`C:\woodblocks\WORKFLOW.md`](https://github.com/Fabulu/ReadZen) excludes any source whose provenance chain touches CBETA. Synthetic line identifiers (e.g. `wm.case01.l01`) replace CBETA woodblock notation (e.g. `T48n2005:0292c22`) so the two corpora can never be confused.
 

@@ -125,7 +125,7 @@ Timestamps matter. Brief entries are fine. Honesty about uncertainty is more val
 | YYYY-MM-DD | TEI XML generated | [sha] |
 | YYYY-MM-DD | manifest.json written | [sha] |
 | YYYY-MM-DD | Provenance files committed | [sha] |
-| YYYY-MM-DD | Published to OpenZenTexts | v[X.Y.Z] |
+| YYYY-MM-DD | Published to OpenZen | v[X.Y.Z] |
 
 ---
 

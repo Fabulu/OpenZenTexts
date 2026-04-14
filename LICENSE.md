@@ -1,4 +1,4 @@
-# OpenZenTexts — License Summary
+# OpenZen — License Summary
 
 This repository contains text witnesses, converter source code, and provenance records under several free licenses. **Each file's authoritative license is the one declared in its TEI `<availability>` block (for XML files) or its source-file header (for code).** This document summarizes the categories.
 
@@ -35,7 +35,7 @@ The converter scripts in `tools/wikitext-to-tei/` and any future converters in `
 ```
 MIT License
 
-Copyright (c) 2026 Read Zen — OpenZenTexts curation
+Copyright (c) 2026 Read Zen — OpenZen curation
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,6 +1,6 @@
 # Curation Process Documentation
 
-This directory documents the process by which OpenZenTexts sources are acquired, vetted, transcribed, and published. It serves three audiences:
+This directory documents the process by which OpenZen sources are acquired, vetted, transcribed, and published. It serves three audiences:
 
 - **Curators** adding new texts to the collection
 - **Scholars** evaluating the provenance and reliability of published texts
@@ -11,7 +11,7 @@ This directory documents the process by which OpenZenTexts sources are acquired,
 | Document | Purpose |
 |---|---|
 | [WORKFLOW.md](WORKFLOW.md) | Pre-vetting curation discipline: how to acquire texts, validate licensing, store with attribution. The foundational rules that keep the collection CBETA-independent and commercially usable. |
-| [REPO_INTAKE_PIPELINE.md](REPO_INTAKE_PIPELINE.md) | Post-vetting: converting captured sources to TEI XML in the OpenZenTexts repo. 12 sequential steps with sanity checks and gotchas. |
+| [REPO_INTAKE_PIPELINE.md](REPO_INTAKE_PIPELINE.md) | Post-vetting: converting captured sources to TEI XML in the OpenZen repo. 12 sequential steps with sanity checks and gotchas. |
 | [TRANSCRIPTION_METHOD.md](TRANSCRIPTION_METHOD.md) | End-to-end transcription method: witness-first reading, OCR as evidence (not authority), multi-witness corroboration, and explicit uncertainty handling. |
 | [TRANSCRIPTION_CHECKLIST.md](TRANSCRIPTION_CHECKLIST.md) | Compact checklist distillation of the transcription method for quick reference during active work. |
 
