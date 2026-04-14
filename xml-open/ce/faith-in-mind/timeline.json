@@ -1,98 +1,107 @@
 {
-    "text_id": "ce.faith-in-mind",
-    "timeline_version": 1,
-    "events": [
-        {
-            "seq": 1,
-            "event": "project_started",
-            "timestamp_utc": "2026-04-14T08:00:00Z",
-            "summary": "Edition charter created for Faith in Mind (Xinxinming) critical edition. Goal: produce a freely-licensed critical text from multiple public-domain witnesses with full apparatus.",
-            "actor": "curator"
-        },
-        {
-            "seq": 2,
-            "event": "witness_found",
-            "timestamp_utc": "2026-04-14T08:30:00Z",
-            "witness_id": "T1",
-            "summary": "Witness T1 identified during reconnaissance. Assigned siglum T1 (primary candidate for copy text).",
-            "actor": "curator"
-        },
-        {
-            "seq": 3,
-            "event": "witness_found",
-            "timestamp_utc": "2026-04-14T08:30:00Z",
-            "witness_id": "T2",
-            "summary": "Witness T2 identified during reconnaissance. Assigned siglum T2.",
-            "actor": "curator"
-        },
-        {
-            "seq": 4,
-            "event": "witness_found",
-            "timestamp_utc": "2026-04-14T08:30:00Z",
-            "witness_id": "T3",
-            "summary": "Witness T3 identified during reconnaissance. Assigned siglum T3.",
-            "actor": "curator"
-        },
-        {
-            "seq": 5,
-            "event": "witness_found",
-            "timestamp_utc": "2026-04-14T08:30:00Z",
-            "witness_id": "T4",
-            "summary": "Witness T4 identified during reconnaissance. Assigned siglum T4.",
-            "actor": "curator"
-        },
-        {
-            "seq": 6,
-            "event": "witness_found",
-            "timestamp_utc": "2026-04-14T08:30:00Z",
-            "witness_id": "T5",
-            "summary": "Witness T5 identified during reconnaissance. Assigned siglum T5.",
-            "actor": "curator"
-        },
-        {
-            "seq": 7,
-            "event": "witness_found",
-            "timestamp_utc": "2026-04-14T09:00:00Z",
-            "witness_id": "A1",
-            "summary": "Witness A1 identified during reconnaissance. Assigned siglum A1.",
-            "actor": "curator"
-        },
-        {
-            "seq": 8,
-            "event": "witness_found",
-            "timestamp_utc": "2026-04-14T09:00:00Z",
-            "witness_id": "A2",
-            "summary": "Witness A2 identified during reconnaissance. Assigned siglum A2.",
-            "actor": "curator"
-        },
-        {
-            "seq": 9,
-            "event": "witness_found",
-            "timestamp_utc": "2026-04-14T09:00:00Z",
-            "witness_id": "A3",
-            "summary": "Witness A3 identified during reconnaissance. Assigned siglum A3.",
-            "actor": "curator"
-        },
-        {
-            "seq": 10,
-            "event": "witness_set_locked",
-            "timestamp_utc": "2026-04-14T10:00:00Z",
-            "summary": "Witness set locked at 8 base witnesses: T1-T5 (textual witnesses) and A1-A3 (anthology/commentary witnesses). No further witnesses will be added to the base set without creating a new SPEC version.",
-            "actor": "curator"
-        },
-        {
-            "seq": 11,
-            "event": "sigla_frozen",
-            "timestamp_utc": "2026-04-14T10:00:00Z",
-            "summary": "Sigla frozen: T1, T2, T3, T4, T5, A1, A2, A3. These identifiers are now permanent and will not be reassigned.",
-            "actor": "curator"
-        },
-        {
-            "seq": 12,
-            "event": "copy_text_ranked",
-            "timestamp_utc": "2026-04-14T10:30:00Z",
-            "summary": "T1 ranked as primary candidate for copy text. Final selection pending witness validation and download completion.",
-            "actor": "curator"
-        }
-    ]
+  "text_id": "ce.faith-in-mind",
+  "readings": {},
+  "revisions": [
+    {
+      "revision_id": "rev_001",
+      "label": "Initial scaffold — witness acquisition",
+      "date": "2026-04-14",
+      "event_range": [1, 12],
+      "witnesses_added": ["korea-commons", "ndl-2537640", "kyoto-rb00009461", "kyoto-rb00012929", "waseda-e1087", "waseda-e1089", "ndl-2537799", "kyoto-rb00016909"],
+      "status": "draft"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt_001", "sequence": 1, "timestamp": "2026-04-14T08:00:00Z",
+      "stage": "project_setup", "event_type": "project_started",
+      "object_type": "edition", "object_id": "ce.faith-in-mind",
+      "summary": "Edition charter created for 信心銘 critical edition.",
+      "details": "Goal: produce a critical text from 8 base witnesses across 4 families with full apparatus. OCR-first methodology.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    },
+    {
+      "event_id": "evt_002", "sequence": 2, "timestamp": "2026-04-14T08:30:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "korea-commons",
+      "summary": "三祖大師信心銘 (Korean standalone scan, 83pp) identified on Wikimedia Commons.",
+      "actor_type": "hybrid", "actor_id": "curator+agent", "status": "applied",
+      "evidence_links": ["https://commons.wikimedia.org/wiki/File:CNTS-00047968260_%E4%B8%89%E7%A5%96%E5%A4%A7%E5%B8%AB%E4%BF%A1%E5%BF%83%E9%8A%98.pdf"]
+    },
+    {
+      "event_id": "evt_003", "sequence": 3, "timestamp": "2026-04-14T08:35:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "ndl-2537640",
+      "summary": "四部録 (NDL 2537640, 28pp) identified on Wikimedia Commons.",
+      "actor_type": "hybrid", "actor_id": "curator+agent", "status": "applied",
+      "evidence_links": ["https://commons.wikimedia.org/wiki/File:NDL2537640_%E5%9B%9B%E9%83%A8%E9%8C%B2.pdf"]
+    },
+    {
+      "event_id": "evt_004", "sequence": 4, "timestamp": "2026-04-14T08:40:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "kyoto-rb00009461",
+      "summary": "四部録 1629 (Kyoto RB00009461) identified at Kyoto University Library.",
+      "actor_type": "hybrid", "actor_id": "curator+agent", "status": "applied",
+      "evidence_links": ["https://rmda.kulib.kyoto-u.ac.jp/item/rb00009461"]
+    },
+    {
+      "event_id": "evt_005", "sequence": 5, "timestamp": "2026-04-14T08:45:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "kyoto-rb00012929",
+      "summary": "四部録 1631 (Kyoto RB00012929) identified at Kyoto University Library.",
+      "actor_type": "hybrid", "actor_id": "curator+agent", "status": "applied",
+      "evidence_links": ["https://rmda.kulib.kyoto-u.ac.jp/item/rb00012929"]
+    },
+    {
+      "event_id": "evt_006", "sequence": 6, "timestamp": "2026-04-14T08:50:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "waseda-e1087",
+      "summary": "四部録 (Waseda WUL-bunko31_e1087) identified on Wikimedia Commons.",
+      "actor_type": "hybrid", "actor_id": "curator+agent", "status": "applied"
+    },
+    {
+      "event_id": "evt_007", "sequence": 7, "timestamp": "2026-04-14T08:55:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "waseda-e1089",
+      "summary": "四部録抄 (Waseda WUL-bunko31_e1089, derivative) identified on Wikimedia Commons.",
+      "actor_type": "hybrid", "actor_id": "curator+agent", "status": "applied"
+    },
+    {
+      "event_id": "evt_008", "sequence": 8, "timestamp": "2026-04-14T09:00:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "ndl-2537799",
+      "summary": "四部録抄 (NDL 2537799, 57pp) identified on Wikimedia Commons.",
+      "actor_type": "hybrid", "actor_id": "curator+agent", "status": "applied"
+    },
+    {
+      "event_id": "evt_009", "sequence": 9, "timestamp": "2026-04-14T09:05:00Z",
+      "stage": "witness_search", "event_type": "witness_found",
+      "object_type": "witness", "object_id": "kyoto-rb00016909",
+      "summary": "入衆日用 (Kyoto RB00016909, 41 images) identified at Kyoto University Library.",
+      "actor_type": "hybrid", "actor_id": "curator+agent", "status": "applied",
+      "evidence_links": ["https://rmda.kulib.kyoto-u.ac.jp/item/rb00016909"]
+    },
+    {
+      "event_id": "evt_010", "sequence": 10, "timestamp": "2026-04-14T12:00:00Z",
+      "stage": "witness_lock", "event_type": "witness_set_locked",
+      "object_type": "edition", "object_id": "ce.faith-in-mind",
+      "summary": "Witness set locked: 8 base witnesses across 4 families. 14 control witnesses (translation + commentary + study).",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    },
+    {
+      "event_id": "evt_011", "sequence": 11, "timestamp": "2026-04-14T12:10:00Z",
+      "stage": "sigla_freeze", "event_type": "sigla_frozen",
+      "object_type": "edition", "object_id": "ce.faith-in-mind",
+      "summary": "Sigla assigned: T1-T5 (base), A1-A3 (anthology/derivative), C1-C17 (commentary), S1-S5 (study).",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    },
+    {
+      "event_id": "evt_012", "sequence": 12, "timestamp": "2026-04-14T12:30:00Z",
+      "stage": "copy_text_selection", "event_type": "copy_text_ranked",
+      "object_type": "witness", "object_id": "korea-commons",
+      "summary": "T1 (Korean standalone) ranked as copy text candidate. Only standalone direct witness; minimizes anthology-boundary ambiguity.",
+      "details": "Working ranking, not final genealogical claim. Pending OCR comparison and collation.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    }
+  ]
 }
