@@ -116,6 +116,22 @@
       "format": "markdown"
     },
     {
+      "id": "source-reading-edition",
+      "title": "Source Reading Edition (Markdown)",
+      "path": "../../../provenance/wumenguan-1632/source-reading-edition.md",
+      "category": "editorial",
+      "format": "markdown",
+      "description": "Source reading-edition markdown used as conversion input"
+    },
+    {
+      "id": "wikisource-wikitext",
+      "title": "Wikisource Raw Wikitext",
+      "path": "../../../provenance/wumenguan-1632/witnesses/wikisource-wumenguan.wikitext",
+      "category": "witness",
+      "format": "text",
+      "description": "Raw wikitext of the Wikisource Wumenguan page"
+    },
+    {
       "id": "human-log",
       "title": "Human-Readable Build Log",
       "path": "../../../provenance/wumenguan-1632/process/human-log.md",
