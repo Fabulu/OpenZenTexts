@@ -47,6 +47,7 @@ This document describes every field. The TEI file's own `<teiHeader><availabilit
 | `apparatus_file` | string | optional | Relative path to `apparatus.json` — locus-by-locus variant data. See `docs/curation/APPARATUS_JSON_SCHEMA.md` |
 | `stats_file` | string | optional | Relative path to `stats.json` — compact derived summary. See `docs/curation/STATS_JSON_SCHEMA.md` |
 | `documents_file` | string | optional | Relative path to `documents.json` — curated registry of human-readable documents. See `docs/curation/DOCUMENTS_JSON_SCHEMA.md` |
+| `timeline_file` | string | optional | Relative path to `timeline.json` — chronological event stream for the edition build. See `docs/curation/TIMELINE_JSON_SCHEMA.md`. Required for critical editions. |
 
 ### Witnesses (the provenance trail)
 

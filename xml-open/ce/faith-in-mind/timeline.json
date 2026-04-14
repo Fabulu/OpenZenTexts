@@ -1,0 +1,98 @@
+{
+    "text_id": "ce.faith-in-mind",
+    "timeline_version": 1,
+    "events": [
+        {
+            "seq": 1,
+            "event": "project_started",
+            "timestamp_utc": "2026-04-14T08:00:00Z",
+            "summary": "Edition charter created for Faith in Mind (Xinxinming) critical edition. Goal: produce a freely-licensed critical text from multiple public-domain witnesses with full apparatus.",
+            "actor": "curator"
+        },
+        {
+            "seq": 2,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-14T08:30:00Z",
+            "witness_id": "T1",
+            "summary": "Witness T1 identified during reconnaissance. Assigned siglum T1 (primary candidate for copy text).",
+            "actor": "curator"
+        },
+        {
+            "seq": 3,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-14T08:30:00Z",
+            "witness_id": "T2",
+            "summary": "Witness T2 identified during reconnaissance. Assigned siglum T2.",
+            "actor": "curator"
+        },
+        {
+            "seq": 4,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-14T08:30:00Z",
+            "witness_id": "T3",
+            "summary": "Witness T3 identified during reconnaissance. Assigned siglum T3.",
+            "actor": "curator"
+        },
+        {
+            "seq": 5,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-14T08:30:00Z",
+            "witness_id": "T4",
+            "summary": "Witness T4 identified during reconnaissance. Assigned siglum T4.",
+            "actor": "curator"
+        },
+        {
+            "seq": 6,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-14T08:30:00Z",
+            "witness_id": "T5",
+            "summary": "Witness T5 identified during reconnaissance. Assigned siglum T5.",
+            "actor": "curator"
+        },
+        {
+            "seq": 7,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-14T09:00:00Z",
+            "witness_id": "A1",
+            "summary": "Witness A1 identified during reconnaissance. Assigned siglum A1.",
+            "actor": "curator"
+        },
+        {
+            "seq": 8,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-14T09:00:00Z",
+            "witness_id": "A2",
+            "summary": "Witness A2 identified during reconnaissance. Assigned siglum A2.",
+            "actor": "curator"
+        },
+        {
+            "seq": 9,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-14T09:00:00Z",
+            "witness_id": "A3",
+            "summary": "Witness A3 identified during reconnaissance. Assigned siglum A3.",
+            "actor": "curator"
+        },
+        {
+            "seq": 10,
+            "event": "witness_set_locked",
+            "timestamp_utc": "2026-04-14T10:00:00Z",
+            "summary": "Witness set locked at 8 base witnesses: T1-T5 (textual witnesses) and A1-A3 (anthology/commentary witnesses). No further witnesses will be added to the base set without creating a new SPEC version.",
+            "actor": "curator"
+        },
+        {
+            "seq": 11,
+            "event": "sigla_frozen",
+            "timestamp_utc": "2026-04-14T10:00:00Z",
+            "summary": "Sigla frozen: T1, T2, T3, T4, T5, A1, A2, A3. These identifiers are now permanent and will not be reassigned.",
+            "actor": "curator"
+        },
+        {
+            "seq": 12,
+            "event": "copy_text_ranked",
+            "timestamp_utc": "2026-04-14T10:30:00Z",
+            "summary": "T1 ranked as primary candidate for copy text. Final selection pending witness validation and download completion.",
+            "actor": "curator"
+        }
+    ]
+}

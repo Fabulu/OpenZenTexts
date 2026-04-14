@@ -1,0 +1,145 @@
+{
+    "text_id": "pd.wumenguan-1632",
+    "timeline_version": 1,
+    "events": [
+        {
+            "seq": 1,
+            "event": "project_started",
+            "timestamp_utc": "2026-04-09T10:00:00Z",
+            "summary": "Edition charter created for Wumenguan 1632 NDL reading edition. Goal: produce a freely-licensed (CC0) reading text from public-domain Japanese woodblock scans, independent of any CBETA material.",
+            "actor": "curator"
+        },
+        {
+            "seq": 2,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-09T11:00:00Z",
+            "witness_id": "ndl-1632",
+            "summary": "Identified NDL 12865429 (1632 Japanese woodblock imprint of Wumenguan, 1 juan) on Wikimedia Commons as primary base witness. PD-old, mechanical reproduction.",
+            "actor": "curator"
+        },
+        {
+            "seq": 3,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-09T11:30:00Z",
+            "witness_id": "waseda-1752",
+            "summary": "Identified Waseda University Library bunko31 e1102 (1752 woodblock Mumonkan) on Wikimedia Commons as secondary cross-check witness. PD-old.",
+            "actor": "curator"
+        },
+        {
+            "seq": 4,
+            "event": "download_attempted",
+            "timestamp_utc": "2026-04-09T18:00:00Z",
+            "witness_id": "ndl-1632",
+            "summary": "Downloaded NDL12865429_wumenguan_1juan.pdf from Wikimedia Commons (188,151,699 bytes).",
+            "actor": "curator"
+        },
+        {
+            "seq": 5,
+            "event": "hash_recorded",
+            "timestamp_utc": "2026-04-09T18:30:00Z",
+            "witness_id": "ndl-1632",
+            "summary": "SHA-256 anchored: 64d5cb03d60c70e94de5bac514be6bef3956892e51011ce5f80a163252b50026.",
+            "actor": "curator"
+        },
+        {
+            "seq": 6,
+            "event": "validation_passed",
+            "timestamp_utc": "2026-04-09T18:35:00Z",
+            "witness_id": "ndl-1632",
+            "summary": "Rights validation: PD-old confirmed. No CBETA markers found in captured package. Vetting confidence: high.",
+            "actor": "curator"
+        },
+        {
+            "seq": 7,
+            "event": "download_attempted",
+            "timestamp_utc": "2026-04-09T18:15:00Z",
+            "witness_id": "waseda-1752",
+            "summary": "Downloaded WUL-bunko31_e1102_mumonkan.pdf from Wikimedia Commons (47,017,686 bytes).",
+            "actor": "curator"
+        },
+        {
+            "seq": 8,
+            "event": "hash_recorded",
+            "timestamp_utc": "2026-04-09T18:30:00Z",
+            "witness_id": "waseda-1752",
+            "summary": "SHA-256 anchored: a88b551b9c168d6fc946e27130eb0012a8f562815e85e5e8305dd6f9eccd0c5f.",
+            "actor": "curator"
+        },
+        {
+            "seq": 9,
+            "event": "validation_passed",
+            "timestamp_utc": "2026-04-09T18:35:00Z",
+            "witness_id": "waseda-1752",
+            "summary": "Rights validation: PD-old confirmed via Wikimedia Commons hosting. No CBETA markers. Vetting confidence: high.",
+            "actor": "curator"
+        },
+        {
+            "seq": 10,
+            "event": "copy_text_selected",
+            "timestamp_utc": "2026-04-09T19:00:00Z",
+            "summary": "NDL 12865429 (ndl-1632) selected as base witness for OCR comparison and reading-edition construction. Waseda 1752 assigned secondary cross-check role.",
+            "actor": "curator"
+        },
+        {
+            "seq": 11,
+            "event": "ocr_comparison_started",
+            "timestamp_utc": "2026-04-10T08:00:00Z",
+            "summary": "Multi-engine OCR comparison initiated on ndl-1632 scan pages: tesseract, RapidOCR, PaddleOCR, selective EasyOCR. Image adjudication used for ambiguous characters.",
+            "actor": "curator"
+        },
+        {
+            "seq": 12,
+            "event": "witness_found",
+            "timestamp_utc": "2026-04-12T20:00:00Z",
+            "witness_id": "ndl-wumen-huikai-record",
+            "summary": "Identified NDL 2537788 (Wumen Huikai Recorded Sayings) on Wikimedia Commons as tertiary corroborant for Huikai's voice. PD-Japan / PD-scan (PD-Japan).",
+            "actor": "curator"
+        },
+        {
+            "seq": 13,
+            "event": "download_attempted",
+            "timestamp_utc": "2026-04-12T21:00:00Z",
+            "witness_id": "ndl-wumen-huikai-record",
+            "summary": "Downloaded NDL2537788_wumen_kai_record.redownload2.pdf from Wikimedia Commons (246,780,631 bytes).",
+            "actor": "curator"
+        },
+        {
+            "seq": 14,
+            "event": "hash_recorded",
+            "timestamp_utc": "2026-04-12T21:32:07Z",
+            "witness_id": "ndl-wumen-huikai-record",
+            "summary": "SHA-256 anchored: 782397c4d09627ecaf40eb6ebef698e96b45a7fd743fc9a3fd6bb766d3319494.",
+            "actor": "curator"
+        },
+        {
+            "seq": 15,
+            "event": "validation_passed",
+            "timestamp_utc": "2026-04-12T21:40:00Z",
+            "witness_id": "ndl-wumen-huikai-record",
+            "summary": "Rights validation: PD-Japan / PD-scan (PD-Japan) confirmed via exact Commons file page. 70-page local copy validated. Vetting confidence: high.",
+            "actor": "curator"
+        },
+        {
+            "seq": 16,
+            "event": "text_changed",
+            "timestamp_utc": "2026-04-12T01:15:00Z",
+            "summary": "Reading-edition markdown (WUMENGUAN_1632_READING_EDITION.md, 30,903 bytes, SHA-256 6ecc0b14...) converted to TEI XML via deterministic converter (convert-wumenguan-1632.mjs). Cases 1-48 in core spine, case 49 in appendix div. Line-ID namespace: wm32.",
+            "actor": "converter"
+        },
+        {
+            "seq": 17,
+            "event": "publication_check_changed",
+            "timestamp_utc": "2026-04-12T02:00:00Z",
+            "summary": "Edition maturity set to draft. Publication checks passed: rights confirmed for all witnesses, hashes recorded, no CBETA material, line-ID namespace distinct. Apparatus deliberately omitted from v1.",
+            "checks": {
+                "rights_confirmed_all_witnesses": true,
+                "hashes_recorded_all_witnesses": true,
+                "no_cbeta_material": true,
+                "line_id_namespace_distinct": true,
+                "apparatus_included": false,
+                "edition_maturity": "draft"
+            },
+            "actor": "curator"
+        }
+    ]
+}

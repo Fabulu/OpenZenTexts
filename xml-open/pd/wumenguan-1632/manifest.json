@@ -23,6 +23,7 @@
     "share_alike_required":  false,
     "no_cbeta_material":  true,
     "tei_file":  "wumenguan-1632.xml",
+    "timeline_file":  "timeline.json",
     "process_file":  "process.json",
     "apparatus_file":  "apparatus.json",
     "stats_file":  "stats.json",

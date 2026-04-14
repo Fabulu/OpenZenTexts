@@ -24,6 +24,7 @@
   "apparatus_file": "apparatus.json",
   "stats_file": "stats.json",
   "documents_file": "documents.json",
+  "timeline_file": "timeline.json",
 
   "base_witness_id": "korea-commons",
   "edition_maturity": "draft",

@@ -69,6 +69,10 @@
         {
             "path": "provenance/wumenguan-1632/witnesses/zenshu-mumonkan-1882-korea-README.md",
             "description": "Witness README: Zenshu Mumonkan 1882 Korea edition"
+        },
+        {
+            "path": "provenance/wumenguan-1632/process/human-log.md",
+            "description": "Human-readable narrative log of how the reading edition was built"
         }
     ]
 }

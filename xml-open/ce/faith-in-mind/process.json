@@ -38,6 +38,10 @@
       "relationship_notes": "Distinct anthology, not part of 四部録 tradition."
     }
   ],
+  "current_stage": "witness_validation",
+  "edition_maturity": "draft",
+  "timeline_file": "timeline.json",
+  "human_log_file": "../../../provenance/faith-in-mind/process/human-log.md",
   "ocr_pipeline": null,
   "segmentation_pipeline": null,
   "human_passes": [],
