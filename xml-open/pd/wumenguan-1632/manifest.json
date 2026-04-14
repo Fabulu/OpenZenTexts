@@ -36,7 +36,7 @@
                                     "captured_bytes":  188151699,
                                     "captured_utc":  "2026-04-09T18:30:00Z",
                                     "rights":  "PD-old (mechanical reproduction of a public-domain Japanese woodblock imprint; hosted on Wikimedia Commons)",
-                                    "rights_basis_text":  "Wikimedia Commons describes the file as a mechanical reproduction of a public-domain original, and the 1632 woodblock imprint is in the public domain in Japan and every other jurisdiction relevant to OpenZenTexts distribution. The local source ledger at C:\\woodblocks\\SOURCES.md entry §1 records confidence as high.",
+                                    "rights_basis_text":  "Wikimedia Commons describes the file as a mechanical reproduction of a public-domain original, and the 1632 woodblock imprint is in the public domain in Japan and every other jurisdiction relevant to OpenZen distribution. The local source ledger at C:\\woodblocks\\SOURCES.md entry §1 records confidence as high.",
                                     "vetting_confidence":  "high",
                                     "provenance_check":  "no_cbeta_marker_in_captured_package",
                                     "role_in_production":  "primary base text"
@@ -86,7 +86,7 @@
                                     "captured_sha256":  "6ecc0b148d4cc82c1cf18b60c193d6c5be24298875140a89869fe67288c6e742",
                                     "captured_bytes":  30903,
                                     "captured_utc":  "2026-04-12T01:42:00Z",
-                                    "rights":  "Editor\u0027s own creative work; released under CC0 1.0 Universal as part of this OpenZenTexts text_id",
+                                    "rights":  "Editor\u0027s own creative work; released under CC0 1.0 Universal as part of this OpenZen text_id",
                                     "rights_basis_text":  "The reading-edition markdown is the editor\u0027s own editorial rebuild derived from the three PD witnesses above via OCR comparison, image adjudication, and manual repair. It is not under any license that propagates to this TEI file — the editor is the author and dedicates the work to the public domain.",
                                     "vetting_confidence":  "high",
                                     "provenance_check":  "no_cbeta_marker_in_captured_package",
@@ -97,5 +97,5 @@
     "production_notes":  "Cases 1–48 form the core spine. Case 49 is placed in an appendix div so TM/search machinery that iterates the core sequence does not pull late-appended material into scope. Witness-backed rough readings (說道有門，無阿師分 in preface; 請續一向 in case 20; the case 31 無門曰 wording) are preserved verbatim — they are intentional editorial choices documented in C:\\woodblocks\\Transcriptions\\Wumenguan_1632_NDL_Commons\\architect\\WUMENGUAN_1632_READING_EDITION_NOTES.md. Editorial repairs baked into the reading edition and preserved here: prefatory opening 佛語心為宗 restored; case 10 in received order 公案 → 無門曰 → 頌; case 17 coherence pass; cases 27 = 不是心佛 and 28 = 久響龍潭 (received order); case 31 no longer carries imported 龍潭 material; case 32 uses the 阿難乃佛弟子 / 劍刃上行 commentary+verse set. Apparatus / variant readings are deliberately NOT in this v1 — they can be added later as a \u003cdiv type=\"apparatus\"\u003e derived from the separate working witness notes. This file is intentionally not a critical edition; a deeper reconciliation may eventually be published as ce.gateless-barrier per the reservation in the existing ws.gateless-barrier manifest. The \"ndl-wumen-huikai-record\" witness is a high-vetting Commons-backed corroborant (PD-Japan / PD-scan (PD-Japan)); it contributes corroboration only, not primary text.",
     "production_inputs_dir":  "../../../provenance/wumenguan-1632/",
     "captured_utc":  "2026-04-12T01:15:00Z",
-    "curator":  "Read Zen — OpenZenTexts curation"
+    "curator":  "Read Zen — OpenZen curation"
 }

@@ -26,7 +26,7 @@ top is the editor's own and is released into the public domain here.
 
 ## This is NOT ws.gateless-barrier
 
-OpenZenTexts now contains two Wumenguans, and they are independent files:
+OpenZen now contains two Wumenguans, and they are independent files:
 
 | | `ws/gateless-barrier/gateless-barrier.xml` | `pd/wumenguan-1632/wumenguan-1632.xml` (this file) |
 |---|---|---|
@@ -157,6 +157,6 @@ woodblock notation like `T48n2005:0292c22`.
 
 - [`MANIFEST_SCHEMA.md`](../../../MANIFEST_SCHEMA.md) — full field reference for `manifest.json`
 - [`LICENSE.md`](../../../LICENSE.md) — collection-level licensing summary
-- [`README.md`](../../../README.md) — what OpenZenTexts is
+- [`README.md`](../../../README.md) — what OpenZen is
 - [`../../ws/gateless-barrier/`](../../ws/gateless-barrier/) — the other Wumenguan
   in the corpus (Wikisource-derived, CC BY-SA 4.0)

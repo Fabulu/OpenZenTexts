@@ -10,11 +10,11 @@
         <editor role="compiler">宗紹 (Zongshao, fl. 1228)</editor>
         <respStmt>
           <resp>Witness sourcing, vetting, and TEI conversion</resp>
-          <name>Read Zen — OpenZenTexts curation</name>
+          <name>Read Zen — OpenZen curation</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Read Zen — OpenZenTexts</publisher>
+        <publisher>Read Zen — OpenZen</publisher>
         <pubPlace>https://github.com/Fabulu/OpenZenTexts</pubPlace>
         <date when="1228">Composed 1228 (Shaoding 1)</date>
         <availability status="free">
@@ -29,10 +29,10 @@
           <p><label>Stable revision (oldid):</label> https://zh.wikisource.org/w/index.php?title=%E7%84%A1%E9%96%80%E9%97%9C&amp;oldid=2648998</p>
           <p><label>Rights basis:</label> The captured oldid HTML shows page-level PD-old / public-domain language, and the Wikisource site footer declares site text available under CC BY-SA 4.0. Vetting confidence: high.</p>
           <p><label>Provenance check:</label> The captured source package shows no CBETA marker. This file is independent of CBETA-encoded material.</p>
-          <p><label>Curator:</label> Read Zen — OpenZenTexts curation, 2026-04-09</p>
+          <p><label>Curator:</label> Read Zen — OpenZen curation, 2026-04-09</p>
           <p><label>Conversion:</label> Generated from the captured wikitext via tools/wikitext-to-tei/convert-gateless-barrier.mjs in this repository. Synthetic line identifiers (wm.*) are used; the file references no CBETA woodblock line notation.</p>
           <p><label>Commercial use:</label> Permitted, subject to attribution and share-alike terms of CC BY-SA 4.0 for the transcription. The underlying work itself is PD-old and unrestricted.</p>
-          <p><label>Required attribution (short form):</label> "無門關 (The Gateless Barrier), public domain. Transcription from Chinese Wikisource (oldid 2648998), CC BY-SA 4.0. Compiled by Read Zen — OpenZenTexts."</p>
+          <p><label>Required attribution (short form):</label> "無門關 (The Gateless Barrier), public domain. Transcription from Chinese Wikisource (oldid 2648998), CC BY-SA 4.0. Compiled by Read Zen — OpenZen."</p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -42,7 +42,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>This file is part of the OpenZenTexts collection — Chinese Chan/Zen primary texts curated by the Read Zen project for commercial reusability. Each text in the collection is sourced from a public-domain or freely-licensed witness, with provenance, rights basis, and vetting confidence recorded in this TEI header. The collection deliberately excludes CBETA-derived material so it can be redistributed and built upon without inheriting CBETA non-commercial restrictions.</p>
+        <p>This file is part of the OpenZen collection — Chinese Chan/Zen primary texts curated by the Read Zen project for commercial reusability. Each text in the collection is sourced from a public-domain or freely-licensed witness, with provenance, rights basis, and vetting confidence recorded in this TEI header. The collection deliberately excludes CBETA-derived material so it can be redistributed and built upon without inheriting CBETA non-commercial restrictions.</p>
       </projectDesc>
       <editorialDecl>
         <p><label>Line addressing:</label> This file uses synthetic line identifiers in the form "wm.{section}.{position}" (e.g. wm.case01.l01, wm.case01.wumen.l05, wm.case01.verse.l01). These identifiers are local to this file and do not reference any external woodblock line notation. They are designed never to collide with the CBETA notation (e.g. T48n2005:0292c22) so the two corpora can never be confused.</p>

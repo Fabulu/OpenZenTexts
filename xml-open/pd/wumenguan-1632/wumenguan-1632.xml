@@ -10,14 +10,14 @@
         <title type="alt" xml:lang="en">Wumenguan / Mumonkan — 1632 NDL block, Read Zen reading edition</title>
         <author>無門慧開 (Wumen Huikai, 1183–1260)</author>
         <editor role="compiler">宗紹 (Zongshao, fl. 1228)</editor>
-        <editor role="reading-edition">Read Zen — OpenZenTexts curation</editor>
+        <editor role="reading-edition">Read Zen — OpenZen curation</editor>
         <respStmt>
           <resp>Witness sourcing, OCR, image adjudication, editorial rebuild, and TEI conversion</resp>
-          <name>Read Zen — OpenZenTexts curation</name>
+          <name>Read Zen — OpenZen curation</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Read Zen — OpenZenTexts</publisher>
+        <publisher>Read Zen — OpenZen</publisher>
         <pubPlace>https://github.com/Fabulu/OpenZenTexts</pubPlace>
         <date when="1228">Composed 1228 (Shaoding 1) — base witness printed 1632</date>
         <availability status="free">
@@ -34,10 +34,10 @@
           <p><label>Corroborating witness (context):</label> NDL 2537788 無門慧開禪師語錄 (the Wumen-Huikai Record — a collected sayings-record of the same master). Commons file page: https://commons.wikimedia.org/wiki/File:NDL2537788_%E7%84%A1%E9%96%80%E9%96%8B%E5%92%8C%E5%B0%9A%E8%AA%9E%E9%8C%B2.pdf. DOI: 10.11501/2537788. Local PDF: C:\woodblocks\Wumen_Huikai_NDL_Commons\NDL2537788_wumen_kai_record.redownload2.pdf (246,780,631 bytes, SHA-256 782397C4D09627ECAF40EB6EBEF698E96B45A7FD743FC9A3FD6BB766D3319494). The Commons file page is categorized PD-Japan and PD-scan (PD-Japan); this witness is vetted high and is cited here as a tertiary corroborant for Huikai's voice only, not as a primary authority.</p>
           <p><label>Rights basis:</label> All three witnesses are PD by age (Song-era core work; 1632/1752 Japanese woodblock imprints; mechanical scans by Wikimedia Commons and/or the NDL). The editorial reading-edition layer — the segmentation, line-ID scheme, case ordering, small repairs — is the editor's own creative work and is released under CC0 1.0. No attribution is required.</p>
           <p><label>Provenance check:</label> The captured source package shows no CBETA marker. This file is independent of CBETA-encoded material and uses a synthetic "wm32.*" line-ID namespace that cannot collide with CBETA woodblock notation.</p>
-          <p><label>Curator:</label> Read Zen — OpenZenTexts curation, 2026-04-12</p>
+          <p><label>Curator:</label> Read Zen — OpenZen curation, 2026-04-12</p>
           <p><label>Conversion:</label> Generated from the editorial reading-edition markdown (C:\woodblocks\Transcriptions\Wumenguan_1632_NDL_Commons\architect\WUMENGUAN_1632_READING_EDITION.md, 30,903 bytes, SHA-256 6ECC0B148D4CC82C1CF18B60C193D6C5BE24298875140A89869FE67288C6E742) via tools/woodblock-to-tei/convert-wumenguan-1632.mjs in this repository. The conversion is deterministic and idempotent — same input, same output.</p>
           <p><label>Commercial use:</label> Fully permitted. No obligations of any kind. CC0 1.0 Universal dedicates the editorial layer to the public domain.</p>
-          <p><label>Required attribution:</label> None. Attribution is welcome but not required. If you want to credit the source anyway, a suggested short form is: "無門關 — 1632 NDL Woodblock Reading Edition, Read Zen OpenZenTexts (CC0)."</p>
+          <p><label>Required attribution:</label> None. Attribution is welcome but not required. If you want to credit the source anyway, a suggested short form is: "無門關 — 1632 NDL Woodblock Reading Edition, Read Zen OpenZen (CC0)."</p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -50,11 +50,11 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>This file is part of the OpenZenTexts collection — Chinese Chan/Zen primary texts curated by the Read Zen project for commercial reusability. Each text in the collection is sourced from a public-domain or freely-licensed witness, with provenance, rights basis, and vetting confidence recorded in this TEI header. The collection deliberately excludes CBETA-derived material so it can be redistributed and built upon without inheriting CBETA non-commercial restrictions.</p>
+        <p>This file is part of the OpenZen collection — Chinese Chan/Zen primary texts curated by the Read Zen project for commercial reusability. Each text in the collection is sourced from a public-domain or freely-licensed witness, with provenance, rights basis, and vetting confidence recorded in this TEI header. The collection deliberately excludes CBETA-derived material so it can be redistributed and built upon without inheriting CBETA non-commercial restrictions.</p>
       </projectDesc>
       <editorialDecl>
         <p><label>Edition kind:</label> This is an <hi rend="italic">editorial reading edition</hi>. It is neither a diplomatic transcript of the 1632 NDL woodblock witness nor a full critical edition. It is a readable editorial text rebuilt from the 1632 base witness, tightened by local OCR comparison, image adjudication, and selective corroboration from two additional PD woodblock witnesses (Waseda 1752 and the NDL Wumen-Huikai Record). Apparatus (variant readings, per-leaf witness notes) is deliberately kept out of this body for v1; the witness-level notes live separately in C:\woodblocks\Transcriptions\Wumenguan_1632_NDL_Commons\architect\WUMENGUAN_1632.md and THREE_WITNESS_VERIFICATION.md and may be surfaced in a future version as a <gi>div</gi> of <att>type</att> "apparatus".</p>
-        <p><label>Line addressing:</label> This file uses synthetic line identifiers in the form "wm32.{section}.{position}" (e.g. wm32.case01.l01, wm32.case01.wumen.l05, wm32.case01.verse.l01, wm32.appendix.case49.verse.l01). The "wm32" prefix is deliberately distinct from the existing OpenZenTexts file ws/gateless-barrier/gateless-barrier.xml, which uses "wm.*" — the two files coexist in the same corpus and any TM or search machinery keyed by line ID must not cross-pollinate them. These identifiers are local to this file, do not reference any external woodblock line notation, and cannot collide with CBETA notation (e.g. T48n2005:0292c22).</p>
+        <p><label>Line addressing:</label> This file uses synthetic line identifiers in the form "wm32.{section}.{position}" (e.g. wm32.case01.l01, wm32.case01.wumen.l05, wm32.case01.verse.l01, wm32.appendix.case49.verse.l01). The "wm32" prefix is deliberately distinct from the existing OpenZen file ws/gateless-barrier/gateless-barrier.xml, which uses "wm.*" — the two files coexist in the same corpus and any TM or search machinery keyed by line ID must not cross-pollinate them. These identifiers are local to this file, do not reference any external woodblock line notation, and cannot collide with CBETA notation (e.g. T48n2005:0292c22).</p>
         <p><label>Sentence segmentation:</label> Lines in the source markdown (one logical line per markdown soft break "line  \n" or per blank-line-separated paragraph) are preserved one-to-one as <gi>lb</gi> buckets in the TEI. The source markdown's editorial segmentation is respected and not re-split at sentence-ending punctuation — unlike the ws/gateless-barrier file, which re-splits Wikisource paragraphs at 。！？ boundaries. Keeping the source segmentation here honours the reading-edition's own editorial shape.</p>
         <p><label>Case 49 and back matter:</label> Cases 1–48 are the structurally complete core sequence. Case 49 (第四十九則語) is late-appended material and is placed outside the core 48-case spine, inside a <gi>div</gi> of <att>type</att> "appendix" with a <gi>head</gi> explicitly naming it as a late addition. Subsequent back-matter sections (跋尾) — the closing address, colophon, 黃龍三關 摘句, 題贊與銜名, 刊記, etc. — each sit in their own <gi>div</gi> of <att>type</att> "appendix" labelled with the source section name.</p>
         <p><label>Intentionally rough readings:</label> Several passages in the reading edition are witness-backed but locally rough. They are retained verbatim from the reading-edition markdown and are not silently normalized here: (1) "說道有門，無阿師分" in the prefatory material; (2) "請續一向" in case 20; (3) the case 31 無門曰 wording, which is a witness-derived form rather than the familiar received version. These are intentional editorial choices, not OCR errors.</p>

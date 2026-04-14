@@ -44,7 +44,7 @@ The IDs are designed to never match the CBETA file-ID regex (`/^[A-Za-z]{1,3}\d{
 To re-generate `gateless-barrier.xml` from the captured Wikisource source:
 
 ```bash
-cd OpenZenTexts
+cd OpenZen
 node tools/wikitext-to-tei/convert-gateless-barrier.mjs \
      provenance/gateless-barrier/source.wikitext \
      xml-open/ws/gateless-barrier/gateless-barrier.xml
@@ -56,4 +56,4 @@ The captured wikitext has SHA-256 `367323287d723c6850f1654d8081939507fe10ee9ecff
 
 - [`MANIFEST_SCHEMA.md`](../../../MANIFEST_SCHEMA.md) — full field reference for `manifest.json`
 - [`LICENSE.md`](../../../LICENSE.md) — collection-level licensing summary
-- [`README.md`](../../../README.md) — what OpenZenTexts is and how to add new texts
+- [`README.md`](../../../README.md) — what OpenZen is and how to add new texts
