@@ -1,10 +1,12 @@
-# OpenZen — `witness-texts.json` schema reference
+# OpenZen — `witnesses.json` schema reference
 
-The `witness-texts.json` file is the programmatic registry of witness text data for a critical edition. It lives alongside `manifest.json` in `xml-open/{prefix}/{slug}/`.
+The `witnesses.json` file (also accepted as `witness-texts.json` for backwards compatibility) is the definitive witness delivery registry for a critical edition. It lives alongside `manifest.json` in `xml-open/{prefix}/{slug}/`.
 
-This enables the **Witness Comparison** surface — a separate UI from the critical text and the timeline. The critical text is the edited edition. The witness comparison shows what the individual source witnesses actually read at each locus.
+Every published critical edition must ship definitive delivered text packages for each witness. This file is the machine-readable registry that tells the app what witness texts exist, where they live, and what their status is.
 
-## Design principle (from the Witness Comparison Brief)
+This enables the **Witness Comparison** surface — a separate UI from the critical text and the timeline.
+
+## Design principle
 
 These are three separate things:
 1. The critical edition reading text (the main reader surface)
@@ -27,14 +29,21 @@ This file supports #2. Do not conflate it with #1 or #3.
 | Field | Type | Required | Notes |
 |---|---|---|---|
 | `witness_id` | string | yes | Must match a witness ID in the manifest |
-| `siglum` | string | optional | Stable siglum (e.g., "T1", "A3"). May differ from witness_id |
+| `siglum` | string | recommended | Stable siglum (e.g., "T1", "A3") |
 | `label` | string | yes | Human-readable label |
-| `family_id` | string | optional | Witness family (e.g., "standalone", "shiburoku") |
-| `text_type` | enum | yes | One of: `ocr`, `transcription`, `tei`, `image` |
-| `text_path` | string | conditional | Relative path to the witness text file. Required unless text_type is `image` |
-| `readings` | object | optional | Locus-level readings: key = locus_id, value = reading text. Populated post-collation |
-| `has_ocr` | boolean | yes | Whether OCR has been run on this witness |
+| `family_id` | string | optional | Witness family |
+| `role` | string | yes | One of: `base`, `primary_collation`, `secondary_collation`, `context_only` |
+| `definitive_text_file` | string | conditional | Relative path to the definitive witness text file. Required unless no text exists |
+| `text_format` | enum | recommended | One of: `plain_text`, `json_loci`, `tei`, `markdown` |
+| `text_status` | enum | yes | One of: `raw_ocr`, `normalized`, `corrected_working`, `definitive_witness_text` |
+| `completeness` | enum | optional | One of: `complete`, `partial`, `fragment` |
+| `confidence` | enum | optional | One of: `high`, `medium`, `low` |
+| `has_locus_map` | boolean | yes | Whether a locus map exists |
+| `locus_map_file` | string | conditional | Relative path to JSON locus map (locus_id → text). Required if has_locus_map is true |
+| `source_readme` | string | optional | Relative path to the witness README / source documentation |
+| `has_ocr` | boolean | yes | Whether OCR has been run |
 | `has_human_check` | boolean | yes | Whether a human has reviewed the text |
+| `readings` | object | optional | Inline locus-level readings (key = locus_id, value = reading text). Used when a separate locus map doesn't exist |
 
 ## Usage
 
