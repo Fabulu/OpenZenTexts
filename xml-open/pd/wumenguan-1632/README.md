@@ -1,4 +1,4 @@
-# pd.wumenguan-1632 — The Gateless Barrier, 1632 NDL Woodblock Reading Edition
+# pd.wumenguan-1632 — Wumenguan: Wikicommons (2011)
 
 > **Work:** 無門關 (*Wúménguān* / The Gateless Barrier)
 > **Witness:** 1632 Japanese woodblock imprint, NDL 12865429 (via Wikimedia Commons)
