@@ -9,6 +9,14 @@
       "event_range": [1, 17],
       "witnesses_added": [],
       "status": "draft"
+    },
+    {
+      "revision_id": "rev_002",
+      "label": "Witness chain repair: case 1 leaf restoration + case 39 opening + mojibake cleanup",
+      "date": "2026-04-18",
+      "event_range": [18, 19],
+      "witnesses_added": [],
+      "status": "draft"
     }
   ],
   "events": [
@@ -137,6 +145,22 @@
       "summary": "Edition maturity set to draft. Rights confirmed, hashes recorded, no CBETA material.",
       "actor_type": "human", "actor_id": "curator", "status": "applied",
       "state_effects": {"edition_maturity": "draft"}
+    },
+    {
+      "event_id": "evt_018", "sequence": 18, "timestamp": "2026-04-18T00:00:00Z",
+      "stage": "reading_text", "event_type": "text_changed",
+      "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
+      "summary": "Witness chain repair: restored case 1 opening and case 39 interruption phrase.",
+      "details": "Source-draft audit found PDF p.008 left leaf was missing from the witness draft, causing case 1 無門曰 to lose its opening paragraph (參禪須透祖師關...如何是祖師關). PDF p.007 right was also missing as a text-bearing contents leaf. Case 39 had dropped the opening interruption 一句未絕。門遽曰：. All repaired in the witness draft + rebuild chunks + reading edition markdown, then the TEI XML was regenerated from the corrected source. A leaf-coverage audit script was added to prevent recurrence. CP1252-style mojibake across the entire markdown chain was also cleaned in the same pass.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    },
+    {
+      "event_id": "evt_019", "sequence": 19, "timestamp": "2026-04-18T00:30:00Z",
+      "stage": "reading_text", "event_type": "text_changed",
+      "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
+      "summary": "TEI XML regenerated from repaired + mojibake-cleaned reading edition.",
+      "details": "Converter: convert-wumenguan-1632.mjs. Output: 7 preface blocks, 48 core cases, 8 appendix divs, 967 total lines, 1168 lb elements. Zero mojibake sequences remaining. Case 1 now begins with 參禪須透祖師關, case 39 includes 一句未絕。門遽曰：.",
+      "actor_type": "machine", "actor_id": "convert-wumenguan-1632.mjs", "status": "applied"
     }
   ]
 }

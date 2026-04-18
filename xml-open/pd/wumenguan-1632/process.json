@@ -45,6 +45,13 @@
         "apparatus_included": false,
         "apparatus_note": "Deliberately omitted from v1; can be added later from separate witness notes."
     },
+    "repair_log": [
+        {
+            "date": "2026-04-18",
+            "scope": "case 1 opening + case 39 interruption + mojibake cleanup",
+            "description": "Source-draft audit found PDF p.008 left leaf missing from witness draft, truncating case 1 無門曰 opening (dropped 參禪須透祖師關...如何是祖師關). PDF p.007 right also missing. Case 39 had dropped 一句未絕。門遽曰：. All repaired at witness/chunk/reading-edition level, then XML regenerated. CP1252-style mojibake across the entire markdown chain cleaned. Leaf-coverage audit script added to prevent recurrence."
+        }
+    ],
     "incomplete": [
         "apparatus not yet transcribed into TEI",
         "per-leaf witness notes not surfaced",
