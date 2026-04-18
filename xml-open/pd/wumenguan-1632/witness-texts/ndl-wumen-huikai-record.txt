@@ -1,0 +1,15 @@
+Witness: Wumen Huikai Recorded Sayings (H1)
+Role: Tertiary corroborant
+Source: National Diet Library item 2537788
+Host: Wikimedia Commons
+URL: https://commons.wikimedia.org/wiki/File:NDL2537788_%E7%84%A1%E9%96%80%E6%85%A7%E9%96%8B%E7%A6%AA%E5%B8%AB%E8%AA%9E%E9%8C%B2.pdf
+
+This witness is a separate work — Wumen Huikai's Recorded Sayings — not
+a direct copy of the Wumenguan. It was cited only as a tertiary
+corroborant for Huikai's voice and phrasing, not as a primary authority
+for case text or commentary wording.
+
+No independent transcription of this witness exists. It is a 70-page
+woodblock print in classical Chinese, confirmed PD-Japan / PD-scan.
+
+To view the original scan, open the PDF at the URL above.

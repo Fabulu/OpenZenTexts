@@ -1,0 +1,16 @@
+Witness: 1752 Waseda Woodblock (W52)
+Role: Secondary cross-check witness
+Source: Waseda University Library bunko31 e1102
+Host: Wikimedia Commons
+URL: https://commons.wikimedia.org/wiki/File:WUL-bunko31_e1102_%E7%84%A1%E9%96%80%E9%97%9C.pdf
+
+This witness is a 1752 Japanese woodblock recut of the Mumonkan held at
+Waseda University. It was used as a secondary cross-check during the
+production of the reading edition — not as a primary source for the body
+text.
+
+No independent transcription of this witness exists yet. The witness was
+consulted visually during OCR adjudication and leaf-level verification
+for cases where the 1632 NDL base witness was ambiguous or damaged.
+
+To view the original scan, open the PDF at the URL above.
