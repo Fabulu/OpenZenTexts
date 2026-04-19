@@ -2,6 +2,8 @@
 
 Chinese Chan/Zen primary texts in TEI-P5 XML format, curated by the [Read Zen](https://github.com/Fabulu/ReadZen) project for **commercial reusability**.
 
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20this%20project-ff5e5b?logo=ko-fi&logoColor=white)](https://ko-fi.com/readzen)
+
 ## Why this exists
 
 The CBETA Chinese Buddhist canon is the gold standard for digital Chan/Zen text scholarship, but its distribution terms restrict commercial use. OpenZen is a parallel collection sourced from public-domain witnesses and freely-licensed transcriptions — you can redistribute, modify, translate, sell, or build commercial products from anything in this repository, subject to each file's per-text license terms.
@@ -12,20 +14,28 @@ Every file in this repository is **independent of CBETA-encoded material**. The 
 
 ```
 xml-open/
-  ws/                              ← witnesses sourced from Wikisource
+  ws/                              <- witnesses sourced from Wikisource
     gateless-barrier/
-      gateless-barrier.xml         ← Wumenguan / 無門關 (PD-old + CC BY-SA 4.0)
-provenance/                        ← original captured source files for each text
+  pd/                              <- public-domain woodblock editions
+    wumenguan-1632/
+  ce/                              <- critical edition projects
+    faith-in-mind/
+provenance/                        <- original captured source files for each text
   gateless-barrier/
-    source.wikitext
-    page_revisions.json
-    source-README.md
+  wumenguan-1632/
+  faith-in-mind/
 tools/
-  wikitext-to-tei/                 ← converters for source formats
-    convert-gateless-barrier.mjs
-LICENSE.md                         ← collection-level licensing summary
-README.md                          ← this file
+  wikitext-to-tei/                 <- converters for source formats
+  woodblock-to-tei/
+docs/
+  curation/                        <- curation workflow documentation and schemas
+LICENSE.md
+README.md
 ```
+
+- **ws/** — Wikisource-sourced witnesses (transcriptions under CC BY-SA 4.0)
+- **pd/** — Public-domain woodblock editions (scanned historical prints, PD-old)
+- **ce/** — Critical edition projects (collated from multiple witnesses)
 
 Each TEI file declares its own license, source URL, stable revision, rights basis, and required attribution in its `<teiHeader>/<fileDesc>/<publicationStmt>/<availability>` block. The Read Zen desktop app reads these fields and surfaces them to users when they open a text from this collection.
 
@@ -34,18 +44,13 @@ Each TEI file declares its own license, source URL, stable revision, rights basi
 This repository contains text witnesses under several different free licenses:
 
 - **PD-old** — works whose authors died more than 100 years ago (the underlying texts in this collection)
+- **CC0** — public-domain dedications where the contributor waives all rights
 - **CC BY-SA 4.0** — Wikisource transcription text (attribution + share-alike obligations)
 - **MIT** — the converter scripts in `tools/`
 
 See [`LICENSE.md`](LICENSE.md) for the per-component breakdown and [`xml-open/*/`](xml-open) for the per-file declarations in the TEI headers.
 
 **No CBETA material.** This collection deliberately contains nothing derived from CBETA-encoded files. The [edition process](https://github.com/Fabulu/woodblockeditionprocess) treats any CBETA marker in a source's provenance chain as disqualifying.
-
-## Companion repositories
-
-- [Fabulu/OpenZenTranslations](https://github.com/Fabulu/OpenZenTranslations) — translations and community work derived from this collection
-- [Fabulu/ReadZen](https://github.com/Fabulu/ReadZen) — the desktop reader/translator that consumes both repositories
-- [Fabulu/CbetaZenTexts](https://github.com/Fabulu/CbetaZenTexts) and [Fabulu/CbetaZenTranslations](https://github.com/Fabulu/CbetaZenTranslations) — the parallel CBETA-derived collection (non-commercial only)
 
 ## Adding a new text
 
@@ -59,3 +64,12 @@ The intended workflow is documented in the [edition process repository](https://
 6. Make sure the TEI header carries full attribution metadata (see existing files for the schema)
 
 The converter pipeline must be deterministic and reproducible — anyone with the source files in `provenance/` should be able to re-run the converter and get the same output.
+
+## Related repositories
+
+| Repository | Description |
+|---|---|
+| [OpenZenTranslations](https://github.com/Fabulu/OpenZenTranslations) | Translations of open-licensed texts (commercial use OK) |
+| [CbetaZenTexts](https://github.com/Fabulu/CbetaZenTexts) | CBETA Chinese Zen source texts (non-commercial) |
+| [CbetaZenTranslations](https://github.com/Fabulu/CbetaZenTranslations) | Translations of CBETA texts (non-commercial) |
+| [Read Zen](https://github.com/Fabulu/ReadZen) | Desktop app for reading and translating Zen texts |
