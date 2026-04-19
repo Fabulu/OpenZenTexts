@@ -35,7 +35,7 @@ This document describes every field. The TEI file's own `<teiHeader><availabilit
 | `commercial_use_allowed` | boolean | yes | Whether downstream users may use this text in commercial products. Almost always `true` in OpenZen (the whole point of the collection), but explicit so tooling can filter |
 | `attribution_required` | boolean | yes | Whether downstream uses must preserve attribution |
 | `share_alike_required` | boolean | yes | Whether derivative works must inherit the same license |
-| `no_cbeta_material` | boolean | yes | **Hard requirement.** Must be `true` for every file in OpenZen. Affirms that nothing in this text is derived from CBETA-encoded material. The curation workflow at `C:\woodblocks\WORKFLOW.md` is the validation gate |
+| `no_cbeta_material` | boolean | yes | **Hard requirement.** Must be `true` for every file in OpenZen. Affirms that nothing in this text is derived from CBETA-encoded material. The curation workflow at `the [edition process](https://github.com/Fabulu/woodblockeditionprocess)` is the validation gate |
 
 ### File pointers
 
@@ -87,14 +87,14 @@ Each entry in `witnesses_consulted[]` describes one physical source.
 | `upstream_url` | string (URL) | yes | Canonical URL where the witness can be re-fetched. Use the most stable form available (`oldid=` for wikis, `pid` for NDL, etc.) |
 | `stable_revision_url` | string (URL) | recommended for wikis | Permanent-link URL pinned to a specific revision (e.g. `?oldid=2648998`) |
 | `stable_revision_id` | string | recommended for wikis | The bare revision identifier (e.g. `2648998`) |
-| `captured_local_path` | string | yes | Path within `C:\woodblocks\` (the curator's working directory) where the captured copy lives. Used for reproducibility — anyone with the same directory structure can verify against this manifest |
+| `captured_local_path` | string | yes | Relative path within the curator's working directory where the captured copy lives. Used for reproducibility |
 | `captured_filename` | string | optional | The actual filename if it differs from the path leaf (e.g. for non-ASCII filenames) |
 | `captured_sha256` | string (hex) | yes | SHA-256 of the captured bytes. **Hard requirement** for provenance integrity. If a future user has a copy that doesn't match this hash, it's a different file and the manifest doesn't validate it |
 | `captured_bytes` | integer | yes | Byte count of the captured file |
 | `captured_utc` | string (ISO 8601) | yes | When this witness was first captured into `provenance/` |
 | `rights` | string | yes | One-line summary of the witness's rights status |
 | `rights_basis_text` | string | yes | Longer explanation of WHY the witness is usable. Reference page-level PD evidence, host site terms, etc. |
-| `vetting_confidence` | enum | yes | `high`, `medium`, or `low`. Reflects how confident the curator is in the rights basis. Per the workflow at `C:\woodblocks\WORKFLOW.md`, witnesses below `high` should not normally land in this collection |
+| `vetting_confidence` | enum | yes | `high`, `medium`, or `low`. Reflects how confident the curator is in the rights basis. Per the [edition process](https://github.com/Fabulu/woodblockeditionprocess), witnesses below `high` should not normally land in this collection |
 | `provenance_check` | string | yes | Always set to `no_cbeta_marker_in_captured_package` for OpenZen witnesses. Affirms the curator manually checked that the captured source has no CBETA contamination |
 | `role_in_production` | string | yes | What role this witness played: `sole source`, `primary base text`, `variant for X`, `secondary cross-check`, etc. |
 | `family_id` | string | optional | Which witness family this belongs to (e.g. `四部録`, `standalone`). Used for critical editions with multiple witness families |
