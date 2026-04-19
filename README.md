@@ -6,7 +6,7 @@ Chinese Chan/Zen primary texts in TEI-P5 XML format, curated by the [Read Zen](h
 
 The CBETA Chinese Buddhist canon is the gold standard for digital Chan/Zen text scholarship, but its distribution terms restrict commercial use. OpenZen is a parallel collection sourced from public-domain witnesses and freely-licensed transcriptions — you can redistribute, modify, translate, sell, or build commercial products from anything in this repository, subject to each file's per-text license terms.
 
-Every file in this repository is **independent of CBETA-encoded material**. The vetting workflow at [`C:\woodblocks\WORKFLOW.md`](https://github.com/Fabulu/ReadZen) excludes any source whose provenance chain touches CBETA. Synthetic line identifiers (e.g. `wm.case01.l01`) replace CBETA woodblock notation (e.g. `T48n2005:0292c22`) so the two corpora can never be confused.
+Every file in this repository is **independent of CBETA-encoded material**. The [edition process](https://github.com/Fabulu/woodblockeditionprocess) excludes any source whose provenance chain touches CBETA. Synthetic line identifiers (e.g. `wm.case01.l01`) replace CBETA woodblock notation (e.g. `T48n2005:0292c22`) so the two corpora can never be confused.
 
 ## What's in here
 
@@ -39,7 +39,7 @@ This repository contains text witnesses under several different free licenses:
 
 See [`LICENSE.md`](LICENSE.md) for the per-component breakdown and [`xml-open/*/`](xml-open) for the per-file declarations in the TEI headers.
 
-**No CBETA material.** This collection deliberately contains nothing derived from CBETA-encoded files. The [vetting workflow](https://github.com/Fabulu/ReadZen) treats any CBETA marker in a source's provenance chain as disqualifying.
+**No CBETA material.** This collection deliberately contains nothing derived from CBETA-encoded files. The [edition process](https://github.com/Fabulu/woodblockeditionprocess) treats any CBETA marker in a source's provenance chain as disqualifying.
 
 ## Companion repositories
 
@@ -49,10 +49,10 @@ See [`LICENSE.md`](LICENSE.md) for the per-component breakdown and [`xml-open/*/
 
 ## Adding a new text
 
-The intended workflow is documented in `C:\woodblocks\WORKFLOW.md` in the curator's working environment. Briefly:
+The intended workflow is documented in the [edition process repository](https://github.com/Fabulu/woodblockeditionprocess). Briefly:
 
 1. Find a free-licensed witness with explicit commercial reuse terms (or a vetted PD source)
-2. Capture the source files into `C:\woodblocks\{Text}_Source_License/` along with a `README.md` recording source URL, stable revision, rights basis, and vetting confidence
+2. Capture the source files into `provenance/{text-slug}/` along with a `README.md` recording source URL, stable revision, rights basis, and vetting confidence
 3. Verify there is no CBETA contamination in the provenance chain
 4. Write a converter in `tools/` (or extend an existing one) to produce the TEI XML
 5. Place the source files under `provenance/{text-slug}/` and the generated XML under `xml-open/{publisher}/{text-slug}/{text-slug}.xml`
