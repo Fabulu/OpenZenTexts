@@ -453,21 +453,30 @@
 世尊昔在靈山會上，拈花示眾。
 是時眾皆默然，
 惟迦葉尊者破顏微笑。
+世尊云：
+吾有正法眼藏，
+涅槃妙心，
+實相無相，
+微妙法門，
 ```
 
 #### Notes
 
 - The `香嚴上樹` verse is supported by the page image, though the second half of the leaf is less dark than ideal.
-- The opening of `世尊拈花` is clear enough to mark the next case boundary with confidence.
+- The opening of `世尊拈花`, including `世尊云：吾有正法眼藏...`, is visible across the page turn and is now carried into the diplomatic draft rather than being truncated after `破顏微笑`.
 
 ### PDF p.014 left leaf
 
-- Role: commentary on `世尊拈花`
+- Role: completion of the case opening and commentary on `世尊拈花`
 - Confidence: medium
 
 #### Consolidated Readable Text
 
 ```text
+不立文字，
+教外別傳，
+付囑摩訶迦葉。
+
 無門曰：
 黃面瞿曇，傍若無人，
 壓良為賤，懸羊頭賣狗肉。
@@ -1623,9 +1632,9 @@
 〔不是心佛〕
 
 南泉和尚因僧問云：
-還有不是心，
-不是佛，
-不是物。
+還有不與人說底法麼。
+泉云：有。
+僧云：如何是不與人說底法。
 泉云：
 不是心，
 不是佛，

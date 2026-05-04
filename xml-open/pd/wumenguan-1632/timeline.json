@@ -17,6 +17,14 @@
       "event_range": [18, 19],
       "witnesses_added": [],
       "status": "draft"
+    },
+    {
+      "revision_id": "rev_003",
+      "label": "Witness chain repair: case 6 koan restoration + volume-end title line",
+      "date": "2026-05-04",
+      "event_range": [20, 21],
+      "witnesses_added": [],
+      "status": "draft"
     }
   ],
   "events": [
@@ -160,6 +168,23 @@
       "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
       "summary": "TEI XML regenerated from repaired + mojibake-cleaned reading edition.",
       "details": "Converter: convert-wumenguan-1632.mjs. Output: 7 preface blocks, 48 core cases, 8 appendix divs, 967 total lines, 1168 lb elements. Zero mojibake sequences remaining. Case 1 now begins with 參禪須透祖師關, case 39 includes 一句未絕。門遽曰：.",
+      "actor_type": "machine", "actor_id": "convert-wumenguan-1632.mjs", "status": "applied"
+    }
+    ,
+    {
+      "event_id": "evt_020", "sequence": 20, "timestamp": "2026-05-04T00:00:00Z",
+      "stage": "reading_text", "event_type": "text_changed",
+      "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
+      "summary": "Witness chain repair: restored case 6 koan block and appendix volume-title line.",
+      "details": "A witness-to-draft audit restored the case 6 koan block 世尊云：吾有正法眼藏...付囑摩訶迦葉, which had been dropped from the checked-in reading-edition chain despite remaining visible in the base witness across PDF p.014 right/left. The appendix volume-end material also regained the witness-backed line 無門卷 ahead of 無門關卷終. The diplomatic draft, rebuild chunks, and checked-in source-reading-edition mirror were updated together.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    },
+    {
+      "event_id": "evt_021", "sequence": 21, "timestamp": "2026-05-04T00:30:00Z",
+      "stage": "reading_text", "event_type": "text_changed",
+      "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
+      "summary": "TEI XML regenerated from repaired reading-edition source.",
+      "details": "Source: provenance/wumenguan-1632/source-reading-edition.md (29,427 bytes, SHA-256 79c8ac619bd2ab3ca11de2d3950de97a0791a8772ca791fe106f28598cc9856a). Converter: convert-wumenguan-1632.mjs. Output: 7 preface blocks, 48 core cases, 8 appendix divs, 976 total lines, 1177 lb elements. Case 6 now includes the 世尊云 block and the volume-end appendix now carries 無門卷.",
       "actor_type": "machine", "actor_id": "convert-wumenguan-1632.mjs", "status": "applied"
     }
   ]

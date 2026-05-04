@@ -32,6 +32,7 @@
 // Deterministic: same input → same output, byte-for-byte.
 
 import { readFileSync, writeFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { argv } from 'node:process';
 
 if (argv.length < 4) {
@@ -44,9 +45,16 @@ if (argv.length < 4) {
 const inputPath = argv[2];
 const outputPath = argv[3];
 
-const text = readFileSync(inputPath, 'utf8');
+const inputBuffer = readFileSync(inputPath);
+const text = inputBuffer.toString('utf8');
+const inputBytes = inputBuffer.length;
+const inputSha256 = createHash('sha256').update(inputBuffer).digest('hex').toUpperCase();
 const parsed = parseReadingEdition(text);
-const xml = buildTei(parsed);
+const xml = buildTei(parsed, {
+    inputBytes,
+    inputPath,
+    inputSha256
+});
 writeFileSync(outputPath, xml, 'utf8');
 
 console.log(`Wrote ${outputPath}`);
@@ -303,12 +311,12 @@ function parseReadingEdition(raw) {
 // TEI BUILDER
 // ============================================================================
 
-function buildTei(parsed) {
+function buildTei(parsed, inputMeta) {
     const out = [];
     out.push('<?xml version="1.0" encoding="UTF-8"?>');
     out.push('<TEI xmlns="http://www.tei-c.org/ns/1.0">');
     out.push('  <teiHeader>');
-    emitFileDesc(out);
+    emitFileDesc(out, inputMeta);
     emitEncodingDesc(out);
     out.push('  </teiHeader>');
     out.push('  <text>');
@@ -323,7 +331,7 @@ function buildTei(parsed) {
     return out.join('\n');
 }
 
-function emitFileDesc(out) {
+function emitFileDesc(out, inputMeta) {
     out.push('    <fileDesc>');
     out.push('      <titleStmt>');
     out.push('        <title xml:lang="zh-Hant">無門關（一六三二年和刻本，国立国会図書館本・編訂讀本）</title>');
@@ -358,7 +366,7 @@ function emitFileDesc(out) {
     out.push('          <p><label>Rights basis:</label> All three witnesses are PD by age (Song-era core work; 1632/1752 Japanese woodblock imprints; mechanical scans by Wikimedia Commons and/or the NDL). The editorial reading-edition layer — the segmentation, line-ID scheme, case ordering, small repairs — is the editor\'s own creative work and is released under CC0 1.0. No attribution is required.</p>');
     out.push('          <p><label>Provenance check:</label> The captured source package shows no CBETA marker. This file is independent of CBETA-encoded material and uses a synthetic "wm32.*" line-ID namespace that cannot collide with CBETA woodblock notation.</p>');
     out.push('          <p><label>Curator:</label> Read Zen — OpenZenTexts curation, 2026-04-12</p>');
-    out.push('          <p><label>Conversion:</label> Generated from the editorial reading-edition markdown (C:\\woodblocks\\Transcriptions\\Wumenguan_1632_NDL_Commons\\architect\\WUMENGUAN_1632_READING_EDITION.md, 30,903 bytes, SHA-256 6ECC0B148D4CC82C1CF18B60C193D6C5BE24298875140A89869FE67288C6E742) via tools/woodblock-to-tei/convert-wumenguan-1632.mjs in this repository. The conversion is deterministic and idempotent — same input, same output.</p>');
+    out.push(`          <p><label>Conversion:</label> Generated from the editorial reading-edition markdown (${inputMeta.inputPath}, ${inputMeta.inputBytes.toLocaleString('en-US')} bytes, SHA-256 ${inputMeta.inputSha256}) via tools/woodblock-to-tei/convert-wumenguan-1632.mjs in this repository. The conversion is deterministic and idempotent — same input, same output.</p>`);
     out.push('          <p><label>Commercial use:</label> Fully permitted. No obligations of any kind. CC0 1.0 Universal dedicates the editorial layer to the public domain.</p>');
     out.push('          <p><label>Required attribution:</label> None. Attribution is welcome but not required. If you want to credit the source anyway, a suggested short form is: "無門關 — 1632 NDL Woodblock Reading Edition, Read Zen OpenZenTexts (CC0)."</p>');
     out.push('        </availability>');
@@ -368,7 +376,7 @@ function emitFileDesc(out) {
     out.push('        <bibl type="witness-base">NDL 12865429 無門關 1卷 (Japan, 1632 woodblock imprint). Wikimedia Commons file: https://commons.wikimedia.org/wiki/File:NDL12865429_%E7%84%A1%E9%96%80%E9%97%9C_1%E5%8D%B7.pdf — local PDF: NDL12865429_wumenguan_1juan.pdf (188,151,699 bytes).</bibl>');
     out.push('        <bibl type="witness-secondary">Waseda University Library bunko31 e1102 無門關 1卷 (Japan, 1752 woodblock imprint). Wikimedia Commons file: https://commons.wikimedia.org/wiki/File:WUL-bunko31_e1102_%E7%84%A1%E9%96%80%E9%96%A2.pdf — local PDF: WUL-bunko31_e1102_mumonkan.pdf (47,017,686 bytes).</bibl>');
     out.push('        <bibl type="witness-context">NDL 2537788 無門慧開禪師語錄 (Wumen Huikai Recorded Sayings). Commons file: https://commons.wikimedia.org/wiki/File:NDL2537788_%E7%84%A1%E9%96%80%E9%96%8B%E5%92%8C%E5%B0%9A%E8%AA%9E%E9%8C%B2.pdf. DOI: 10.11501/2537788. Local PDF: NDL2537788_wumen_kai_record.redownload2.pdf (246,780,631 bytes). Commons rights posture: PD-Japan / PD-scan (PD-Japan). Used as a tertiary corroborant for Huikai\'s voice only.</bibl>');
-    out.push('        <bibl type="digitalSource">Editorial reading-edition markdown rebuilt from the three witnesses above via OCR-first comparison (tesseract, RapidOCR, PaddleOCR, selective EasyOCR), image adjudication, and selective manual repair. Captured 2026-04-12 from C:\\woodblocks\\Transcriptions\\Wumenguan_1632_NDL_Commons\\architect\\WUMENGUAN_1632_READING_EDITION.md.</bibl>');
+    out.push(`        <bibl type="digitalSource">Editorial reading-edition markdown rebuilt from the three witnesses above via OCR-first comparison (tesseract, RapidOCR, PaddleOCR, selective EasyOCR), image adjudication, and selective manual repair. Captured from ${inputMeta.inputPath}.</bibl>`);
     out.push('      </sourceDesc>');
     out.push('    </fileDesc>');
 }

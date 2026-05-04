@@ -49,7 +49,12 @@
         {
             "date": "2026-04-18",
             "scope": "case 1 opening + case 39 interruption + mojibake cleanup",
-            "description": "Source-draft audit found PDF p.008 left leaf missing from witness draft, truncating case 1 無門曰 opening (dropped 參禪須透祖師關...如何是祖師關). PDF p.007 right also missing. Case 39 had dropped 一句未絕。門遽曰：. All repaired at witness/chunk/reading-edition level, then XML regenerated. CP1252-style mojibake across the entire markdown chain cleaned. Leaf-coverage audit script added to prevent recurrence."
+            "description": "Source-draft audit found PDF p.008 left leaf missing from witness draft, truncating the case 1 無門曰 opening and dropping the case 39 interruption phrase 一句未絕。門遽曰：. All were repaired at witness/chunk/reading-edition level, then XML was regenerated. CP1252-style mojibake across the markdown chain was cleaned in the same pass."
+        },
+        {
+            "date": "2026-05-04",
+            "scope": "case 6 koan restoration + volume-end title line",
+            "description": "Witness-to-draft audit found the case 6 koan opening had been truncated after 惟迦葉尊者破顏微笑 despite the witness still carrying 世尊云：吾有正法眼藏...付囑摩訶迦葉 across the facing leaves. The appendix volume-end material had also dropped the witness-backed line 無門卷 ahead of 無門關卷終. The checked-in reading-edition source, rebuild chunks, diplomatic draft, and TEI were updated and the translation XML was realigned to the new wm32 line layout."
         }
     ],
     "incomplete": [

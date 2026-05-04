@@ -35,7 +35,9 @@ The reading edition is not a diplomatic transcript and not a full critical editi
 - Cases `27` and `28` were returned to the received order: `27. 不是心佛`, `28. 久響龍潭`.
 - Case `31` no longer carries imported `龍潭` material.
 - Case `32` now uses the expected `阿難乃佛弟子... / 劍刃上行...` commentary and verse set.
+- Case `6` now retains the witness-visible `世尊云：吾有正法眼藏...付囑摩訶迦葉。` block in the koan opening instead of truncating the witness after `破顏微笑`.
 - Duplicated appended prose in the back matter was reduced so the reader-facing edition no longer repeats the same `傍人問云...總在裏許` block twice.
+- The end-matter title leaf now keeps the witness-backed `無門卷` line before `無門關卷終`.
 
 ## Witness and Source Basis
 
