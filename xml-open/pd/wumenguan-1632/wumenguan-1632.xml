@@ -35,7 +35,7 @@
           <p><label>Rights basis:</label> All three witnesses are PD by age (Song-era core work; 1632/1752 Japanese woodblock imprints; mechanical scans by Wikimedia Commons and/or the NDL). The editorial reading-edition layer — the segmentation, line-ID scheme, case ordering, small repairs — is the editor's own creative work and is released under CC0 1.0. No attribution is required.</p>
           <p><label>Provenance check:</label> The captured source package shows no CBETA marker. This file is independent of CBETA-encoded material and uses a synthetic "wm32.*" line-ID namespace that cannot collide with CBETA woodblock notation.</p>
           <p><label>Curator:</label> Read Zen — OpenZenTexts curation, 2026-04-12</p>
-          <p><label>Conversion:</label> Generated from the editorial reading-edition markdown (C:\temp\NewTranslationrepos\OpenZenTexts\provenance\wumenguan-1632\source-reading-edition.md, 29,427 bytes, SHA-256 79C8AC619BD2AB3CA11DE2D3950DE97A0791A8772CA791FE106F28598CC9856A) via tools/woodblock-to-tei/convert-wumenguan-1632.mjs in this repository. The conversion is deterministic and idempotent — same input, same output.</p>
+          <p><label>Conversion:</label> Generated from the editorial reading-edition markdown (provenance\wumenguan-1632\source-reading-edition.md, 29,556 bytes, SHA-256 EAC77EEC705B9B2A6DE69DF2A8B2422B736DF4867771CAE2E4187BDF1F99D158) via tools/woodblock-to-tei/convert-wumenguan-1632.mjs in this repository. The conversion is deterministic and idempotent — same input, same output.</p>
           <p><label>Commercial use:</label> Fully permitted. No obligations of any kind. CC0 1.0 Universal dedicates the editorial layer to the public domain.</p>
           <p><label>Required attribution:</label> None. Attribution is welcome but not required. If you want to credit the source anyway, a suggested short form is: "無門關 — 1632 NDL Woodblock Reading Edition, Read Zen OpenZenTexts (CC0)."</p>
         </availability>
@@ -45,7 +45,7 @@
         <bibl type="witness-base">NDL 12865429 無門關 1卷 (Japan, 1632 woodblock imprint). Wikimedia Commons file: https://commons.wikimedia.org/wiki/File:NDL12865429_%E7%84%A1%E9%96%80%E9%97%9C_1%E5%8D%B7.pdf — local PDF: NDL12865429_wumenguan_1juan.pdf (188,151,699 bytes).</bibl>
         <bibl type="witness-secondary">Waseda University Library bunko31 e1102 無門關 1卷 (Japan, 1752 woodblock imprint). Wikimedia Commons file: https://commons.wikimedia.org/wiki/File:WUL-bunko31_e1102_%E7%84%A1%E9%96%80%E9%96%A2.pdf — local PDF: WUL-bunko31_e1102_mumonkan.pdf (47,017,686 bytes).</bibl>
         <bibl type="witness-context">NDL 2537788 無門慧開禪師語錄 (Wumen Huikai Recorded Sayings). Commons file: https://commons.wikimedia.org/wiki/File:NDL2537788_%E7%84%A1%E9%96%80%E9%96%8B%E5%92%8C%E5%B0%9A%E8%AA%9E%E9%8C%B2.pdf. DOI: 10.11501/2537788. Local PDF: NDL2537788_wumen_kai_record.redownload2.pdf (246,780,631 bytes). Commons rights posture: PD-Japan / PD-scan (PD-Japan). Used as a tertiary corroborant for Huikai's voice only.</bibl>
-        <bibl type="digitalSource">Editorial reading-edition markdown rebuilt from the three witnesses above via OCR-first comparison (tesseract, RapidOCR, PaddleOCR, selective EasyOCR), image adjudication, and selective manual repair. Captured from C:\temp\NewTranslationrepos\OpenZenTexts\provenance\wumenguan-1632\source-reading-edition.md.</bibl>
+        <bibl type="digitalSource">Editorial reading-edition markdown rebuilt from the three witnesses above via OCR-first comparison (tesseract, RapidOCR, PaddleOCR, selective EasyOCR), image adjudication, and selective manual repair. Captured from provenance\wumenguan-1632\source-reading-edition.md.</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -160,7 +160,7 @@
           <lb n="wm32.case01.wumen.head"/>
           <head>無門曰</head>
           <p>
-            <lb n="wm32.case01.wumen.l01"/>師關只者一箇無字，乃宗門一關也。
+            <lb n="wm32.case01.wumen.l01"/>參禪須透祖師關。妙悟要窮心路絕。祖關不透。心路不絕。盡是依草附木精靈。且道。如何是祖師關。只者一箇無字。乃宗門一關也。
             <lb n="wm32.case01.wumen.l02"/>遂目之曰禪宗無門關。
             <lb n="wm32.case01.wumen.l03"/>透得過者，非但親見趙州，便可與歷代祖師把手共行，
             <lb n="wm32.case01.wumen.l04"/>眉毛廝結，同一眼見，同一耳聞。

@@ -184,7 +184,7 @@
       "stage": "reading_text", "event_type": "text_changed",
       "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
       "summary": "TEI XML regenerated from repaired reading-edition source.",
-      "details": "Source: provenance/wumenguan-1632/source-reading-edition.md (29,427 bytes, SHA-256 79c8ac619bd2ab3ca11de2d3950de97a0791a8772ca791fe106f28598cc9856a). Converter: convert-wumenguan-1632.mjs. Output: 7 preface blocks, 48 core cases, 8 appendix divs, 976 total lines, 1177 lb elements. Case 6 now includes the 世尊云 block and the volume-end appendix now carries 無門卷.",
+      "details": "Source: provenance/wumenguan-1632/source-reading-edition.md (29,556 bytes, SHA-256 eac77eec705b9b2a6de69df2a8b2422b736df4867771cae2e4187bdf1f99d158). Converter: convert-wumenguan-1632.mjs. Output: 7 preface blocks, 48 core cases, 8 appendix divs, 976 total lines, 1177 lb elements. Case 1 keeps the full 無門曰 opening 參禪須透祖師關...如何是祖師關. Case 6 now includes the 世尊云 block and the volume-end appendix now carries 無門卷.",
       "actor_type": "machine", "actor_id": "convert-wumenguan-1632.mjs", "status": "applied"
     }
   ]

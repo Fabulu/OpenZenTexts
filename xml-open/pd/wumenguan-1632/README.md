@@ -140,8 +140,8 @@ node tools/woodblock-to-tei/convert-wumenguan-1632.mjs \
 
 The captured reading-edition markdown is checked into this repository at
 `provenance/wumenguan-1632/source-reading-edition.md`
-(SHA-256 `79c8ac619bd2ab3ca11de2d3950de97a0791a8772ca791fe106f28598cc9856a`,
-29,427 bytes). The converter is deterministic â€” same input bytes produce
+(SHA-256 `eac77eec705b9b2a6de69df2a8b2422b736df4867771cae2e4187bdf1f99d158`,
+29,556 bytes). The converter is deterministic â€” same input bytes produce
 byte-identical output.
 
 ## Line-ID scheme
