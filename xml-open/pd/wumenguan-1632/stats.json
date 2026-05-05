@@ -13,6 +13,6 @@
     "edition_maturity": "draft",
     "license": "CC0-1.0",
     "tei_file": "wumenguan-1632.xml",
-    "reading_edition_input_bytes": 31032,
-    "reading_edition_input_sha256": "ad838487b6eb41be8e37b43eda43791ce9ca2d639a9f4720263fd60614b62c0e"
+    "reading_edition_input_bytes": 29562,
+    "reading_edition_input_sha256": "e1c9bd1a58d07df2f90c129889be84df0ded7959fa4949ef8242fbb0345315ad"
 }

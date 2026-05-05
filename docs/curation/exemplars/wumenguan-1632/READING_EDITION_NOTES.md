@@ -20,6 +20,12 @@ The reading edition is not a diplomatic transcript and not a full critical editi
 - Prefatory and end-matter material remain weaker and less uniform than the main 48-case body.
 - The back matter is now cleaned for reading, but it is still the least stable portion of the book.
 
+## Case-Level Source Notes
+
+- Case `14`: `無門曰` and `頌` come from different witness layers in this reading edition. The base 1632 witness keeps `趙州若在 / 奪却刀子 / 倒行此令 / 南泉乞命` inside `無門曰`, while the `頌` is supplied from corroborant witness material and therefore keeps its own order.
+- Case `21`: the `如何是佛 / 乾屎橛` exchange is strong, but the opening `僧問雲門` formula is less secure than the answer line.
+- Case `22`: the shorter opening `阿難問迦葉云：世尊傳金襴外，別傳何物。` is kept conservatively from the local witness and is not expanded from weaker continuation text.
+
 ## Rough Readings Still Kept
 
 - `說道有門，無阿師分` in the prefatory material looks unusual against the familiar received wording, but it is locally supported and has not been silently normalized away.
@@ -36,6 +42,7 @@ The reading edition is not a diplomatic transcript and not a full critical editi
 - Case `31` no longer carries imported `龍潭` material.
 - Case `32` now uses the expected `阿難乃佛弟子... / 劍刃上行...` commentary and verse set.
 - Case `6` now retains the witness-visible `世尊云：吾有正法眼藏...付囑摩訶迦葉。` block in the koan opening instead of truncating the witness after `破顏微笑`.
+- Case `24` now keeps `穴云：長憶江南三月裏，鷓鴣啼處百花香。` in the koan opening instead of miscarrying that response into the verse.
 - Duplicated appended prose in the back matter was reduced so the reader-facing edition no longer repeats the same `傍人問云...總在裏許` block twice.
 - The end-matter title leaf now keeps the witness-backed `無門卷` line before `無門關卷終`.
 

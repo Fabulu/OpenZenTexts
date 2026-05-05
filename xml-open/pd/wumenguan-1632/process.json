@@ -55,6 +55,11 @@
             "date": "2026-05-04",
             "scope": "case 6 koan restoration + volume-end title line",
             "description": "Witness-to-draft audit found the case 6 koan opening had been truncated after 惟迦葉尊者破顏微笑 despite the witness still carrying 世尊云：吾有正法眼藏...付囑摩訶迦葉 across the facing leaves. The appendix volume-end material had also dropped the witness-backed line 無門卷 ahead of 無門關卷終. The checked-in reading-edition source, rebuild chunks, diplomatic draft, and TEI were updated and the translation XML was realigned to the new wm32 line layout."
+        },
+        {
+            "date": "2026-05-05",
+            "scope": "case 24 koan/verse repair + note-layer clarification",
+            "description": "The checked-in OpenZen source still carried the Fengxue response line 穴云：長憶江南三月裏，鷓鴣啼處百花香。 in case 24's verse block after the local reading-edition chain had already moved it back into the koan. The source-reading-edition mirror, generated TEI, and translated XML were realigned to the repaired placement. The accompanying reading-edition notes were also tightened for case 14's mixed witness layers and for the conservative opening-formula handling in cases 21 and 22."
         }
     ],
     "incomplete": [

@@ -25,6 +25,14 @@
       "event_range": [20, 21],
       "witnesses_added": [],
       "status": "draft"
+    },
+    {
+      "revision_id": "rev_004",
+      "label": "Case 24 koan/verse repair + OpenZen realignment",
+      "date": "2026-05-05",
+      "event_range": [22, 23],
+      "witnesses_added": [],
+      "status": "draft"
     }
   ],
   "events": [
@@ -185,6 +193,22 @@
       "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
       "summary": "TEI XML regenerated from repaired reading-edition source.",
       "details": "Source: provenance/wumenguan-1632/source-reading-edition.md (29,556 bytes, SHA-256 eac77eec705b9b2a6de69df2a8b2422b736df4867771cae2e4187bdf1f99d158). Converter: convert-wumenguan-1632.mjs. Output: 7 preface blocks, 48 core cases, 8 appendix divs, 976 total lines, 1177 lb elements. Case 1 keeps the full 無門曰 opening 參禪須透祖師關...如何是祖師關. Case 6 now includes the 世尊云 block and the volume-end appendix now carries 無門卷.",
+      "actor_type": "machine", "actor_id": "convert-wumenguan-1632.mjs", "status": "applied"
+    },
+    {
+      "event_id": "evt_022", "sequence": 22, "timestamp": "2026-05-05T12:00:00Z",
+      "stage": "reading_text", "event_type": "text_changed",
+      "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
+      "summary": "Case 24 Fengxue response returned from the verse to the koan in the OpenZen source mirror.",
+      "details": "The checked-in source-reading-edition mirror still placed ç©´äº‘ï¼šé•·æ†¶æ±Ÿå—ä¸‰æœˆè£ï¼Œé·“é´£å•¼è™•ç™¾èŠ±é¦™ã€‚ under case 24's verse after the local witness chain had already restored it to the koan. The source mirror was corrected and the package notes were tightened for case 14's mixed witness layers plus the conservative opening handling in cases 21 and 22.",
+      "actor_type": "human", "actor_id": "curator", "status": "applied"
+    },
+    {
+      "event_id": "evt_023", "sequence": 23, "timestamp": "2026-05-05T12:30:00Z",
+      "stage": "reading_text", "event_type": "text_changed",
+      "object_type": "edition_text", "object_id": "wumenguan-1632.xml",
+      "summary": "TEI XML regenerated from the case 24-repaired reading-edition source and the translation XML was realigned.",
+      "details": "Source: provenance/wumenguan-1632/source-reading-edition.md (29,562 bytes, SHA-256 e1c9bd1a58d07df2f90c129889be84df0ded7959fa4949ef8242fbb0345315ad). Converter: convert-wumenguan-1632.mjs. Output: 7 preface blocks, 48 core cases, 8 appendix divs, 975 total lines, 1176 lb elements. Case 24 now carries the Fengxue response in the koan, and the translated XML was updated so the matching English line moved from the verse into the gongan line set.",
       "actor_type": "machine", "actor_id": "convert-wumenguan-1632.mjs", "status": "applied"
     }
   ]

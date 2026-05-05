@@ -102,6 +102,7 @@ authoritative:
 - Cases 27 and 28 are in the received order: 27 = ä¸æ˜¯å¿ƒä½›, 28 = ä¹…éŸ¿é¾æ½­
 - Case 31 no longer carries imported é¾æ½­ material
 - Case 32 uses the expected é˜¿é›£ä¹ƒä½›å¼Ÿå­ / åŠåˆƒä¸Šè¡Œ commentary and verse set
+- Case 24 keeps the Fengxue response in the koan rather than carrying it into the verse
 - Volume-end heading "Wumen Volume" is restored ahead of the fascicle-end line
 - Duplicated back-matter prose has been reduced so the reader-facing edition
   no longer repeats the same å‚äººå•äº‘ / ç¸½åœ¨è£è¨± block twice
