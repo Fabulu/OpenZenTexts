@@ -26,8 +26,8 @@
   "documents_file": "documents.json",
   "timeline_file": "timeline.json",
 
-  "base_witness_id": "korea-commons",
-  "edition_maturity": "draft",
+  "base_witness_id": "T1",
+  "edition_maturity": "publication-candidate",
   "ocr_maximal": null,
   "human_intervention_required": null,
   "human_intervention_note": null,
@@ -179,8 +179,8 @@
     }
   ],
 
-  "production_method": "Scaffolding only. No TEI output yet. OCR-first critical edition pipeline per docs/curation/CRITICAL_EDITION_WORKFLOW.md.",
-  "production_notes": "Stage 0 (edition charter) complete. Stage 1 (witness acquisition) pending — witnesses identified but not yet downloaded and hashed.",
+  "production_method": "Multi-witness critical edition with 4-engine OCR (RapidOCR, PaddleOCR PP-OCRv4, Tesseract, EasyOCR), manual correction, comparison-witness collation",
+  "production_notes": "Poem-first critical edition of 信心銘 (Faith in Mind), traditionally attributed to Sengcan. 71 lines extracted from corrected T1 base witness with selective apparatus covering 7 material poem-level interventions.",
   "captured_utc": "2026-04-14T12:00:00Z",
   "curator": "Read Zen — OpenZen curation"
 }

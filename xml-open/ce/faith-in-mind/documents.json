@@ -1,22 +1,88 @@
 {
   "documents": [
     {
-      "id": "edition-plan",
-      "title": "Edition Plan",
-      "path": "../../../provenance/faith-in-mind/process/edition-plan.md",
-      "category": "process",
-      "format": "markdown",
-      "description": "Scope, target witnesses, success conditions",
-      "sort_order": 1
+      "kind": "edition_plan",
+      "path": "../../../provenance/faith-in-mind/process/edition-plan.md"
     },
     {
-      "id": "family-stemma",
-      "title": "Witness Family Stemma",
-      "path": "../../../provenance/faith-in-mind/collation/family-stemma.md",
-      "category": "apparatus",
-      "format": "markdown",
-      "description": "Provisional witness family tree",
-      "sort_order": 1
+      "kind": "process_log",
+      "path": "../../../provenance/faith-in-mind/process/process-log.md"
+    },
+    {
+      "kind": "decision_log",
+      "path": "../../../provenance/faith-in-mind/process/decision-log.md"
+    },
+    {
+      "kind": "unresolved_loci",
+      "path": "../../../provenance/faith-in-mind/process/unresolved-loci.md"
+    },
+    {
+      "kind": "publication_checklist",
+      "path": "../../../provenance/faith-in-mind/process/publication-checklist.md"
+    },
+    {
+      "kind": "witness_register",
+      "path": "../../../provenance/faith-in-mind/witnesses/witness-register.md"
+    },
+    {
+      "kind": "family_stemma",
+      "path": "../../../provenance/faith-in-mind/collation/family-stemma.md"
+    },
+    {
+      "kind": "acquisition_metadata",
+      "path": "../../../provenance/faith-in-mind/witnesses/acquisition-metadata.md"
+    },
+    {
+      "kind": "ocr_plan",
+      "path": "../../../provenance/faith-in-mind/transcription/ocr-transcription-plan.md"
+    },
+    {
+      "kind": "ocr_run_log",
+      "path": "../../../provenance/faith-in-mind/process/ocr-run-log.md"
+    },
+    {
+      "kind": "ocr_environment",
+      "path": "../../../provenance/faith-in-mind/process/ocr-environment.md"
+    },
+    {
+      "kind": "normalization_rule_log",
+      "path": "../../../provenance/faith-in-mind/transcription/normalized/normalization-rule-log.md"
+    },
+    {
+      "kind": "corrected_working_text",
+      "path": "../../../provenance/faith-in-mind/transcription/corrected/T1-corrected-pass1-working.txt"
+    },
+    {
+      "kind": "correction_log",
+      "path": "../../../provenance/faith-in-mind/process/correction-log.md"
+    },
+    {
+      "kind": "working_critical_text",
+      "path": "../../../provenance/faith-in-mind/edition/working-critical-text.md"
+    },
+    {
+      "kind": "editorial_method",
+      "path": "../../../provenance/faith-in-mind/edition/editorial-method.md"
+    },
+    {
+      "kind": "editorial_introduction",
+      "path": "../../../provenance/faith-in-mind/edition/editorial-introduction.md"
+    },
+    {
+      "kind": "readzen_handoff",
+      "path": "../../../provenance/faith-in-mind/edition/readzen-handoff.md"
+    },
+    {
+      "kind": "commentary_secondary_track",
+      "path": "../../../provenance/faith-in-mind/edition/commentary-secondary-track.md"
+    },
+    {
+      "kind": "human_log",
+      "path": "../../../provenance/faith-in-mind/process/human-log.md"
+    },
+    {
+      "kind": "current_state",
+      "path": "../../../provenance/faith-in-mind/process/current-state.md"
     }
   ]
 }

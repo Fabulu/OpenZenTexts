@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schemas/openzentexts-tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Faith in Mind — English Translation</title>
+        <title xml:lang="zh-Hant">信心銘</title>
+        <author>Traditionally attributed to Sengcan</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Faith in Mind critical edition package</publisher>
+        <date when="2026-05-09">2026-05-09</date>
+        <availability status="unknown">
+          <p>English translation created for the poem-first critical edition. Paired with the Chinese TEI for synchronized bilingual reading.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>English translation constructed from the translation-diff-log step-0 baseline (2026-04-18) with step-1 refinements applied. Translations pair with the corrected T1 Chinese poem spine.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This TEI mirrors the Chinese poem-first edition structure. Each line element preserves the same corresp locus and line number for synchronized bilingual display and time-travel.</p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-05-09">English translation TEI constructed from translation-diff-log.md baseline and step-1 refinements.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="editorial_note" xml:id="ed-note-en">
+        <head>Translation Note</head>
+        <p>This English rendering follows the corrected Chinese critical text line by line. Where the apparatus records a material intervention, the translation reflects the accepted reading.</p>
+      </div>
+    </front>
+    <body>
+      <div type="poem" xml:id="xinxinming-en">
+        <head>Faith in Mind</head>
+        <lg type="poem">
+          <l n="1" corresp="urn:locus:T1-p007.l01">The highest way is not difficult; it only dislikes picking and choosing.</l>
+          <l n="2" corresp="urn:locus:T1-p008.l01">Only do not hate and love, and clarity will appear of itself.</l>
+          <l n="3" corresp="urn:locus:T1-p009.l01">If there is even a hair's breadth of difference, heaven and earth are set far apart.</l>
+          <l n="4" corresp="urn:locus:T1-p010.l01">If you want it to appear before you, do not keep thoughts of for and against.</l>
+          <l n="5" corresp="urn:locus:T1-p011.l01">Contention between against and for is the sickness of the mind.</l>
+          <l n="6" corresp="urn:locus:T1-p013.l01">If you do not know the dark essential point, it is only useless labor to think on stillness.</l>
+          <l n="7" corresp="urn:locus:T1-p014.l01">Perfectly rounded like great emptiness, it lacks nothing and has nothing in excess.</l>
+          <l n="8" corresp="urn:locus:T1-p015.l01">It is precisely because of choosing and rejecting that it is not thus.</l>
+          <l n="9" corresp="urn:locus:T1-p017.l01">Do not chase conditioned being; do not abide in empty forbearance.</l>
+          <l n="10" corresp="urn:locus:T1-p018.l01">A single kind of level composure effaces itself entirely.</l>
+          <l n="11" corresp="urn:locus:T1-p019.l01">Stop movement and return to stillness, and that stillness will become even more moving.</l>
+          <l n="12" corresp="urn:locus:T1-p021.l01">If you linger on the two sides, how could you know the one kind?</l>
+          <l n="13" corresp="urn:locus:T1-p021.l01a">When the one kind is not understood, both sides lose their function.</l>
+          <l n="14" corresp="urn:locus:T1-p022.l01">Cast off being and non-being; from emptiness turn your back on emptiness.</l>
+          <l n="15" corresp="urn:locus:T1-p024.l01">The more words and the more thoughts, the more they fail to correspond.</l>
+          <l n="16" corresp="urn:locus:T1-p025.l01">When words are ended and thought is ended, there is nowhere that does not open through.</l>
+          <l n="17" corresp="urn:locus:T1-p026.l01">Return to the root and gain the meaning; follow the illumination and you lose the source.</l>
+          <l n="18" corresp="urn:locus:T1-p027.l01">In an instant, turn the light back; it surpasses the earlier emptiness.</l>
+          <l n="19" corresp="urn:locus:T1-p028.l01">The earlier emptiness turns and changes; all of it comes from delusive seeing.</l>
+          <l n="20" corresp="urn:locus:T1-p029.l01">There is no need to seek the true; only cease your views.</l>
+          <l n="21" corresp="urn:locus:T1-p030.l01">When the two views do not abide, be careful not to pursue them.</l>
+          <l n="22" corresp="urn:locus:T1-p031.l01">Even if there is right and wrong, in the midst of confusion the mind is lost.</l>
+          <l n="23" corresp="urn:locus:T1-p032.l01">When the one mind does not arise, the ten thousand dharmas are without fault.</l>
+          <l n="24" corresp="urn:locus:T1-p033.l01">Without fault, without dharmas, there is no arising and no mind.</l>
+          <l n="25" corresp="urn:locus:T1-p034.l01">If the capacity follows objects and perishes, the objects drag that capacity down.</l>
+          <l n="26" corresp="urn:locus:T1-p035.l01">If you want to know the two sides, their source is one emptiness.</l>
+          <l n="27" corresp="urn:locus:T1-p036.l05">The one emptiness is the same as the two, and together they contain the ten thousand forms.</l>
+          <l n="28" corresp="urn:locus:T1-p037.l01">When fine and coarse are not seen, how could there be partisan preference?</l>
+          <l n="29" corresp="urn:locus:T1-p038.l01">The Great Way's body is spacious, with nothing easy and nothing hard.</l>
+          <l n="30" corresp="urn:locus:T1-p039.l01">Narrow views and foxlike doubt make one turn more hurried and more delayed.</l>
+          <l n="31" corresp="urn:locus:T1-p040.l01">If you cling to it and lose the measure, you will surely enter a wrong road.</l>
+          <l n="32" corresp="urn:locus:T1-p041.l01">Let your nature accord with the Way, and you will roam freely, cut off from affliction.</l>
+          <l n="33" corresp="urn:locus:T1-p042.l01">When thought is tied down and departs from the true, dimness and sinking are not good.</l>
+          <l n="34" corresp="urn:locus:T1-p043.l01">If that is not good, why weary the spirit and make things distant or intimate?</l>
+          <l n="35" corresp="urn:locus:T1-p044.l01">If you want to enter the one vehicle, do not despise the six dusts.</l>
+          <l n="36" corresp="urn:locus:T1-p045.l01">When the six dusts are not despised, they return to the same true awakening.</l>
+          <l n="37" corresp="urn:locus:T1-p046.l01">The wise do not contrive; the foolish bind themselves.</l>
+          <l n="38" corresp="urn:locus:T1-p047.l01">In the Dharma there is no other dharma; delusion itself clings with attachment.</l>
+          <l n="39" corresp="urn:locus:T1-p048.l01">To use mind to employ mind, is this not a great mistake?</l>
+          <l n="40" corresp="urn:locus:T1-p049.l01">In delusion there arise quietude and disturbance; in awakening there is no liking or disliking.</l>
+          <l n="41" corresp="urn:locus:T1-p050.l01">All dual extremes are vainly measured out by oneself.</l>
+          <l n="42" corresp="urn:locus:T1-p051.l01">Dreams, illusions, and empty flowers: why labor to seize them?</l>
+          <l n="43" corresp="urn:locus:T1-p052.l01">Gain and loss, right and wrong: set them all aside at once.</l>
+          <l n="44" corresp="urn:locus:T1-p053.l01">If the eye does not sleep, all dreams remove themselves.</l>
+          <l n="45" corresp="urn:locus:T1-p054.l01">If the mind does not divide, the ten thousand dharmas are of one suchness.</l>
+          <l n="46" corresp="urn:locus:T1-p055.l01">The one suchness is dark in its body; abruptly, conditions are forgotten.</l>
+          <l n="47" corresp="urn:locus:T1-p056.l01">When the ten thousand dharmas are viewed equally, they return again to what is natural.</l>
+          <l n="48" corresp="urn:locus:T1-p057.l01">Erase the why and whereby; it cannot be compared by any measure.</l>
+          <l n="49" corresp="urn:locus:T1-p058.l01">When movement is stopped there is no movement; when stillness moves there is no stillness.</l>
+          <l n="50" corresp="urn:locus:T1-p059.l01">If the two are not established, how could the one remain?</l>
+          <l n="51" corresp="urn:locus:T1-p060.l01">At the ultimate limit, no rule or track remains.</l>
+          <l n="52" corresp="urn:locus:T1-p061.l01">When the mind accords with equality, all its doings come to rest.</l>
+          <l n="53" corresp="urn:locus:T1-p062.l01">Foxlike doubt is completely cleared; right faith is tuned and made straight.</l>
+          <l n="54" corresp="urn:locus:T1-p063.l01">Nothing at all is retained; there is nothing that can be held in memory.</l>
+          <l n="55" corresp="urn:locus:T1-p064.l01">Empty clarity shines by itself; it does not require the exertion of mind.</l>
+          <l n="56" corresp="urn:locus:T1-p065.l01">Where thought does not reach, discriminating consciousness is hard to fathom.</l>
+          <l n="57" corresp="urn:locus:T1-p066.l01">In the dharma-realm of true suchness, there is no other and no self.</l>
+          <l n="58" corresp="urn:locus:T1-p067.l01">If you want swift accord, simply speak of not-two.</l>
+          <l n="59" corresp="urn:locus:T1-p068.l01">In not-two all is the same; there is nothing it does not contain.</l>
+          <l n="60" corresp="urn:locus:T1-p069.l01">The wise of the ten directions all enter this source.</l>
+          <l n="61" corresp="urn:locus:T1-p070.l01">Its source is neither hurried nor delayed; one thought is ten thousand years.</l>
+          <l n="62" corresp="urn:locus:T1-p071.l01">There is nowhere it is not; it stands before you in the ten directions.</l>
+          <l n="63" corresp="urn:locus:T1-p072.l01">The extremely small is the same as the great; boundaries and realms are forgotten entirely.</l>
+          <l n="64" corresp="urn:locus:T1-p073.l01">The extremely great is the same as the small; no edge or surface is seen.</l>
+          <l n="65" corresp="urn:locus:T1-p074.l01">Being is precisely non-being; non-being is precisely being.</l>
+          <l n="66" corresp="urn:locus:T1-p075" type="omission_judgment">If it is not like this, it certainly need not be guarded.</l>
+          <l n="67" corresp="urn:locus:T1-p076.l01">If it is thus, there is no need to guard it.</l>
+          <l n="68" corresp="urn:locus:T1-p077.l01">One is all; all is one.</l>
+          <l n="69" corresp="urn:locus:T1-p077.l01a">If one can only be thus, what worry could there be of not being complete?</l>
+          <l n="70" corresp="urn:locus:T1-p078.l01">Faith in mind is not two; what is not two is faith in mind.</l>
+          <l n="71" corresp="urn:locus:T1-p079.l01">The way of words is cut off; it is not past, present, or future.</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="translation_note" xml:id="translation-note">
+        <head>Translation Note</head>
+        <p>This translation follows the corrected Chinese critical text of the T1 base witness. Where the apparatus records supplied, corrected, or remapped loci, the English reflects the accepted reading. The omission judgment at T1-p075 is translated from the comparison witness reading preserved in the apparatus.</p>
+      </div>
+    </back>
+  </text>
+</TEI>

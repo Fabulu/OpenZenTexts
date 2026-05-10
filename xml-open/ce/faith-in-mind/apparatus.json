@@ -1,3 +1,268 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "locus_id": "T1-p021.l01a",
+      "tei_target": null,
+      "section": null,
+      "lemma": "一種不通兩處失功",
+      "readings": [
+        {
+          "witness_id": "T1",
+          "reading": "[not separately preserved]",
+          "certainty": null,
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T2",
+          "reading": "一種不通兩處失功",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T3",
+          "reading": "一種不通兩處失功",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T4",
+          "reading": "一種不通兩處失功",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T5",
+          "reading": "一種不通兩處失功",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        }
+      ],
+      "witnesses_supporting": ["T2", "T3", "T4", "T5"],
+      "decision": "supplied",
+      "decision_basis": "Line supplied from comparison witnesses; not separately preserved between T1-p021.l01 and T1-p022.l01 in T1.",
+      "status": "accepted"
+    },
+    {
+      "locus_id": "T1-p031.l01",
+      "tei_target": null,
+      "section": null,
+      "lemma": "縱有是非紛然失心",
+      "readings": [
+        {
+          "witness_id": "T1",
+          "reading": "纔有是非紛然失心",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": null,
+          "editor": null
+        }
+      ],
+      "witnesses_supporting": ["T1"],
+      "decision": "corrected",
+      "decision_basis": "Opening graph corrected from T1 image evidence.",
+      "status": "accepted"
+    },
+    {
+      "locus_id": "T1-p036.l05",
+      "tei_target": null,
+      "section": null,
+      "lemma": "一空同兩齊含萬象",
+      "readings": [
+        {
+          "witness_id": "T1",
+          "reading": "一空同兩齊含萬象 [originally placed at T1-p036.l01]",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": null,
+          "editor": null
+        }
+      ],
+      "witnesses_supporting": ["T1", "T3", "T4", "A1"],
+      "decision": "remapped",
+      "decision_basis": "This poem line belongs at T1-p036.l05; an earlier placement at T1-p036.l01 reflected prose-column mislocation.",
+      "status": "accepted"
+    },
+    {
+      "locus_id": "T1-p047.l01",
+      "tei_target": null,
+      "section": null,
+      "lemma": "法無異法妄自愛著",
+      "readings": [
+        {
+          "witness_id": "T1_rejected",
+          "reading": "唯人自闹禅和子你但见几见垩见女是",
+          "certainty": null,
+          "is_ocr_only": true,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        }
+      ],
+      "witnesses_supporting": ["T2", "T4", "T5", "A1"],
+      "decision": "corrected",
+      "decision_basis": "Reading adopted from comparison-supported correction.",
+      "status": "accepted"
+    },
+    {
+      "locus_id": "T1-p065.l01",
+      "tei_target": null,
+      "section": null,
+      "lemma": "非思量處識情難測",
+      "readings": [
+        {
+          "witness_id": "T1_rejected",
+          "reading": "元衰云穗客全教现成公案高伍普鹰日用",
+          "certainty": null,
+          "is_ocr_only": true,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        }
+      ],
+      "witnesses_supporting": ["T2", "T4", "T5", "A1"],
+      "decision": "corrected",
+      "decision_basis": "Reading adopted from comparison-supported correction.",
+      "status": "accepted"
+    },
+    {
+      "locus_id": "T1-p075",
+      "tei_target": null,
+      "section": null,
+      "lemma": "若不如此必不須守",
+      "readings": [
+        {
+          "witness_id": "T1",
+          "reading": "[not visibly preserved]",
+          "certainty": null,
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": "om.",
+          "editor": null
+        },
+        {
+          "witness_id": "T3",
+          "reading": "若不如此必不須守",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T4",
+          "reading": "若不如此必不須守",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "A1",
+          "reading": "若不如此必不須守",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "A3",
+          "reading": "若不如此必不須守",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        }
+      ],
+      "witnesses_supporting": ["T3", "T4", "A1", "A3"],
+      "decision": "omitted_in_base",
+      "decision_basis": "Line preserved in comparison witnesses but not restored to the T1 reading text, since the corresponding T1 locus does not visibly preserve a secure poem line.",
+      "status": "accepted"
+    },
+    {
+      "locus_id": "T1-p077.l01a",
+      "tei_target": null,
+      "section": null,
+      "lemma": "但能如是何慮不畢",
+      "readings": [
+        {
+          "witness_id": "T1",
+          "reading": "[not separately preserved]",
+          "certainty": null,
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T2",
+          "reading": "但能如是何慮不畢",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T3",
+          "reading": "但能如是何慮不畢",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T4",
+          "reading": "但能如是何慮不畢",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": true,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "T5",
+          "reading": "但能如是何慮不畢",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        },
+        {
+          "witness_id": "A1",
+          "reading": "但能如是何慮不畢",
+          "certainty": "high",
+          "is_ocr_only": false,
+          "is_human_checked": false,
+          "type": null,
+          "editor": null
+        }
+      ],
+      "witnesses_supporting": ["T2", "T3", "T4", "T5", "A1"],
+      "decision": "supplied",
+      "decision_basis": "Closing line supplied from comparison witnesses after T1-p077.l01; not separately preserved in T1.",
+      "status": "accepted"
+    }
+  ]
 }

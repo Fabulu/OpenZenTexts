@@ -1,17 +1,24 @@
 {
+  "text_id": "ce.faith-in-mind",
   "witness_count": 8,
   "witness_family_count": 4,
-  "page_count": 0,
-  "leaf_count": 0,
-  "ocr_engine_count": 0,
-  "percent_machine_resolved": 0,
-  "percent_human_intervention": 0,
-  "unresolved_count": 0,
-  "apparatus_entry_count": 0,
+  "primary_witnesses": 5,
+  "secondary_witnesses": 3,
+  "total_lines": 71,
+  "page_count": 83,
+  "ocr_engine_count": 4,
+  "percent_machine_resolved": 85,
+  "percent_human_intervention": 15,
+  "apparatus_entry_count": 7,
+  "supplied_lines": 2,
+  "corrected_readings": 3,
+  "remapped_loci": 1,
+  "omission_judgments": 1,
+  "unresolved_count": 4,
   "base_text_confidence": {
-    "high": 0,
-    "medium": 0,
+    "high": 67,
+    "medium": 4,
     "low": 0
   },
-  "generated_utc": "2026-04-14T12:00:00Z"
+  "generated_utc": "2026-05-09T11:00:00Z"
 }

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schemas/openzentexts-tei.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zh-Hant">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Faith in Mind</title>
+        <title xml:lang="zh-Hant">信心銘</title>
+        <author>Traditionally attributed to Sengcan</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Faith in Mind critical edition package</publisher>
+        <date when="2026-05-08">2026-05-08</date>
+        <availability status="unknown">
+          <p>Publication-form research release candidate. No separate public license statement is supplied in this TEI file.</p>
+        </availability>
+        <p>Poem-first critical edition assembled from the locked Faith in Mind witness package on 2026-05-07 and refined for publication on 2026-05-08.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="T1">Base witness and starting spine.</witness>
+          <witness xml:id="T4">Primary comparison-control witness used for decisive repair support.</witness>
+          <witness xml:id="T5">Corroborative comparison-control witness.</witness>
+          <witness xml:id="T2">Corroborative comparison-control witness.</witness>
+          <witness xml:id="T3">Corroborative comparison-control witness with strong closing support.</witness>
+          <witness xml:id="A1">Anthology witness with strong corroborative closing support.</witness>
+          <witness xml:id="A2">Derivative anthology corroborator.</witness>
+          <witness xml:id="A3">Derivative anthology corroborator.</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This TEI publishes the poem only. Commentary and reception witnesses remain preserved as a parallel secondary scholarly track and do not enter the main poem body.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>The edition uses a best-witness reading-text model. T1 remains the starting spine, with departures accepted only where the package already logged sufficient image or comparison evidence.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2026-05-07">First populated poem-first TEI publication candidate created from the stabilized T1 spine and logged comparison decisions.</change>
+      <change when="2026-05-08">Header, witness summary, and editorial framing refined; package aligned with the final editorial introduction and publication checklist.</change>
+      <change when="2026-05-09">TEI linkage and publication metadata refined; omission judgment encoding clarified; line-locus pointers normalized for local QA.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="editorial_note" xml:id="ed-note">
+        <head>Editorial Note</head>
+        <p>The present edition is poem-first. The package preserves extensive commentary and reception work as a secondary track, but the main edited text below contains only the poem loci accepted into the critical reading text.</p>
+      </div>
+      <div type="editorial_summary" xml:id="ed-summary">
+        <head>Summary of Method</head>
+        <p>The text follows the corrected T1 poem spine, preserves explicit supplied and remapped loci where already justified by the package evidence, and records the broader traditional closing line before T1-p076 as an omission judgment rather than silently restoring it in the base witness.</p>
+      </div>
+    </front>
+    <body>
+      <div type="poem" xml:id="xinxinming">
+        <head>信心銘</head>
+        <lg type="poem">
+          <l n="1" corresp="urn:locus:T1-p007.l01">至道無難唯嫌揀擇</l>
+          <l n="2" corresp="urn:locus:T1-p008.l01">但莫憎愛洞然明白</l>
+          <l n="3" corresp="urn:locus:T1-p009.l01">毫釐有差天地懸隔</l>
+          <l n="4" corresp="urn:locus:T1-p010.l01">欲得現前莫存順逆</l>
+          <l n="5" corresp="urn:locus:T1-p011.l01">違順相爭是爲心病</l>
+          <l n="6" corresp="urn:locus:T1-p013.l01">不識玄旨徒勞念靜</l>
+          <l n="7" corresp="urn:locus:T1-p014.l01">圓同太虛無欠無餘</l>
+          <l n="8" corresp="urn:locus:T1-p015.l01">良由取捨所以不如</l>
+          <l n="9" corresp="urn:locus:T1-p017.l01">莫逐有緣勿住空忍</l>
+          <l n="10" corresp="urn:locus:T1-p018.l01">一種平懷泯然自盡</l>
+          <l n="11" corresp="urn:locus:T1-p019.l01">止動歸止止更彌動</l>
+          <l n="12" corresp="urn:locus:T1-p021.l01">唯滯兩邊寧知一種</l>
+          <l n="13" corresp="urn:locus:T1-p021.l01a">一種不通兩處失功</l>
+          <l n="14" corresp="urn:locus:T1-p022.l01">遣有沒有從空背空</l>
+          <l n="15" corresp="urn:locus:T1-p024.l01">多言多慮轉不相應</l>
+          <l n="16" corresp="urn:locus:T1-p025.l01">絕言絕慮無處不通</l>
+          <l n="17" corresp="urn:locus:T1-p026.l01">歸根得旨隨照失宗</l>
+          <l n="18" corresp="urn:locus:T1-p027.l01">須臾返照勝卻前空</l>
+          <l n="19" corresp="urn:locus:T1-p028.l01">前空轉變皆由妄見</l>
+          <l n="20" corresp="urn:locus:T1-p029.l01">不用求真唯須息見</l>
+          <l n="21" corresp="urn:locus:T1-p030.l01">二見不住慎勿追尋</l>
+          <l n="22" corresp="urn:locus:T1-p031.l01">縱有是非紛然失心</l>
+          <l n="23" corresp="urn:locus:T1-p032.l01">一心不生萬法無咎</l>
+          <l n="24" corresp="urn:locus:T1-p033.l01">無咎無法不生不心</l>
+          <l n="25" corresp="urn:locus:T1-p034.l01">能隨境滅境逐能沉</l>
+          <l n="26" corresp="urn:locus:T1-p035.l01">欲知兩段元是一空</l>
+          <l n="27" corresp="urn:locus:T1-p036.l05">一空同兩齊含萬象</l>
+          <l n="28" corresp="urn:locus:T1-p037.l01">不見精粗寧有偏黨</l>
+          <l n="29" corresp="urn:locus:T1-p038.l01">大道體寬無易無難</l>
+          <l n="30" corresp="urn:locus:T1-p039.l01">小見狐疑轉急轉遲</l>
+          <l n="31" corresp="urn:locus:T1-p040.l01">執之失度必入邪路</l>
+          <l n="32" corresp="urn:locus:T1-p041.l01">任性合道逍遙絕惱</l>
+          <l n="33" corresp="urn:locus:T1-p042.l01">繫念乖真昏沉不好</l>
+          <l n="34" corresp="urn:locus:T1-p043.l01">不好勞神何用疏親</l>
+          <l n="35" corresp="urn:locus:T1-p044.l01">欲趣一乘勿惡六塵</l>
+          <l n="36" corresp="urn:locus:T1-p045.l01">六塵不惡還同正覺</l>
+          <l n="37" corresp="urn:locus:T1-p046.l01">智者無爲愚人自縛</l>
+          <l n="38" corresp="urn:locus:T1-p047.l01">法無異法妄自愛著</l>
+          <l n="39" corresp="urn:locus:T1-p048.l01">將心用心豈非大錯</l>
+          <l n="40" corresp="urn:locus:T1-p049.l01">迷生寂亂悟無好惡</l>
+          <l n="41" corresp="urn:locus:T1-p050.l01">一切二邊妄自斟酌</l>
+          <l n="42" corresp="urn:locus:T1-p051.l01">夢幻空華何勞把捉</l>
+          <l n="43" corresp="urn:locus:T1-p052.l01">得失是非一時放卻</l>
+          <l n="44" corresp="urn:locus:T1-p053.l01">眼若不睡諸夢自除</l>
+          <l n="45" corresp="urn:locus:T1-p054.l01">心若不異萬法一如</l>
+          <l n="46" corresp="urn:locus:T1-p055.l01">一如體玄兀爾忘緣</l>
+          <l n="47" corresp="urn:locus:T1-p056.l01">萬法齊觀歸復自然</l>
+          <l n="48" corresp="urn:locus:T1-p057.l01">泯其所以不可方比</l>
+          <l n="49" corresp="urn:locus:T1-p058.l01">止動無動動止無止</l>
+          <l n="50" corresp="urn:locus:T1-p059.l01">兩既不成一何有爾</l>
+          <l n="51" corresp="urn:locus:T1-p060.l01">究竟窮極不存軌則</l>
+          <l n="52" corresp="urn:locus:T1-p061.l01">契心平等所作俱息</l>
+          <l n="53" corresp="urn:locus:T1-p062.l01">狐疑盡淨正信調直</l>
+          <l n="54" corresp="urn:locus:T1-p063.l01">一切不留無可記憶</l>
+          <l n="55" corresp="urn:locus:T1-p064.l01">虛明自照不勞心力</l>
+          <l n="56" corresp="urn:locus:T1-p065.l01">非思量處識情難測</l>
+          <l n="57" corresp="urn:locus:T1-p066.l01">真如法界無他無自</l>
+          <l n="58" corresp="urn:locus:T1-p067.l01">要急相應唯言不二</l>
+          <l n="59" corresp="urn:locus:T1-p068.l01">不二皆同無不包容</l>
+          <l n="60" corresp="urn:locus:T1-p069.l01">十方智者皆入此宗</l>
+          <l n="61" corresp="urn:locus:T1-p070.l01">宗非促延一念萬年</l>
+          <l n="62" corresp="urn:locus:T1-p071.l01">無在不在十方目前</l>
+          <l n="63" corresp="urn:locus:T1-p072.l01">極小同大忘絕境界</l>
+          <l n="64" corresp="urn:locus:T1-p073.l01">極大同小不見邊表</l>
+          <l n="65" corresp="urn:locus:T1-p074.l01">有即是無無即是有</l>
+          <l n="66" corresp="urn:locus:T1-p075" type="omission_judgment">若不如此必不須守</l>
+          <l n="67" corresp="urn:locus:T1-p076.l01">若如是必不須守</l>
+          <l n="68" corresp="urn:locus:T1-p077.l01">一即一切一切即一</l>
+          <l n="69" corresp="urn:locus:T1-p077.l01a">但能如是何慮不畢</l>
+          <l n="70" corresp="urn:locus:T1-p078.l01">信心不二不二信心</l>
+          <l n="71" corresp="urn:locus:T1-p079.l01">言語道斷非去來今</l>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="apparatus_note" xml:id="apparatus-summary">
+        <head>Apparatus Summary</head>
+        <p>The machine-readable apparatus is stored separately in <ref target="apparatus.json">apparatus.json</ref>. It is a selective poem-level apparatus recording seven material interventions and judgments in this release; commentary-only recoveries and internal workflow history are excluded.</p>
+      </div>
+      <div type="commentary_note" xml:id="commentary-secondary-note">
+        <head>Commentary Secondary Track</head>
+        <p>Commentary and reception witnesses remain preserved as a parallel secondary scholarly track for witness ecology, reception history, and poem-locus support. They do not form part of the main edited poem text.</p>
+      </div>
+    </back>
+  </text>
+</TEI>
